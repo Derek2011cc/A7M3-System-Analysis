@@ -1,0 +1,1178 @@
+partition	path	size	kind	type	role	summary
+/	/version.txt	19	data	ASCII text, with no line terminators	数据/其他	version.txt
+/	/dev/core	140737471594496	symlink	symlink -> /proc/kcore	符号链接	指向 /proc/kcore
+/	/dev/stdout	0	symlink	symlink -> fd/1	符号链接	指向 fd/1
+/	/dev/stderr	0	symlink	symlink -> fd/2	符号链接	指向 fd/2
+/	/dev/stdin	0	symlink	symlink -> fd/0	符号链接	指向 fd/0
+/	/lib/libuuid.so.1.3.0	36202	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/libnss_files.so.2	34540	symlink	symlink -> libnss_files-2.11.2.so	符号链接	指向 libnss_files-2.11.2.so
+/	/lib/libnsl-2.11.2.so	67600	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/libutil-2.11.2.so	14008	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/libanl-2.11.2.so	14124	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/libcrypt.so.1	38532	symlink	symlink -> libcrypt-2.11.2.so	符号链接	指向 libcrypt-2.11.2.so
+/	/lib/libSTMcmdexecute.so	4412	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/libpthread.so.0	67996	symlink	symlink -> libpthread-2.11.2.so	符号链接	指向 libpthread-2.11.2.so
+/	/lib/libblkid.so.1	140236	symlink	symlink -> libblkid.so.1.1.0	符号链接	指向 libblkid.so.1.1.0
+/	/lib/libnss_files-2.11.2.so	34540	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/libm.so.6	427692	symlink	symlink -> libm-2.11.2.so	符号链接	指向 libm-2.11.2.so
+/	/lib/libnss_dns-2.11.2.so	22192	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/libdl.so.2	13976	symlink	symlink -> libdl-2.11.2.so	符号链接	指向 libdl-2.11.2.so
+/	/lib/ld-linux.so.3	101736	symlink	symlink -> ld-2.11.2.so	符号链接	指向 ld-2.11.2.so
+/	/lib/libnss_nis-2.11.2.so	34576	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/librt.so.1	22468	symlink	symlink -> librt-2.11.2.so	符号链接	指向 librt-2.11.2.so
+/	/lib/libresolv-2.11.2.so	67488	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/librt-2.11.2.so	22468	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/libutil.so.1	14008	symlink	symlink -> libutil-2.11.2.so	符号链接	指向 libutil-2.11.2.so
+/	/lib/libcrypt-2.11.2.so	38532	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/libdl-2.11.2.so	13976	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/libanl.so.1	14124	symlink	symlink -> libanl-2.11.2.so	符号链接	指向 libanl-2.11.2.so
+/	/lib/libnss_dns.so.2	22192	symlink	symlink -> libnss_dns-2.11.2.so	符号链接	指向 libnss_dns-2.11.2.so
+/	/lib/libblkid.so.1.1.0	140236	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/libresolv.so.2	67488	symlink	symlink -> libresolv-2.11.2.so	符号链接	指向 libresolv-2.11.2.so
+/	/lib/libc-2.11.2.so	984292	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/libm-2.11.2.so	427692	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/libpthread-2.11.2.so	67996	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/libnsl.so.1	67600	symlink	symlink -> libnsl-2.11.2.so	符号链接	指向 libnsl-2.11.2.so
+/	/lib/ld-2.11.2.so	101736	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/libnss_nis.so.2	34576	symlink	symlink -> libnss_nis-2.11.2.so	符号链接	指向 libnss_nis-2.11.2.so
+/	/lib/libgcc_s.so.1	252937	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/libuuid.so.1	36202	symlink	symlink -> libuuid.so.1.3.0	符号链接	指向 libuuid.so.1.3.0
+/	/lib/libc.so.6	984292	symlink	symlink -> libc-2.11.2.so	符号链接	指向 libc-2.11.2.so
+/	/lib/xtables/libipt_ttl.so	7324	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_osf.so	8027	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_CONNMARK.so	11609	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_tcp.so	10781	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libipt_NETMAP.so	7370	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libipt_CLUSTERIP.so	9481	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libipt_SAME.so	7935	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_sctp.so	12659	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libip6t_HL.so	7153	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libip6t_hbh.so	8851	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_MARK.so	9645	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libipt_realm.so	8640	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libip6t_dst.so	8819	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_CLASSIFY.so	6621	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libip6t_ah.so	8151	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_udp.so	8296	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_connmark.so	7802	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_u32.so	8680	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_owner.so	11878	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libip6t_ipv6header.so	9173	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libip6t_mh.so	10032	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_mac.so	7254	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_SET.so	11268	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_iprange.so	10676	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_dscp.so	8010	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_pkttype.so	7576	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_physdev.so	8748	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_NFQUEUE.so	7561	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_TOS.so	9869	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_socket.so	5000	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_SECMARK.so	6809	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libip6t_rt.so	10663	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libipt_MIRROR.so	5007	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_time.so	12255	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_length.so	7423	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_mark.so	7742	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_NFLOG.so	8142	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_connlimit.so	8179	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libip6t_eui64.so	5002	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_LED.so	7862	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libip6t_icmp6.so	9326	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_CONNSECMARK.so	6835	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_rateest.so	11860	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_TRACE.so	5002	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libipt_ecn.so	7535	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_TCPOPTSTRIP.so	7977	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_CHECKSUM.so	6372	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libip6t_hl.so	7132	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libipt_icmp.so	9550	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_tos.so	9067	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_standard.so	5285	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_limit.so	10191	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_conntrack.so	20607	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_policy.so	13674	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libipt_unclean.so	5005	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_RATEEST.so	8996	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_tcpmss.so	7289	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libipt_REDIRECT.so	7360	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_TCPMSS.so	7031	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libipt_ah.so	7615	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libipt_TTL.so	7171	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libip6t_LOG.so	9809	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_multiport.so	12019	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_helper.so	6815	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_TPROXY.so	7510	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libipt_REJECT.so	8786	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_connbytes.so	8343	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_dccp.so	10177	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libipt_ECN.so	7425	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_TEE.so	8317	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_CT.so	9036	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_set.so	10715	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_DSCP.so	7860	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libip6t_frag.so	8966	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_comment.so	6921	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_esp.so	7539	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libipt_DNAT.so	8905	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_cluster.so	8692	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libipt_addrtype.so	10377	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libipt_SNAT.so	8905	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_cpu.so	6671	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_string.so	10563	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_quota.so	6345	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libipt_ULOG.so	8840	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_recent.so	10193	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_IDLETIMER.so	7045	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_NOTRACK.so	5008	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libip6t_REJECT.so	7725	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_state.so	7603	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_statistic.so	8837	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_ipvs.so	11220	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libipt_MASQUERADE.so	7214	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libxt_hashlimit.so	18660	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/lib/xtables/libipt_LOG.so	9925	elf	ELF DYN (Shared object file) ARM	运行时库	glibc/系统库
+/	/kmod/emmc.ko	212324	elf	ELF REL (Relocatable file) ARM	内核模块	emmc.ko：内核驱动
+/	/kmod/ldec.ko	15812	elf	ELF REL (Relocatable file) ARM	内核模块	ldec.ko：内核驱动
+/	/kmod/devno.ko	3988	elf	ELF REL (Relocatable file) ARM	内核模块	devno.ko：内核驱动
+/	/kmod/lld.ko	78636	elf	ELF REL (Relocatable file) ARM	内核模块	lld.ko：内核驱动
+/	/kmod/dmac.ko	16896	elf	ELF REL (Relocatable file) ARM	内核模块	dmac.ko：内核驱动
+/	/kmod/nand.ko	152212	elf	ELF REL (Relocatable file) ARM	内核模块	nand.ko：内核驱动
+/	/bin/zcat	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/ping	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/vmstat	22898	elf	ELF EXEC (Executable file) ARM	进程工具	procps：虚拟内存统计
+/	/bin/chown	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/usleep	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/sh	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/pwd	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/mount	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/kill	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/date	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/top	91306	elf	ELF EXEC (Executable file) ARM	进程工具	procps：实时进程/负载
+/	/bin/ash	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/rmdir	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/umount	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/pidof	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/grep	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/dmesg	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/ps	73830	elf	ELF EXEC (Executable file) ARM	进程工具	procps：进程列表
+/	/bin/chgrp	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/cp	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/ping6	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/false	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/fgrep	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/compile_et	1487	script	POSIX shell script, ASCII text executable	开发工具	Kerberos error-table 编译脚本
+/	/bin/gzip	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/mktemp	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/cpio	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/echo	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/rm	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/dnsdomainname	16733	elf	ELF EXEC (Executable file) ARM	主机名工具	显示 DNS 域名
+/	/bin/hostname	16733	elf	ELF EXEC (Executable file) ARM	主机名工具	设置/显示主机名
+/	/bin/mv	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/cat	25180	elf	ELF EXEC (Executable file) ARM	基础命令	cat：查看/拼接文件
+/	/bin/sed	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/uname	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/mk_cmds	1328	script	POSIX shell script, ASCII text executable	开发工具	生成命令表脚本
+/	/bin/ls	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/chmod	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/lsattr	11639	elf	ELF EXEC (Executable file) ARM	文件属性	lsattr：查看 ext2 文件属性
+/	/bin/chattr	12469	elf	ELF EXEC (Executable file) ARM	文件属性	chattr：修改 ext2 文件属性
+/	/bin/true	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/mknod	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/dd	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/sync	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/tar	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/gunzip	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/login	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/egrep	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/touch	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/mkdir	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/sleep	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/bin/busybox	433504	elf	ELF EXEC (Executable file) ARM	核心工具	BusyBox 多合一二进制，提供 sh/ls/mount/insmod 等
+/	/bin/ln	433504	symlink	symlink -> busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/root/common.src	2595	data	ASCII text	升级脚本库	FIRMUP/updater 的通用变量与函数（mount、错误码、LED）
+/	/root/chassis	9	data	ASCII text	数据/其他	chassis
+/	/sbin/init	28572	elf	ELF EXEC (Executable file) ARM	初始化	PID 1：解析 cmdline/环境、挂载 nflasha、insmod、启动后台服务
+/	/sbin/poweroff	433504	symlink	symlink -> ../bin/busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/sbin/getty	433504	symlink	symlink -> ../bin/busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/sbin/lsmod	433504	symlink	symlink -> ../bin/busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/sbin/swapon	433504	symlink	symlink -> ../bin/busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/sbin/mkdosfs	47441	elf	ELF EXEC (Executable file) ARM	文件系统工具	创建 FAT 文件系统
+/	/sbin/route	433504	symlink	symlink -> ../bin/busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/sbin/sysctl	14734	elf	ELF EXEC (Executable file) ARM	内核参数工具	读写 /proc/sys
+/	/sbin/pivot_root	433504	symlink	symlink -> ../bin/busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/sbin/halt	433504	symlink	symlink -> ../bin/busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/sbin/freeramdisk	433504	symlink	symlink -> ../bin/busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/sbin/swapoff	433504	symlink	symlink -> ../bin/busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/sbin/insmod	433504	symlink	symlink -> ../bin/busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/sbin/dosfsck	64790	elf	ELF EXEC (Executable file) ARM	文件系统工具	FAT 文件系统检查/修复
+/	/sbin/reboot	433504	symlink	symlink -> ../bin/busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/sbin/rmmod	433504	symlink	symlink -> ../bin/busybox	BusyBox 链接	指向 busybox 的命令别名
+/	/sbin/ifconfig	433504	symlink	symlink -> ../bin/busybox	BusyBox 链接	指向 busybox 的命令别名
+/usr	/usr/lib/libcompassutil.so	6128	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libGOConnectionManager.so	66444	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libnl-nf-3.so.200	55664	symlink	symlink -> libnl-nf-3.so.200.17.0	符号链接	指向 libnl-nf-3.so.200.17.0
+/usr	/usr/lib/libtestcmd_scn.so	5044	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libnl-nf-3.so.200.17.0	55664	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libopus.so	352924	symlink	symlink -> libopus.so.0.8.0	符号链接	指向 libopus.so.0.8.0
+/usr	/usr/lib/libprocps.so.6.0.0	47820	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libe2p.so	20540	symlink	symlink -> libe2p.so.2	符号链接	指向 libe2p.so.2
+/usr	/usr/lib/libxtables.so.5.0.0	19704	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraBluetoothCore.so	144292	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libptp.so	52844	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libusbcmd.so	15996	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libosal_uipc.so	26692	elf	ELF DYN (Shared object file) ARM	用户态 IPC	消息队列/同步/线程
+/usr	/usr/lib/libInfraHdmi.so	401048	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraCameraProfile.so	51884	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libevent_openssl-2.1.so.6.0.2	15056	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraLensCommunicator.so	8196	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraPtpExtCmd.so	34064	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libupdaterufunc.so	4372	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libcrypto.so.3.0	2656568	symlink	symlink -> libcrypto.so.3	符号链接	指向 libcrypto.so.3
+/usr	/usr/lib/libInfraMtpServer.so	159004	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libjsoncpp.so	200444	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libgps_rsrc.so	16756	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libnl-nf-3.so	55664	symlink	symlink -> libnl-nf-3.so.200.17.0	符号链接	指向 libnl-nf-3.so.200.17.0
+/usr	/usr/lib/libInfraExtCmdSvc.so	16196	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libMWF.so	238028	elf	ELF DYN (Shared object file) ARM	MWF	MWF 中间件
+/usr	/usr/lib/libevent-2.1.so.6	230672	symlink	symlink -> libevent-2.1.so.6.0.2	符号链接	指向 libevent-2.1.so.6.0.2
+/usr	/usr/lib/dataflowInfraFramework.so	168056	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libResourceBluetooth.so	7800	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libdig_level.so	26732	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libcurl.so.4	409696	symlink	symlink -> libcurl.so.4.8.0	符号链接	指向 libcurl.so.4.8.0
+/usr	/usr/lib/libInfraMscServer.so	45300	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libjemalloc_ds.so.1	2936	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libUsbBusPower.so	21616	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libevent_pthreads.so	4836	symlink	symlink -> libevent_pthreads-2.1.so.6.0.2	符号链接	指向 libevent_pthreads-2.1.so.6.0.2
+/usr	/usr/lib/libjsoncpp.so.23	200444	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libpopt.so.0	21268	symlink	symlink -> libpopt.so.0.0.0	符号链接	指向 libpopt.so.0.0.0
+/usr	/usr/lib/libmintx.so	1532236	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libevent-2.1.so.6.0.2	230672	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libSKDWrapperManager.so	6048	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libqrencode.so	27228	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libnl-cli-3.so	28892	symlink	symlink -> libnl-cli-3.so.200.17.0	符号链接	指向 libnl-cli-3.so.200.17.0
+/usr	/usr/lib/libssh2.so	159952	symlink	symlink -> libssh2.so.1.0.1	符号链接	指向 libssh2.so.1.0.1
+/usr	/usr/lib/libjemalloc_ds.so	2936	symlink	symlink -> libjemalloc_ds.so.1	符号链接	指向 libjemalloc_ds.so.1
+/usr	/usr/lib/libInfraBGMMeta.so	152356	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libnl-genl-3.so	13616	symlink	symlink -> libnl-genl-3.so.200.17.0	符号链接	指向 libnl-genl-3.so.200.17.0
+/usr	/usr/lib/libInfraNetworkServiceInfo.so	33696	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libnl-route-3.so	200084	symlink	symlink -> libnl-route-3.so.200.17.0	符号链接	指向 libnl-route-3.so.200.17.0
+/usr	/usr/lib/libxtables.so.5	19704	symlink	symlink -> libxtables.so.5.0.0	符号链接	指向 libxtables.so.5.0.0
+/usr	/usr/lib/libpcap.so	153300	symlink	symlink -> libpcap.so.1.0.0	符号链接	指向 libpcap.so.1.0.0
+/usr	/usr/lib/libssp.so.0.0.0	5864	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraHttpClient.so	35208	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/viewUnified8.so	273692	elf	ELF DYN (Shared object file) ARM	UI 视图库	viewUnified：Sugilite 菜单视图/绘制
+/usr	/usr/lib/libInfraExtBackupCommunicator.so	14244	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libz.so.1.2.11	77484	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libUsbChargingApp.so	37344	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraCacheMgr.so	168292	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraFtpClient.so	131896	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraMDnsControl.so	132404	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraWebApi.so	266452	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libprocps.so.6	47820	symlink	symlink -> libprocps.so.6.0.0	符号链接	指向 libprocps.so.6.0.0
+/usr	/usr/lib/libInfraSKD.so	10184	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libz.so	77484	symlink	symlink -> libz.so.1	符号链接	指向 libz.so.1
+/usr	/usr/lib/libRsrcHotshoe.so	14168	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraUsbHostStorage.so	19128	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/ModelCautionConfig.so	6764	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libSoundTouch.so	60348	symlink	symlink -> libSoundTouch.so.1.0.0	符号链接	指向 libSoundTouch.so.1.0.0
+/usr	/usr/lib/libUsbControl.so	94220	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libBTUtils.so	16468	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libnl-cli-3.so.200.17.0	28892	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraFsys.so	411536	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libWlanAdjust.so	55988	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libnl-route-3.so.200.17.0	200084	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libssp.so	5864	symlink	symlink -> libssp.so.0.0.0	符号链接	指向 libssp.so.0.0.0
+/usr	/usr/lib/libInfraKikiLogSender.so	6724	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libip4tc.so	17512	symlink	symlink -> libip4tc.so.0.0.0	符号链接	指向 libip4tc.so.0.0.0
+/usr	/usr/lib/viewUnified6.so	544964	elf	ELF DYN (Shared object file) ARM	UI 视图库	viewUnified：Sugilite 菜单视图/绘制
+/usr	/usr/lib/libcurl.so	409696	symlink	symlink -> libcurl.so.4.8.0	符号链接	指向 libcurl.so.4.8.0
+/usr	/usr/lib/libclema.so	77852	elf	ELF DYN (Shared object file) ARM	Clema	媒体/图像处理库
+/usr	/usr/lib/libpcap.so.1	153300	symlink	symlink -> libpcap.so.1.0.0	符号链接	指向 libpcap.so.1.0.0
+/usr	/usr/lib/libpcre.so.1.2.12	238304	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libssl.so	412204	symlink	symlink -> libssl.so.3	符号链接	指向 libssl.so.3
+/usr	/usr/lib/libcom_err.so	7964	symlink	symlink -> libcom_err.so.2	符号链接	指向 libcom_err.so.2
+/usr	/usr/lib/libncurses.so	259936	symlink	symlink -> libncurses.so.6	符号链接	指向 libncurses.so.6
+/usr	/usr/lib/libexpat.so	107440	symlink	symlink -> libexpat.so.1.6.11	符号链接	指向 libexpat.so.1.6.11
+/usr	/usr/lib/libevent.so	230672	symlink	symlink -> libevent-2.1.so.6.0.2	符号链接	指向 libevent-2.1.so.6.0.2
+/usr	/usr/lib/libNetCommon.so	123208	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libe2p.so.2.3	20540	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraMetaSupplier.so	13588	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraUsbCmn.so	85780	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libevent_core.so	150900	symlink	symlink -> libevent_core-2.1.so.6.0.2	符号链接	指向 libevent_core-2.1.so.6.0.2
+/usr	/usr/lib/libBizFw2.so	224828	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libjsoncpp.so.00.11.0	200444	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/CameraOnDemandSaver.so	11936	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libpcre.so.1	238304	symlink	symlink -> libpcre.so.1.2.12	符号链接	指向 libpcre.so.1.2.12
+/usr	/usr/lib/libInfraRemote.so	100728	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libexpat.so.1	107440	symlink	symlink -> libexpat.so.1.6.11	符号链接	指向 libexpat.so.1.6.11
+/usr	/usr/lib/libInfraNfc.so	27756	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraKikiLogGenerator.so	10104	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libssh2.so.1.0.1	159952	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraMakeScenario.so	406268	elf	ELF DYN (Shared object file) ARM	场景框架	Infra 场景注册/加载框架
+/usr	/usr/lib/libncurses.so.6.2	259936	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libnl-3.so.200.17.0	78620	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libevent_openssl.so	15056	symlink	symlink -> libevent_openssl-2.1.so.6.0.2	符号链接	指向 libevent_openssl-2.1.so.6.0.2
+/usr	/usr/lib/libInfraAccessLogWrapper.so	3344	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libcrypto.so.3	2656568	elf	ELF DYN (Shared object file) ARM	密码学	OpenSSL libcrypto
+/usr	/usr/lib/libgenuinetime.so	4112	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/viewUnified2.so	10854816	elf	ELF DYN (Shared object file) ARM	UI 视图库	viewUnified：Sugilite 菜单视图/绘制
+/usr	/usr/lib/libcom_err.so.2	7964	symlink	symlink -> libcom_err.so.2.1	符号链接	指向 libcom_err.so.2.1
+/usr	/usr/lib/CautionRsrcConfig.so	122384	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libexpat.so.1.6.11	107440	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libmpr.so	12516284	elf	ELF DYN (Shared object file) ARM	MPR 中间件	MPR（Camera Middleware）核心
+/usr	/usr/lib/libnl-3.so.200	78620	symlink	symlink -> libnl-3.so.200.17.0	符号链接	指向 libnl-3.so.200.17.0
+/usr	/usr/lib/libprocps.so	47820	symlink	symlink -> libprocps.so.6.0.0	符号链接	指向 libprocps.so.6.0.0
+/usr	/usr/lib/libnl-genl-3.so.200	13616	symlink	symlink -> libnl-genl-3.so.200.17.0	符号链接	指向 libnl-genl-3.so.200.17.0
+/usr	/usr/lib/libInfraStreamingServer.so	113932	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libncurses.so.6	259936	symlink	symlink -> libncurses.so.6.2	符号链接	指向 libncurses.so.6.2
+/usr	/usr/lib/libssl.so.3.0	412204	symlink	symlink -> libssl.so.3	符号链接	指向 libssl.so.3
+/usr	/usr/lib/libAK8975.so	45428	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libWlanControlCommon.so	14804	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libnl-cli-3.so.200	28892	symlink	symlink -> libnl-cli-3.so.200.17.0	符号链接	指向 libnl-cli-3.so.200.17.0
+/usr	/usr/lib/libBTAdjust.so	10984	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libpcap.so.1.0.0	153300	elf	ELF DYN (Shared object file) ARM	抓包	libpcap
+/usr	/usr/lib/libupdaterufp.so	10344	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libExternalCommand.so	5372	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libNetRemote.so	21496	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraNetInitializer.so	17032	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/githash	67	data	Git commit e6d8f9f3566ec59abd5af6f6be9c318c3230da33	共享库	用户态共享库
+/usr	/usr/lib/libmprctrl.so	253880	elf	ELF DYN (Shared object file) ARM	MPR 控制	MPR 控制/命令接口
+/usr	/usr/lib/libInfraDevInfoSender.so	13184	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libnl-route-3.so.200	200084	symlink	symlink -> libnl-route-3.so.200.17.0	符号链接	指向 libnl-route-3.so.200.17.0
+/usr	/usr/lib/viewUnified7.so	597628	elf	ELF DYN (Shared object file) ARM	UI 视图库	viewUnified：Sugilite 菜单视图/绘制
+/usr	/usr/lib/libz.so.1	77484	symlink	symlink -> libz.so.1.2.11	符号链接	指向 libz.so.1.2.11
+/usr	/usr/lib/libul_GpioCtrl.so	4560	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libsencore.so	337772	elf	ELF DYN (Shared object file) ARM	Senser 核心	传感器核心库
+/usr	/usr/lib/libInfraCertificate.so	12532	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libNetContUtil.so	74844	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libBackupManager.so	5832	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libNetService.so	658424	elf	ELF DYN (Shared object file) ARM	网络服务	网络服务框架
+/usr	/usr/lib/libInfraHttpClientUtil.so	15936	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libcurl.so.4.8.0	409696	elf	ELF DYN (Shared object file) ARM	HTTP	libcurl
+/usr	/usr/lib/libpopt.so	21268	symlink	symlink -> libpopt.so.0.0.0	符号链接	指向 libpopt.so.0.0.0
+/usr	/usr/lib/libevent_pthreads-2.1.so.6.0.2	4836	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libbsa.so	108976	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraBluetooth.so	86052	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libupdatertalk.so	3452	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libSoundTouch.so.1	60348	symlink	symlink -> libSoundTouch.so.1.0.0	符号链接	指向 libSoundTouch.so.1.0.0
+/usr	/usr/lib/libInfraMediaMount.so	36416	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraPtpControl.so	30996	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libevent_core-2.1.so.6.0.2	150900	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libpcap.so.1.0	153300	symlink	symlink -> libpcap.so.1.0.0	符号链接	指向 libpcap.so.1.0.0
+/usr	/usr/lib/libopus.so.0	352924	symlink	symlink -> libopus.so.0.8.0	符号链接	指向 libopus.so.0.8.0
+/usr	/usr/lib/libOnDemandLoader.so	40060	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libBizFw.so	317892	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libevent_pthreads-2.1.so.6	4836	symlink	symlink -> libevent_pthreads-2.1.so.6.0.2	符号链接	指向 libevent_pthreads-2.1.so.6.0.2
+/usr	/usr/lib/libssh2.so.1	159952	symlink	symlink -> libssh2.so.1.0.1	符号链接	指向 libssh2.so.1.0.1
+/usr	/usr/lib/libJiritsu.so	154284	elf	ELF DYN (Shared object file) ARM	JIRITSU	JIRITSU 服务协议（文件/升级/调试/工厂）
+/usr	/usr/lib/libObj.so	19825508	elf	ELF DYN (Shared object file) ARM	应用对象框架	libObj：Appframework 对象/视图/场景核心（最大库）
+/usr	/usr/lib/libpopt.so.0.0.0	21268	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libip4tc.so.0.0.0	17512	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libIMDB.so	32168	elf	ELF DYN (Shared object file) ARM	消息数据库	IMDB 内部消息数据库
+/usr	/usr/lib/libInfraAirplaneMode.so	7912	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libSoundTouch.so.1.0.0	60348	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libmprdummy.so	5748	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libWlanResource.so	35236	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/viewUnified4.so	2741200	elf	ELF DYN (Shared object file) ARM	UI 视图库	viewUnified：Sugilite 菜单视图/绘制
+/usr	/usr/lib/libInfraNetConnectionManager.so	24136	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraBluetoothLowEnergy.so	261500	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/viewUnified5.so	733552	elf	ELF DYN (Shared object file) ARM	UI 视图库	viewUnified：Sugilite 菜单视图/绘制
+/usr	/usr/lib/libssp.so.0	5864	symlink	symlink -> libssp.so.0.0.0	符号链接	指向 libssp.so.0.0.0
+/usr	/usr/lib/libssl.so.3	412204	elf	ELF DYN (Shared object file) ARM	TLS	OpenSSL libssl
+/usr	/usr/lib/libSysDef.so	2626108	elf	ELF DYN (Shared object file) ARM	系统定义	系统常量/型号/区域定义
+/usr	/usr/lib/libnl-3.so	78620	symlink	symlink -> libnl-3.so.200.17.0	符号链接	指向 libnl-3.so.200.17.0
+/usr	/usr/lib/libInfraMediaDetect.so	78248	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/CautionConfig.so	10206464	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraNetDeviceInfo.so	7820	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libpcre.so	238304	symlink	symlink -> libpcre.so.1.2.12	符号链接	指向 libpcre.so.1.2.12
+/usr	/usr/lib/libstdc++.so.6.0.14	669432	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libcrypto.so	2656568	symlink	symlink -> libcrypto.so.3	符号链接	指向 libcrypto.so.3
+/usr	/usr/lib/libip4tc.so.0	17512	symlink	symlink -> libip4tc.so.0.0.0	符号链接	指向 libip4tc.so.0.0.0
+/usr	/usr/lib/libInfraAccessLog.so	11720	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libcom_err.so.2.1	7964	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libutil_date.so	5052	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libupdatercommon.so	37048	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraNetFunctionManager.so	36800	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libxtables.so	19704	symlink	symlink -> libxtables.so.5.0.0	符号链接	指向 libxtables.so.5.0.0
+/usr	/usr/lib/libpro00.so	3692	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libstdc++.so	669432	symlink	symlink -> libstdc++.so.6.0.14	符号链接	指向 libstdc++.so.6.0.14
+/usr	/usr/lib/libe2p.so.2	20540	symlink	symlink -> libe2p.so.2.3	符号链接	指向 libe2p.so.2.3
+/usr	/usr/lib/libopus.so.0.8.0	352924	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraDlnaControl.so	382584	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraHighlight.so	192368	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libBusPower.so	31532	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libstdc++.so.6	669432	symlink	symlink -> libstdc++.so.6.0.14	符号链接	指向 libstdc++.so.6.0.14
+/usr	/usr/lib/libul_xml.so	56676	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libnl-genl-3.so.200.17.0	13616	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libosal_utm.so	4900	elf	ELF DYN (Shared object file) ARM	用户态定时器	定时器/线程管理
+/usr	/usr/lib/libtestcmd.so	10128	elf	ELF DYN (Shared object file) ARM	测试命令框架	testcmd_* / scenario 插件加载
+/usr	/usr/lib/libosal_ulogio.so	31180	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libevent_openssl-2.1.so.6	15056	symlink	symlink -> libevent_openssl-2.1.so.6.0.2	符号链接	指向 libevent_openssl-2.1.so.6.0.2
+/usr	/usr/lib/libInfraMediaCommon.so	311504	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libInfraRemoteControlNet.so	187908	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libbackup.so	9384	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/libevent_core-2.1.so.6	150900	symlink	symlink -> libevent_core-2.1.so.6.0.2	符号链接	指向 libevent_core-2.1.so.6.0.2
+/usr	/usr/lib/viewUnified3.so	825204	elf	ELF DYN (Shared object file) ARM	UI 视图库	viewUnified：Sugilite 菜单视图/绘制
+/usr	/usr/lib/dhcpd/dhcpd.leases	0	data	empty	共享库	用户态共享库
+/usr	/usr/lib/ossl-modules/legacy.so	66068	elf	ELF DYN (Shared object file) ARM	共享库	用户态共享库
+/usr	/usr/lib/netconf/pump_dns.conf	59	data	ASCII text	共享库	用户态共享库
+/usr	/usr/lib/netconf/bss.conf	449	data	ASCII text	共享库	用户态共享库
+/usr	/usr/lib/netconf/pump.conf	134	data	ASCII text, with CRLF line terminators	共享库	用户态共享库
+/usr	/usr/lib/netconf/dhcpd.conf	373	data	ASCII text, with CRLF line terminators	共享库	用户态共享库
+/usr	/usr/lib/netconf/p2p_multi_go.conf	599	data	ASCII text	共享库	用户态共享库
+/usr	/usr/lib/netconf/p2p.conf	599	data	ASCII text	共享库	用户态共享库
+/usr	/usr/wlan/bcm/bcm4339_mfg.bin	552765	data	data	Wi-Fi 固件	Broadcom Wi-Fi 固件/NVRAM
+/usr	/usr/wlan/bcm/bcm4339.bin	564167	data	data	Wi-Fi 固件	Broadcom Wi-Fi 固件/NVRAM
+/usr	/usr/kmod/nls_utf8.ko	2508	elf	ELF REL (Relocatable file) ARM	内核模块	nls_utf8.ko：内核驱动
+/usr	/usr/kmod/rndis_host.ko	9228	elf	ELF REL (Relocatable file) ARM	内核模块	rndis_host.ko：内核驱动
+/usr	/usr/kmod/cdc_ether.ko	8328	elf	ELF REL (Relocatable file) ARM	内核模块	cdc_ether.ko：内核驱动
+/usr	/usr/kmod/snd-seq-dummy.ko	4380	elf	ELF REL (Relocatable file) ARM	内核模块	snd-seq-dummy.ko：内核驱动
+/usr	/usr/kmod/snd-virmidi.ko	5464	elf	ELF REL (Relocatable file) ARM	内核模块	snd-virmidi.ko：内核驱动
+/usr	/usr/kmod/grm_gles.ko	15648	elf	ELF REL (Relocatable file) ARM	GPU 驱动	Sugilite GLES 驱动
+/usr	/usr/kmod/usbg_sen.ko	31204	elf	ELF REL (Relocatable file) ARM	内核模块	usbg_sen.ko：内核驱动
+/usr	/usr/kmod/liro.ko	65212	elf	ELF REL (Relocatable file) ARM	内核模块	liro.ko：内核驱动
+/usr	/usr/kmod/sd_mod.ko	33548	elf	ELF REL (Relocatable file) ARM	内核模块	sd_mod.ko：内核驱动
+/usr	/usr/kmod/snd-hwdep.ko	9012	elf	ELF REL (Relocatable file) ARM	内核模块	snd-hwdep.ko：内核驱动
+/usr	/usr/kmod/usbhid.ko	23360	elf	ELF REL (Relocatable file) ARM	内核模块	usbhid.ko：内核驱动
+/usr	/usr/kmod/mcmn_drv.ko	113556	elf	ELF REL (Relocatable file) ARM	内核模块	mcmn_drv.ko：内核驱动
+/usr	/usr/kmod/snd-seq-device.ko	7520	elf	ELF REL (Relocatable file) ARM	内核模块	snd-seq-device.ko：内核驱动
+/usr	/usr/kmod/soundcore.ko	8432	elf	ELF REL (Relocatable file) ARM	内核模块	soundcore.ko：内核驱动
+/usr	/usr/kmod/mmc_core.ko	73272	elf	ELF REL (Relocatable file) ARM	内核模块	mmc_core.ko：内核驱动
+/usr	/usr/kmod/configfs.ko	29276	elf	ELF REL (Relocatable file) ARM	内核模块	configfs.ko：内核驱动
+/usr	/usr/kmod/cdc-acm.ko	26472	elf	ELF REL (Relocatable file) ARM	内核模块	cdc-acm.ko：内核驱动
+/usr	/usr/kmod/upm.ko	134904	elf	ELF REL (Relocatable file) ARM	统一电源/内存	UPM 驱动
+/usr	/usr/kmod/usbnet.ko	22488	elf	ELF REL (Relocatable file) ARM	内核模块	usbnet.ko：内核驱动
+/usr	/usr/kmod/bcmdhd.ko	522236	elf	ELF REL (Relocatable file) ARM	内核模块	bcmdhd.ko：内核驱动
+/usr	/usr/kmod/stream.ko	3384	elf	ELF REL (Relocatable file) ARM	视频流	视频流驱动
+/usr	/usr/kmod/dmm.ko	83320	elf	ELF REL (Relocatable file) ARM	显示内存	显示内存管理
+/usr	/usr/kmod/lib80211_crypt_wep.ko	4784	elf	ELF REL (Relocatable file) ARM	内核模块	lib80211_crypt_wep.ko：内核驱动
+/usr	/usr/kmod/cec.ko	79240	elf	ELF REL (Relocatable file) ARM	内核模块	cec.ko：内核驱动
+/usr	/usr/kmod/grm_ma.ko	24800	elf	ELF REL (Relocatable file) ARM	媒体加速	Sugilite 媒体加速
+/usr	/usr/kmod/cdrom.ko	36636	elf	ELF REL (Relocatable file) ARM	内核模块	cdrom.ko：内核驱动
+/usr	/usr/kmod/usb_f_mass_storage.ko	35536	elf	ELF REL (Relocatable file) ARM	内核模块	usb_f_mass_storage.ko：内核驱动
+/usr	/usr/kmod/snd-seq-midi-event.ko	7244	elf	ELF REL (Relocatable file) ARM	内核模块	snd-seq-midi-event.ko：内核驱动
+/usr	/usr/kmod/mag.ko	10588	elf	ELF REL (Relocatable file) ARM	内核模块	mag.ko：内核驱动
+/usr	/usr/kmod/lg-vl600.ko	5620	elf	ELF REL (Relocatable file) ARM	内核模块	lg-vl600.ko：内核驱动
+/usr	/usr/kmod/input.ko	33768	elf	ELF REL (Relocatable file) ARM	内核模块	input.ko：内核驱动
+/usr	/usr/kmod/ppp_generic.ko	26968	elf	ELF REL (Relocatable file) ARM	内核模块	ppp_generic.ko：内核驱动
+/usr	/usr/kmod/snd-mixer-oss.ko	17996	elf	ELF REL (Relocatable file) ARM	内核模块	snd-mixer-oss.ko：内核驱动
+/usr	/usr/kmod/usb_buspwr.ko	13600	elf	ELF REL (Relocatable file) ARM	内核模块	usb_buspwr.ko：内核驱动
+/usr	/usr/kmod/asix.ko	25232	elf	ELF REL (Relocatable file) ARM	内核模块	asix.ko：内核驱动
+/usr	/usr/kmod/sr_mod.ko	17564	elf	ELF REL (Relocatable file) ARM	内核模块	sr_mod.ko：内核驱动
+/usr	/usr/kmod/r8168.ko	423556	elf	ELF REL (Relocatable file) ARM	内核模块	r8168.ko：内核驱动
+/usr	/usr/kmod/kikilog.ko	32048	elf	ELF REL (Relocatable file) ARM	内核模块	kikilog.ko：内核驱动
+/usr	/usr/kmod/ms_drv.ko	207896	elf	ELF REL (Relocatable file) ARM	内核模块	ms_drv.ko：内核驱动
+/usr	/usr/kmod/backup.ko	73764	elf	ELF REL (Relocatable file) ARM	备份	备份/恢复驱动
+/usr	/usr/kmod/usbg_cmn.ko	4140	elf	ELF REL (Relocatable file) ARM	内核模块	usbg_cmn.ko：内核驱动
+/usr	/usr/kmod/snd-dummy.ko	13936	elf	ELF REL (Relocatable file) ARM	内核模块	snd-dummy.ko：内核驱动
+/usr	/usr/kmod/usbg_buspower.ko	14068	elf	ELF REL (Relocatable file) ARM	内核模块	usbg_buspower.ko：内核驱动
+/usr	/usr/kmod/utimer.ko	20156	elf	ELF REL (Relocatable file) ARM	内核模块	utimer.ko：内核驱动
+/usr	/usr/kmod/usb_current.ko	4800	elf	ELF REL (Relocatable file) ARM	内核模块	usb_current.ko：内核驱动
+/usr	/usr/kmod/codec_drv.ko	18332	elf	ELF REL (Relocatable file) ARM	编解码	编解码器驱动
+/usr	/usr/kmod/usbg_storage.ko	66984	elf	ELF REL (Relocatable file) ARM	内核模块	usbg_storage.ko：内核驱动
+/usr	/usr/kmod/nfc.ko	16500	elf	ELF REL (Relocatable file) ARM	内核模块	nfc.ko：内核驱动
+/usr	/usr/kmod/snd.ko	49892	elf	ELF REL (Relocatable file) ARM	内核模块	snd.ko：内核驱动
+/usr	/usr/kmod/usb-storage.ko	29056	elf	ELF REL (Relocatable file) ARM	内核模块	usb-storage.ko：内核驱动
+/usr	/usr/kmod/snd-seq-midi.ko	7900	elf	ELF REL (Relocatable file) ARM	内核模块	snd-seq-midi.ko：内核驱动
+/usr	/usr/kmod/osal_utm.ko	4896	elf	ELF REL (Relocatable file) ARM	内核模块	osal_utm.ko：内核驱动
+/usr	/usr/kmod/crc-ccitt.ko	2520	elf	ELF REL (Relocatable file) ARM	内核模块	crc-ccitt.ko：内核驱动
+/usr	/usr/kmod/htmd.ko	4176	elf	ELF REL (Relocatable file) ARM	内核模块	htmd.ko：内核驱动
+/usr	/usr/kmod/libcomposite.ko	33712	elf	ELF REL (Relocatable file) ARM	内核模块	libcomposite.ko：内核驱动
+/usr	/usr/kmod/lib80211_crypt_ccmp.ko	6320	elf	ELF REL (Relocatable file) ARM	内核模块	lib80211_crypt_ccmp.ko：内核驱动
+/usr	/usr/kmod/snd-timer.ko	23768	elf	ELF REL (Relocatable file) ARM	内核模块	snd-timer.ko：内核驱动
+/usr	/usr/kmod/usbserial.ko	27332	elf	ELF REL (Relocatable file) ARM	内核模块	usbserial.ko：内核驱动
+/usr	/usr/kmod/scsi_wait_scan.ko	1968	elf	ELF REL (Relocatable file) ARM	内核模块	scsi_wait_scan.ko：内核驱动
+/usr	/usr/kmod/ppp_async.ko	11384	elf	ELF REL (Relocatable file) ARM	内核模块	ppp_async.ko：内核驱动
+/usr	/usr/kmod/usbcore.ko	157664	elf	ELF REL (Relocatable file) ARM	内核模块	usbcore.ko：内核驱动
+/usr	/usr/kmod/cfg80211.ko	192992	elf	ELF REL (Relocatable file) ARM	内核模块	cfg80211.ko：内核驱动
+/usr	/usr/kmod/i2c.ko	14212	elf	ELF REL (Relocatable file) ARM	内核模块	i2c.ko：内核驱动
+/usr	/usr/kmod/indctr.ko	12948	elf	ELF REL (Relocatable file) ARM	内核模块	indctr.ko：内核驱动
+/usr	/usr/kmod/usb_portMonitor.ko	17476	elf	ELF REL (Relocatable file) ARM	内核模块	usb_portMonitor.ko：内核驱动
+/usr	/usr/kmod/option.ko	78048	elf	ELF REL (Relocatable file) ARM	内核模块	option.ko：内核驱动
+/usr	/usr/kmod/stream2.ko	4144	elf	ELF REL (Relocatable file) ARM	视频流	第二视频流驱动
+/usr	/usr/kmod/compass.ko	5412	elf	ELF REL (Relocatable file) ARM	内核模块	compass.ko：内核驱动
+/usr	/usr/kmod/snd-pcm.ko	79644	elf	ELF REL (Relocatable file) ARM	内核模块	snd-pcm.ko：内核驱动
+/usr	/usr/kmod/snd-rawmidi.ko	22796	elf	ELF REL (Relocatable file) ARM	内核模块	snd-rawmidi.ko：内核驱动
+/usr	/usr/kmod/mmcioWrapper.ko	6844	elf	ELF REL (Relocatable file) ARM	内核模块	mmcioWrapper.ko：内核驱动
+/usr	/usr/kmod/xhci-hcd.ko	104240	elf	ELF REL (Relocatable file) ARM	内核模块	xhci-hcd.ko：内核驱动
+/usr	/usr/kmod/dma330.ko	256544	elf	ELF REL (Relocatable file) ARM	DMA	DMA330 引擎
+/usr	/usr/kmod/usb_extcmd.ko	14796	elf	ELF REL (Relocatable file) ARM	内核模块	usb_extcmd.ko：内核驱动
+/usr	/usr/kmod/mac80211.ko	280600	elf	ELF REL (Relocatable file) ARM	内核模块	mac80211.ko：内核驱动
+/usr	/usr/kmod/snd-aloop.ko	18172	elf	ELF REL (Relocatable file) ARM	内核模块	snd-aloop.ko：内核驱动
+/usr	/usr/kmod/hdmi.ko	238284	elf	ELF REL (Relocatable file) ARM	内核模块	hdmi.ko：内核驱动
+/usr	/usr/kmod/usb_darwin.ko	28584	elf	ELF REL (Relocatable file) ARM	内核模块	usb_darwin.ko：内核驱动
+/usr	/usr/kmod/snd-usb-audio.ko	103780	elf	ELF REL (Relocatable file) ARM	内核模块	snd-usb-audio.ko：内核驱动
+/usr	/usr/kmod/snd-usbmidi-lib.ko	20512	elf	ELF REL (Relocatable file) ARM	内核模块	snd-usbmidi-lib.ko：内核驱动
+/usr	/usr/kmod/slhc.ko	5976	elf	ELF REL (Relocatable file) ARM	内核模块	slhc.ko：内核驱动
+/usr	/usr/kmod/cdc_ncm.ko	11292	elf	ELF REL (Relocatable file) ARM	内核模块	cdc_ncm.ko：内核驱动
+/usr	/usr/kmod/udate.ko	14836	elf	ELF REL (Relocatable file) ARM	升级	固件升级辅助
+/usr	/usr/kmod/snd-pcm-oss.ko	41476	elf	ELF REL (Relocatable file) ARM	内核模块	snd-pcm-oss.ko：内核驱动
+/usr	/usr/kmod/usb_wwan.ko	9156	elf	ELF REL (Relocatable file) ARM	内核模块	usb_wwan.ko：内核驱动
+/usr	/usr/kmod/wlanMemoryAllocator.ko	8268	elf	ELF REL (Relocatable file) ARM	内核模块	wlanMemoryAllocator.ko：内核驱动
+/usr	/usr/kmod/osal_ulogio.ko	38988	elf	ELF REL (Relocatable file) ARM	内核模块	osal_ulogio.ko：内核驱动
+/usr	/usr/kmod/snd-seq-oss.ko	34904	elf	ELF REL (Relocatable file) ARM	内核模块	snd-seq-oss.ko：内核驱动
+/usr	/usr/kmod/compat.ko	8200	elf	ELF REL (Relocatable file) ARM	内核模块	compat.ko：内核驱动
+/usr	/usr/kmod/mii.ko	5056	elf	ELF REL (Relocatable file) ARM	内核模块	mii.ko：内核驱动
+/usr	/usr/kmod/accel.ko	12888	elf	ELF REL (Relocatable file) ARM	加速器	图像/媒体加速器
+/usr	/usr/kmod/wlanIrq.ko	3804	elf	ELF REL (Relocatable file) ARM	内核模块	wlanIrq.ko：内核驱动
+/usr	/usr/kmod/usbg_stillimage.ko	28016	elf	ELF REL (Relocatable file) ARM	内核模块	usbg_stillimage.ko：内核驱动
+/usr	/usr/kmod/sircs.ko	21912	elf	ELF REL (Relocatable file) ARM	内核模块	sircs.ko：内核驱动
+/usr	/usr/kmod/snd-seq.ko	58600	elf	ELF REL (Relocatable file) ARM	内核模块	snd-seq.ko：内核驱动
+/usr	/usr/kmod/g_mass_storage.ko	6764	elf	ELF REL (Relocatable file) ARM	内核模块	g_mass_storage.ko：内核驱动
+/usr	/usr/kmod/lib80211_crypt_tkip.ko	9600	elf	ELF REL (Relocatable file) ARM	内核模块	lib80211_crypt_tkip.ko：内核驱动
+/usr	/usr/kmod/snd-page-alloc.ko	8140	elf	ELF REL (Relocatable file) ARM	内核模块	snd-page-alloc.ko：内核驱动
+/usr	/usr/kmod/snd-seq-virmidi.ko	7928	elf	ELF REL (Relocatable file) ARM	内核模块	snd-seq-virmidi.ko：内核驱动
+/usr	/usr/kmod/osal_uipc.ko	38492	elf	ELF REL (Relocatable file) ARM	内核模块	osal_uipc.ko：内核驱动
+/usr	/usr/kmod/mmc_drv.ko	224376	elf	ELF REL (Relocatable file) ARM	内核模块	mmc_drv.ko：内核驱动
+/usr	/usr/kmod/scsi_mod.ko	110676	elf	ELF REL (Relocatable file) ARM	内核模块	scsi_mod.ko：内核驱动
+/usr	/usr/wifi-scripts/cli.sh	92	script	POSIX shell script, ASCII text executable	Wi-Fi 脚本	Wi-Fi 加载/连接脚本
+/usr	/usr/wifi-scripts/setwifi.sh	1158	script	POSIX shell script, ASCII text executable	Wi-Fi 脚本	Wi-Fi 加载/连接脚本
+/usr	/usr/wifi-scripts/wifi-test.sh	4224	script	POSIX shell script, ASCII text executable	Wi-Fi 脚本	Wi-Fi 加载/连接脚本
+/usr	/usr/wifi-scripts/ulset.sh	1594	script	ASCII text	Wi-Fi 脚本	Wi-Fi 加载/连接脚本
+/usr	/usr/wifi-scripts/set_gpio.sh	1559	script	POSIX shell script, ASCII text executable	Wi-Fi 脚本	Wi-Fi 加载/连接脚本
+/usr	/usr/wifi-scripts/run_supplicant.sh	925	script	POSIX shell script, ASCII text executable	Wi-Fi 脚本	Wi-Fi 加载/连接脚本
+/usr	/usr/wifi-scripts/load_firm.sh	588	script	POSIX shell script, ASCII text executable	Wi-Fi 脚本	Wi-Fi 加载/连接脚本
+/usr	/usr/wifi-scripts/start_dhd.sh	2529	script	POSIX shell script, ASCII text executable	Wi-Fi 脚本	Wi-Fi 加载/连接脚本
+/usr	/usr/wifi-scripts/cli_wlan0.sh	126	script	POSIX shell script, ASCII text executable	Wi-Fi 脚本	Wi-Fi 加载/连接脚本
+/usr	/usr/wifi-scripts/stop_dhd.sh	1610	script	POSIX shell script, ASCII text executable	Wi-Fi 脚本	Wi-Fi 加载/连接脚本
+/usr	/usr/wifi-scripts/run_single_p2p.sh	940	script	POSIX shell script, ASCII text executable	Wi-Fi 脚本	Wi-Fi 加载/连接脚本
+/usr	/usr/wifi-scripts/cli_p2p0.sh	125	script	POSIX shell script, ASCII text executable	Wi-Fi 脚本	Wi-Fi 加载/连接脚本
+/usr	/usr/bin/bk.elf	10088	elf	ELF EXEC (Executable file) ARM	备份	备份/恢复相关
+/usr	/usr/bin/ujlog.elf	7148	elf	ELF EXEC (Executable file) ARM	日志	ujlog 日志工具
+/usr	/usr/bin/wpa_supplicant	758244	elf	ELF EXEC (Executable file) ARM	Wi-Fi	WPA  supplicant
+/usr	/usr/bin/iperf	62418	elf	ELF EXEC (Executable file) ARM	网络测试	iperf 带宽测试
+/usr	/usr/bin/btRFTest.elf	36192	elf	ELF EXEC (Executable file) ARM	蓝牙测试	蓝牙 RF 测试
+/usr	/usr/bin/Wltestcmd	24319	elf	ELF EXEC (Executable file) ARM	Wi-Fi 测试	无线测试命令
+/usr	/usr/bin/scenario.elf	5368	elf	ELF EXEC (Executable file) ARM	场景命令入口	解析 name:size:data，dlopen /usr/scenario/*.so 并调用 scenario_run
+/usr	/usr/bin/bootin.elf	15336	elf	ELF EXEC (Executable file) ARM	启动信息	启动参数/启动信息处理
+/usr	/usr/bin/wl	1160186	elf	ELF EXEC (Executable file) ARM	Wi-Fi	Broadcom wl 工具
+/usr	/usr/bin/compat_firmware.sh	1043	script	POSIX shell script, ASCII text executable	兼容脚本	固件兼容处理
+/usr	/usr/bin/bt_firm_sar.hcd	54028	data	data	用户态程序	服务/工具/脚本
+/usr	/usr/bin/up.sh	5008	script	POSIX shell script, ASCII text executable	升级脚本	切换 updater 模式（UFP/version skip/MS crypt）
+/usr	/usr/bin/mwf_monio.elf	22648	elf	ELF EXEC (Executable file) ARM	监控	MWF 消息/状态监控
+/usr	/usr/bin/sen.elf	19208	elf	ELF EXEC (Executable file) ARM	传感器服务	Senser/传感器相关用户态服务
+/usr	/usr/bin/adjstctl.elf	114144	elf	ELF EXEC (Executable file) ARM	调整控制	镜头/传感器调整控制
+/usr	/usr/bin/netblog.elf	7080	elf	ELF EXEC (Executable file) ARM	网络日志	网络日志服务
+/usr	/usr/bin/bt_firm.hcd	58748	data	data	用户态程序	服务/工具/脚本
+/usr	/usr/bin/btblog.elf	7196	elf	ELF EXEC (Executable file) ARM	蓝牙日志	蓝牙日志服务
+/usr	/usr/bin/dhd	236876	elf	ELF EXEC (Executable file) ARM	Wi-Fi	Broadcom dhd Wi-Fi 驱动用户态
+/usr	/usr/bin/testcmd.elf	5172	elf	ELF EXEC (Executable file) ARM	测试命令	工厂/测试命令分发
+/usr	/usr/bin/common.src	2960	data	ASCII text	用户态程序	服务/工具/脚本
+/usr	/usr/bin/doemparse.sh	387	script	POSIX shell script, ASCII text executable	用户态程序	服务/工具/脚本
+/usr	/usr/bin/SetPort.elf	4176	elf	ELF EXEC (Executable file) ARM	端口	端口/GPIO 设置
+/usr	/usr/bin/ud_send_lsi.elf	4324	elf	ELF EXEC (Executable file) ARM	用户态程序	服务/工具/脚本
+/usr	/usr/bin/soundstretch	40167	elf	ELF EXEC (Executable file) ARM	音频	音频变速/变调
+/usr	/usr/bin/appdbglv.sh	10088	script	POSIX shell script, ASCII text executable	调试脚本	设置应用调试等级
+/usr	/usr/bin/sndcmd.elf	5380	elf	ELF EXEC (Executable file) ARM	命令发送	发送命令到服务
+/usr	/usr/bin/ulogio.elf	19200	elf	ELF EXEC (Executable file) ARM	日志 IO	用户态日志读写
+/usr	/usr/bin/usb_insmod.sh	225	script	POSIX shell script, ASCII text executable	USB 脚本	加载 USB 相关模块
+/usr	/usr/bin/launch_shell.elf	5140	elf	ELF EXEC (Executable file) ARM	调试 shell	启动调试 shell（launch_shell）
+/usr	/usr/bin/startBTCore.sh	1283	script	POSIX shell script, ASCII text executable	蓝牙脚本	启动蓝牙 core
+/usr	/usr/bin/udtrbody.bin	143360	data	Linux Compressed ROM File System data, little endian size 143360 version #2 sorted_dirs CRC 0x2cf95fb7, edition 0, 100 blocks, 47 files	用户态程序	服务/工具/脚本
+/usr	/usr/bin/WebApiLauncher.sh	211	script	POSIX shell script, ASCII text executable	Web API	启动 Web API 服务
+/usr	/usr/bin/swap_prepare.sh	496	script	POSIX shell script, ASCII text executable	内存脚本	准备 swap
+/usr	/usr/bin/orb-server	5633764	elf	ELF EXEC (Executable file) ARM	BT/网络服务	ORB 服务（蓝牙/网络相关）
+/usr	/usr/bin/NsBkSet.elf	4448	elf	ELF EXEC (Executable file) ARM	备份设置	备份相关设置
+/usr	/usr/bin/gpioctrl.elf	86872	elf	ELF EXEC (Executable file) ARM	GPIO	GPIO 控制
+/usr	/usr/bin/rcvcmd.elf	5024	elf	ELF EXEC (Executable file) ARM	命令接收	接收并分发命令
+/usr	/usr/bin/change_mode.sh	4022	script	POSIX shell script, ASCII text executable	模式脚本	切换启动/升级模式
+/usr	/usr/bin/crypter.elf	39084	elf	ELF EXEC (Executable file) ARM	加解密	固件/数据加解密工具
+/usr	/usr/bin/bsa_server	4802407	elf	ELF EXEC (Executable file) ARM	蓝牙	Broadcom BSA 蓝牙协议栈服务
+/usr	/usr/bin/uuidgen	8812	elf	ELF EXEC (Executable file) ARM	系统工具	生成 UUID
+/usr	/usr/bin/GPIO2SDIO.elf	3932	elf	ELF EXEC (Executable file) ARM	GPIO/SDIO	GPIO 切到 SDIO 模式
+/usr	/usr/bin/mpr_viewLog.elf	8124	elf	ELF EXEC (Executable file) ARM	日志查看	查看 MPR 日志
+/usr	/usr/bin/ulogio	19200	symlink	symlink -> ulogio.elf	符号链接	指向 ulogio.elf
+/usr	/usr/bin/im.elf	23240	elf	ELF EXEC (Executable file) ARM	应用框架启动器	Appframework 入口：libIMDB/libosal/backup，dlopen 场景与视图
+/usr	/usr/bin/SDIO2GPIO.elf	4404	elf	ELF EXEC (Executable file) ARM	GPIO/SDIO	SDIO 切回 GPIO
+/usr	/usr/bin/ud_datcnv.elf	5940	elf	ELF EXEC (Executable file) ARM	用户态程序	服务/工具/脚本
+/usr	/usr/bin/mpr_monio.elf	6776	elf	ELF EXEC (Executable file) ARM	监控	MPR 消息/状态监控
+/usr	/usr/bin/openssl	738201	elf	ELF EXEC (Executable file) ARM	密码学	OpenSSL 命令行
+/usr	/usr/share/aveffect/film_bg2.jpg	35546	data	JPEG image data, JFIF standard 1.02, resolution (DPI), density 72x72, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=8, orientation=upper-left, xresolution=110, yresolution=118, resolutionunit=2, software=Paint Shop Pro Photo 12.00, datetime=2010:08:06 18:22:59, hostcomputer=\216\316\2176\217\236\220\006\220n\220\326\221?\221\250\222\021\222z\222\343\223M\223\266\224 \224\212\224\364\225_\225\311\2264\226\237\227], baseline, precision 8, 640x480, components 3	图像资源	效果/滤镜参数
+/usr	/usr/share/aveffect/filmSingle_mv.jpg	26383	data	JPEG image data, JFIF standard 1.02, resolution (DPI), density 72x72, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=8, orientation=upper-left, xresolution=110, yresolution=118, resolutionunit=2, software=Paint Shop Pro Photo 12.00, datetime=2010:05:06 17:34:56, hostcomputer=\021\222z\222\343\223M\223\266\224 \224\212\224\364\225_\225\311\2264\226\237\227], baseline, precision 8, 640x480, components 3	图像资源	效果/滤镜参数
+/usr	/usr/share/aveffect/rotate_back_ground_mv.jpg	34830	data	JPEG image data, JFIF standard 1.02, resolution (DPI), density 72x72, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=8, orientation=upper-left, xresolution=110, yresolution=118, resolutionunit=2, software=Paint Shop Pro Photo 12.00, datetime=2010:08:11 18:06:45, hostcomputer=\301g\301\343\302_\302\333\303X\303\324\304Q\304\316\305K\305\310\306F\306\303\307A\307\277\310=\310\274\311:\311\271\3128\312\267\3136\313\266\3145\314\265\3155\315\265\3166\316\266\3177\317\270\3209\320\272\321<\321\276\322?\322\301\323D\323\306\324I\324\313\325N\325\321\326U\326\330\327\\327\340\330d\330\350\331l\331\361\332v\332\373\333\200\334\005\334\212\335\020\335\226\336\034\336\242\337)\337\257\3406\340\275\341], baseline, precision 8, 512x384, components 3	图像资源	效果/滤镜参数
+/usr	/usr/share/aveffect/rotate_back_ground_movie.jpg	33860	data	JPEG image data, JFIF standard 1.02, resolution (DPI), density 72x72, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=8, orientation=upper-left, xresolution=110, yresolution=118, resolutionunit=2, software=Paint Shop Pro Photo 12.00, datetime=2010:08:11 18:06:55, hostcomputer=h\226h\354iCi\232i\361jHj\237j\367kOk\247k\377lWl\257m\010m`m\271n\022nkn\304o\036oxo\321p+p\206p\340q:q\225q\360rKr\246s\001s]s\270t\024tpt\314u(u\205u\341v>v\233v\370wVw\263x\021xnx\314y*y\211y\347zFz\245{\004{c{\302|!|\201|\341}A}\241~\001~b~\302\177], baseline, precision 8, 512x384, components 3	图像资源	效果/滤镜参数
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_T_Touch.bin	1216	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_WPS_PBC.bin	29760	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_T_Select.bin	2496	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_Menu_Open_Option_On.bin	1792	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_Wifi_Toggle.bin	7424	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_WPS_Connect.bin	24768	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_Rec_Stop.bin	9280	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_Rec_Start.bin	3456	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_Select_SwitchMode.bin	2496	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_Shutter_Burst.bin	2880	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_Back_Cancel.bin	2240	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_Move_Up_Wheel_Up.bin	896	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_Move_Down_Wheel_Down.bin	1024	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_Wifi_Toggle_Off.bin	9920	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_SelfTimer_2sec.bin	2752	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_10FPS_Kasha.bin	2944	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_T_Off.bin	2240	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_Caution.bin	8640	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_T_On.bin	1216	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_T_Back_Cancel.bin	2240	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_Shutter_Ka.bin	256	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_Menu_Close_Option_Off.bin	2240	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_SelfTimer_RemoteRelease.bin	2752	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/beeplist.txt	4619	data	ASCII text	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_Shutter_Sha.bin	2944	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_T_Menu_Close.bin	2240	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_T_Move_Up.bin	896	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_T_Move_Down.bin	1024	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_WPS_Push.bin	18560	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_T_Menu_Open.bin	1792	data	data	声音资源	系统提示音
+/usr	/usr/share/avsystemsound/Dslr_Emnt_High_FocusLock.bin	3712	data	data	声音资源	系统提示音
+/usr	/usr/share/network/mtp/ServiceDescription.xml	340	data	XML 1.0 document, ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/remotecontrol/index.html	966	data	HTML document, ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/remotecontrol/orbjs/dist/orb-client.min.js	9910	data	JavaScript source, ASCII text, with very long lines (6092), with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/dlna/XPlsDesc.xml	1954	data	XML 1.0 document, ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/dlna/ScalarWebApiDesc.xml	353	data	XML 1.0 document, ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/dlna/CmsDesc.xml	4543	data	XML 1.0 document, ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/dlna/DLNA_camera_48.jpg	5268	data	JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=7, orientation=upper-left, xresolution=98, yresolution=106, resolutionunit=2, software=Ralpha, datetime=2011:08:05 15:00:27], baseline, precision 8, 48x48, components 3	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/dlna/DmsDesc.xml	2839	data	XML 1.0 document, ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/dlna/DLNA_camera_48.png	1818	data	PNG image data, 48 x 48, 8-bit colormap, non-interlaced	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/dlna/DmsDescInternal.xml	2710	data	XML 1.0 document, ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/dlna/DmsDescPush.xml	3174	data	XML 1.0 document, ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/dlna/DmsDescVideoRoot.xml	2492	data	XML 1.0 document, ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/dlna/DmsDescPushInternal.xml	3045	data	XML 1.0 document, ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/dlna/DmsRmtDesc.xml	4930	data	XML 1.0 document, ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/dlna/DLNA_camera_120.png	2604	data	PNG image data, 120 x 120, 8-bit colormap, non-interlaced	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/dlna/DLNA_camera_120.jpg	7624	data	JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=7, orientation=upper-left, xresolution=98, yresolution=106, resolutionunit=2, software=Ralpha, datetime=2011:08:05 15:00:41], baseline, precision 8, 120x120, components 3	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/dlna/CdsDesc.xml	4753	data	XML 1.0 document, ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/cert/certification.pem	261644	data	ASCII text	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/high/bcm4339_H_12.txt	3096	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/high/bcm4339_H_04.txt	3095	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/high/bcm4339_H_06.txt	3095	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/high/bcm4339_H_09.txt	3095	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/high/bcm4339_H_10.txt	3096	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/high/bcm4339_H_02.txt	3095	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/high/bcm4339_H_03.txt	3095	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/high/bcm4339_H_14.txt	3096	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/high/bcm4339_H_13.txt	3096	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/high/bcm4339_H_07.txt	3095	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/high/bcm4339_H_01.txt	3095	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/high/bcm4339_H_11.txt	3096	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/high/bcm4339_H_15.txt	3096	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/high/bcm4339_H_08.txt	3095	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/high/bcm4339_H_05.txt	3095	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/low/bcm4339_L_04.txt	3124	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/low/bcm4339_L_02.txt	3124	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/low/bcm4339_L_03.txt	3124	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/low/bcm4339_L_10.txt	3125	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/low/bcm4339_L_07.txt	3124	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/low/bcm4339_L_05.txt	3124	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/low/bcm4339_L_14.txt	3125	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/low/bcm4339_L_12.txt	3125	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/low/bcm4339_L_06.txt	3124	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/low/bcm4339_L_01.txt	3124	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/low/bcm4339_L_15.txt	3125	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/low/bcm4339_L_08.txt	3124	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/low/bcm4339_L_13.txt	3125	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/low/bcm4339_L_11.txt	3125	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/network/nvram/low/bcm4339_L_09.txt	3124	data	ASCII text, with CRLF line terminators	网络资源	证书/DLNA/MTP/NVRAM/遥控
+/usr	/usr/share/startbinary/logo.bin	8532	data	JPEG image data, JFIF standard 1.01, resolution (DPI), density 96x96, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=0], baseline, precision 8, 640x480, components 3	启动资源	开机启动二进制/数据
+/usr	/usr/share/app/viewWhiteBalance.uxc	6792	data	data	UI 资源	viewWhiteBalance.uxc：视图/资源文件
+/usr	/usr/share/app/viewVersionNumber.uxc	2252	data	data	UI 资源	viewVersionNumber.uxc：视图/资源文件
+/usr	/usr/share/app/viewFocusArea.uxc	2292	data	data	UI 资源	viewFocusArea.uxc：视图/资源文件
+/usr	/usr/share/app/viewCommonDedicatedScreenFunc.uxc	1228	data	data	UI 资源	viewCommonDedicatedScreenFunc.uxc：视图/资源文件
+/usr	/usr/share/app/viewPictureProfile.uxc	1292	data	data	UI 资源	viewPictureProfile.uxc：视图/资源文件
+/usr	/usr/share/app/viewRecovery.uxc	172	data	data	UI 资源	viewRecovery.uxc：视图/资源文件
+/usr	/usr/share/app/fontlist.dat	360	data	ASCII vfont, ASCII text	UI 资源	fontlist.dat：视图/资源文件
+/usr	/usr/share/app/viewIsoSensitivity.uxc	1864	data	data	UI 资源	viewIsoSensitivity.uxc：视图/资源文件
+/usr	/usr/share/app/string_french.uxc	463916	data	data	UI 资源	string_french.uxc：视图/资源文件
+/usr	/usr/share/app/viewSendSelected4Single.uxc	5008	data	data	UI 资源	viewSendSelected4Single.uxc：视图/资源文件
+/usr	/usr/share/app/viewSinglePb.uxc	8680	data	data	UI 资源	viewSinglePb.uxc：视图/资源文件
+/usr	/usr/share/app/viewFinderFrameRate.uxc	808	data	data	UI 资源	viewFinderFrameRate.uxc：视图/资源文件
+/usr	/usr/share/app/viewGpsInfo.uxc	5380	data	data	UI 资源	viewGpsInfo.uxc：视图/资源文件
+/usr	/usr/share/app/viewEditPrefixFileName.uxc	1224	data	data	UI 资源	viewEditPrefixFileName.uxc：视图/资源文件
+/usr	/usr/share/app/master_browser.uxc	27360	data	data	UI 资源	master_browser.uxc：视图/资源文件
+/usr	/usr/share/app/viewBeautyEffect.uxc	6900	data	data	UI 资源	viewBeautyEffect.uxc：视图/资源文件
+/usr	/usr/share/app/viewAutoPlay.uxc	1168	data	data	UI 资源	viewAutoPlay.uxc：视图/资源文件
+/usr	/usr/share/app/image_cmn_o_direct_43.uxc	1229312	data	data	UI 资源	image_cmn_o_direct_43.uxc：视图/资源文件
+/usr	/usr/share/app/viewScnSelection.uxc	572	data	data	UI 资源	viewScnSelection.uxc：视图/资源文件
+/usr	/usr/share/app/viewExtFlashMenuSetting.uxc	16884	data	data	UI 资源	viewExtFlashMenuSetting.uxc：视图/资源文件
+/usr	/usr/share/app/viewFtpExecution.uxc	3400	data	data	UI 资源	viewFtpExecution.uxc：视图/资源文件
+/usr	/usr/share/app/viewFtpImgTypeSelection.uxc	3448	data	data	UI 资源	viewFtpImgTypeSelection.uxc：视图/资源文件
+/usr	/usr/share/app/viewCommonShootingSetting.uxc	4696	data	data	UI 资源	viewCommonShootingSetting.uxc：视图/资源文件
+/usr	/usr/share/app/image_Rich_Help_Guide_43.uxc	5154784	data	data	UI 资源	image_Rich_Help_Guide_43.uxc：视图/资源文件
+/usr	/usr/share/app/viewMovieExpMode.uxc	2516	data	data	UI 资源	viewMovieExpMode.uxc：视图/资源文件
+/usr	/usr/share/app/style_cmn.uxc	1888	data	data	UI 资源	style_cmn.uxc：视图/资源文件
+/usr	/usr/share/app/string_korean.uxc	457280	data	data	UI 资源	string_korean.uxc：视图/资源文件
+/usr	/usr/share/app/viewDpofPhotoBookDatePrint.uxc	500	data	data	UI 资源	viewDpofPhotoBookDatePrint.uxc：视图/资源文件
+/usr	/usr/share/app/viewPriorAWB.uxc	1332	data	data	UI 资源	viewPriorAWB.uxc：视图/资源文件
+/usr	/usr/share/app/viewModeDialGuide.uxc	1332	data	data	UI 资源	viewModeDialGuide.uxc：视图/资源文件
+/usr	/usr/share/app/viewMotionVideo.uxc	3752	data	data	UI 资源	viewMotionVideo.uxc：视图/资源文件
+/usr	/usr/share/app/viewMoviePb.uxc	12852	data	data	UI 资源	viewMoviePb.uxc：视图/资源文件
+/usr	/usr/share/app/viewContPriorityExpMode.uxc	636	data	data	UI 资源	viewContPriorityExpMode.uxc：视图/资源文件
+/usr	/usr/share/app/master_other.uxc	13900	data	data	UI 资源	master_other.uxc：视图/资源文件
+/usr	/usr/share/app/viewFtpServerSettings.uxc	1144	data	data	UI 资源	viewFtpServerSettings.uxc：视图/资源文件
+/usr	/usr/share/app/viewFaceDetection.uxc	1148	data	data	UI 资源	viewFaceDetection.uxc：视图/资源文件
+/usr	/usr/share/app/viewTriDial.uxc	2880	data	data	UI 资源	viewTriDial.uxc：视图/资源文件
+/usr	/usr/share/app/viewCopyrightInformation.uxc	992	data	data	UI 资源	viewCopyrightInformation.uxc：视图/资源文件
+/usr	/usr/share/app/viewExposureCompensation.uxc	1388	data	data	UI 资源	viewExposureCompensation.uxc：视图/资源文件
+/usr	/usr/share/app/viewSelectFolder.uxc	636	data	data	UI 资源	viewSelectFolder.uxc：视图/资源文件
+/usr	/usr/share/app/viewDeleteThis4Single.uxc	372	data	data	UI 资源	viewDeleteThis4Single.uxc：视图/资源文件
+/usr	/usr/share/app/global.xdb	10740	data	data	UI 资源	global.xdb：视图/资源文件
+/usr	/usr/share/app/string_czech.uxc	432544	data	data	UI 资源	string_czech.uxc：视图/资源文件
+/usr	/usr/share/app/viewContPbGroup.uxc	7004	data	data	UI 资源	viewContPbGroup.uxc：视图/资源文件
+/usr	/usr/share/app/viewSettingMenu.uxc	8156	data	data	UI 资源	viewSettingMenu.uxc：视图/资源文件
+/usr	/usr/share/app/string_finnish.uxc	407964	data	data	UI 资源	string_finnish.uxc：视图/资源文件
+/usr	/usr/share/app/viewSettingSave.uxc	7912	data	data	UI 资源	viewSettingSave.uxc：视图/资源文件
+/usr	/usr/share/app/viewExtFlashPopUpSettings.uxc	936	data	data	UI 资源	viewExtFlashPopUpSettings.uxc：视图/资源文件
+/usr	/usr/share/app/viewWiredLanSetting.uxc	5448	data	data	UI 资源	viewWiredLanSetting.uxc：视图/资源文件
+/usr	/usr/share/app/viewRating.uxc	6624	data	data	UI 资源	viewRating.uxc：视图/资源文件
+/usr	/usr/share/app/string_swedish.uxc	405012	data	data	UI 资源	string_swedish.uxc：视图/资源文件
+/usr	/usr/share/app/viewGroupSelectionCalendar.uxc	4452	data	data	UI 资源	viewGroupSelectionCalendar.uxc：视图/资源文件
+/usr	/usr/share/app/viewmovierecpatch.uxc	41716	data	data	UI 资源	viewmovierecpatch.uxc：视图/资源文件
+/usr	/usr/share/app/viewPanoramaMode.uxc	912	data	data	UI 资源	viewPanoramaMode.uxc：视图/资源文件
+/usr	/usr/share/app/image_Fn_Menu_43.uxc	148160	data	data	UI 资源	image_Fn_Menu_43.uxc：视图/资源文件
+/usr	/usr/share/app/viewGpsTest.uxc	440	data	data	UI 资源	viewGpsTest.uxc：视图/资源文件
+/usr	/usr/share/app/viewSinglePb4K.uxc	2360	data	data	UI 资源	viewSinglePb4K.uxc：视图/资源文件
+/usr	/usr/share/app/viewIntervalSetting.uxc	2708	data	data	UI 资源	viewIntervalSetting.uxc：视图/资源文件
+/usr	/usr/share/app/string_german.uxc	440712	data	data	UI 资源	string_german.uxc：视图/资源文件
+/usr	/usr/share/app/lang_cmn.uxc	1048	data	data	UI 资源	lang_cmn.uxc：视图/资源文件
+/usr	/usr/share/app/viewFocusMagnification.uxc	7820	data	data	UI 资源	viewFocusMagnification.uxc：视图/资源文件
+/usr	/usr/share/app/viewProtectSelected4Index.uxc	2808	data	data	UI 资源	viewProtectSelected4Index.uxc：视图/资源文件
+/usr	/usr/share/app/viewCalibration.uxc	1708	data	data	UI 资源	viewCalibration.uxc：视图/资源文件
+/usr	/usr/share/app/viewFocusMagnificationMovie.uxc	7776	data	data	UI 资源	viewFocusMagnificationMovie.uxc：视图/资源文件
+/usr	/usr/share/app/image_DSLR_Only_43.uxc	2390628	data	data	UI 资源	image_DSLR_Only_43.uxc：视图/资源文件
+/usr	/usr/share/app/viewSettingReset.uxc	1844	data	data	UI 资源	viewSettingReset.uxc：视图/资源文件
+/usr	/usr/share/app/viewRegisteredAfFrame.uxc	676	data	data	UI 资源	viewRegisteredAfFrame.uxc：视图/资源文件
+/usr	/usr/share/app/viewExtFlashComp.uxc	1552	data	data	UI 资源	viewExtFlashComp.uxc：视图/资源文件
+/usr	/usr/share/app/viewDpofCancelAll.uxc	1112	data	data	UI 资源	viewDpofCancelAll.uxc：视图/资源文件
+/usr	/usr/share/app/viewVolume.uxc	556	data	data	UI 资源	viewVolume.uxc：视图/资源文件
+/usr	/usr/share/app/viewRichHelpGuide.uxc	2552	data	data	UI 资源	viewRichHelpGuide.uxc：视图/资源文件
+/usr	/usr/share/app/viewUpdateRootCertificate.uxc	1372	data	data	UI 资源	viewUpdateRootCertificate.uxc：视图/资源文件
+/usr	/usr/share/app/viewShutterSpeed.uxc	772	data	data	UI 资源	viewShutterSpeed.uxc：视图/资源文件
+/usr	/usr/share/app/color_cmn.uxc	312	data	data	UI 资源	color_cmn.uxc：视图/资源文件
+/usr	/usr/share/app/viewExecuteConfirmDlg.uxc	700	data	data	UI 资源	viewExecuteConfirmDlg.uxc：视图/资源文件
+/usr	/usr/share/app/viewAutoSelection.uxc	868	data	data	UI 资源	viewAutoSelection.uxc：视图/资源文件
+/usr	/usr/share/app/string_hungarian.uxc	451560	data	data	UI 资源	string_hungarian.uxc：视图/资源文件
+/usr	/usr/share/app/viewUsbAuto.uxc	5580	data	data	UI 资源	viewUsbAuto.uxc：视图/资源文件
+/usr	/usr/share/app/viewRecCustomReset.uxc	192	data	data	UI 资源	viewRecCustomReset.uxc：视图/资源文件
+/usr	/usr/share/app/viewCommonDedicatedScreenBase.uxc	132	data	data	UI 资源	viewCommonDedicatedScreenBase.uxc：视图/资源文件
+/usr	/usr/share/app/viewFocusArea_C.uxc	2552	data	data	UI 资源	viewFocusArea_C.uxc：视图/资源文件
+/usr	/usr/share/app/viewViewOnTVForSlideShow.uxc	1852	data	data	UI 资源	viewViewOnTVForSlideShow.uxc：视图/资源文件
+/usr	/usr/share/app/area_check_data.dat	699210	data	data	UI 资源	area_check_data.dat：视图/资源文件
+/usr	/usr/share/app/viewExtFlashLevel.uxc	1280	data	data	UI 资源	viewExtFlashLevel.uxc：视图/资源文件
+/usr	/usr/share/app/viewQuickNavi.uxc	8996	data	data	UI 资源	viewQuickNavi.uxc：视图/资源文件
+/usr	/usr/share/app/viewDgtlZoomSetting.uxc	1940	data	data	UI 资源	viewDgtlZoomSetting.uxc：视图/资源文件
+/usr	/usr/share/app/string_danish.uxc	411516	data	data	UI 资源	string_danish.uxc：视图/资源文件
+/usr	/usr/share/app/viewViewOnTVForConnect.uxc	2372	data	data	UI 资源	viewViewOnTVForConnect.uxc：视图/资源文件
+/usr	/usr/share/app/viewFormat.uxc	1348	data	data	UI 资源	viewFormat.uxc：视图/资源文件
+/usr	/usr/share/app/viewDeleteThisConfirm4Index.uxc	268	data	data	UI 资源	viewDeleteThisConfirm4Index.uxc：视图/资源文件
+/usr	/usr/share/app/viewFtpFunction.uxc	1776	data	data	UI 资源	viewFtpFunction.uxc：视图/资源文件
+/usr	/usr/share/app/viewresetRegisteredAfFrame.uxc	1060	data	data	UI 资源	viewresetRegisteredAfFrame.uxc：视图/资源文件
+/usr	/usr/share/app/viewFtpTransfer.uxc	4060	data	data	UI 资源	viewFtpTransfer.uxc：视图/资源文件
+/usr	/usr/share/app/viewSendSelected4IndexFtp.uxc	10200	data	data	UI 资源	viewSendSelected4IndexFtp.uxc：视图/资源文件
+/usr	/usr/share/app/string_romanian.uxc	425216	data	data	UI 资源	string_romanian.uxc：视图/资源文件
+/usr	/usr/share/app/viewKeyboard.uxc	13816	data	data	UI 资源	viewKeyboard.uxc：视图/资源文件
+/usr	/usr/share/app/viewObjecttrackingBase.uxc	1132	data	data	UI 资源	viewObjecttrackingBase.uxc：视图/资源文件
+/usr	/usr/share/app/viewStlrec.uxc	30836	data	data	UI 资源	viewStlrec.uxc：视图/资源文件
+/usr	/usr/share/app/Sony_DI_Icons.ttf	619664	data	SIMH tape data	UI 资源	Sony_DI_Icons.ttf：视图/资源文件
+/usr	/usr/share/app/string_arabic.uxc	581368	data	data	UI 资源	string_arabic.uxc：视图/资源文件
+/usr	/usr/share/app/viewIndexPb.uxc	2948	data	data	UI 资源	viewIndexPb.uxc：视图/资源文件
+/usr	/usr/share/app/viewAreaSet.uxc	1172	data	data	UI 资源	viewAreaSet.uxc：视图/资源文件
+/usr	/usr/share/app/viewSendToComputer.uxc	5708	data	data	UI 资源	viewSendToComputer.uxc：视图/资源文件
+/usr	/usr/share/app/viewBaseMenu.uxc	84	data	data	UI 资源	viewBaseMenu.uxc：视图/资源文件
+/usr	/usr/share/app/string_brazilianportuguese.uxc	409024	data	data	UI 资源	string_brazilianportuguese.uxc：视图/资源文件
+/usr	/usr/share/app/viewSetupCustomFunction.uxc	1356	data	data	UI 资源	viewSetupCustomFunction.uxc：视图/资源文件
+/usr	/usr/share/app/string_english.uxc	392684	data	data	UI 资源	string_english.uxc：视图/资源文件
+/usr	/usr/share/app/viewSoftSkin.uxc	1648	data	data	UI 资源	viewSoftSkin.uxc：视图/资源文件
+/usr	/usr/share/app/viewDateSet.uxc	1440	data	data	UI 资源	viewDateSet.uxc：视图/资源文件
+/usr	/usr/share/app/viewExtFlashFnSetting.uxc	32732	data	data	UI 资源	viewExtFlashFnSetting.uxc：视图/资源文件
+/usr	/usr/share/app/viewFtpServer.uxc	6712	data	data	UI 资源	viewFtpServer.uxc：视图/资源文件
+/usr	/usr/share/app/viewPlayingMedia_D.uxc	1216	data	data	UI 资源	viewPlayingMedia_D.uxc：视图/资源文件
+/usr	/usr/share/app/UniversOTS-SJ_wIcon.ltt	611416	data	data	UI 资源	UniversOTS-SJ_wIcon.ltt：视图/资源文件
+/usr	/usr/share/app/viewSendSelected4SingleFtp.uxc	15208	data	data	UI 资源	viewSendSelected4SingleFtp.uxc：视图/资源文件
+/usr	/usr/share/app/viewNtscPalSEL_D.uxc	700	data	data	UI 资源	viewNtscPalSEL_D.uxc：视图/资源文件
+/usr	/usr/share/app/master_camera.uxc	101600	data	data	UI 资源	master_camera.uxc：视图/资源文件
+/usr	/usr/share/app/viewAutoPowerOff.uxc	132	data	data	UI 资源	viewAutoPowerOff.uxc：视图/资源文件
+/usr	/usr/share/app/viewIroiroCon.uxc	22648	data	data	UI 资源	viewIroiroCon.uxc：视图/资源文件
+/usr	/usr/share/app/viewDpofSetting.uxc	1336	data	data	UI 资源	viewDpofSetting.uxc：视图/资源文件
+/usr	/usr/share/app/viewUbPreset.uxc	644	data	data	UI 资源	viewUbPreset.uxc：视图/资源文件
+/usr	/usr/share/app/string_simplifiedchinese.uxc	349956	data	data	UI 资源	string_simplifiedchinese.uxc：视图/资源文件
+/usr	/usr/share/app/viewGpsTracker.uxc	4344	data	data	UI 资源	viewGpsTracker.uxc：视图/资源文件
+/usr	/usr/share/app/viewDpofPhotoBookSelected4Index.uxc	2700	data	data	UI 资源	viewDpofPhotoBookSelected4Index.uxc：视图/资源文件
+/usr	/usr/share/app/viewZoomPb.uxc	2756	data	data	UI 资源	viewZoomPb.uxc：视图/资源文件
+/usr	/usr/share/app/viewSmileShutter.uxc	1468	data	data	UI 资源	viewSmileShutter.uxc：视图/资源文件
+/usr	/usr/share/app/viewDeleteThis4Index.uxc	216	data	data	UI 资源	viewDeleteThis4Index.uxc：视图/资源文件
+/usr	/usr/share/app/viewStillImageSize.uxc	2056	data	data	UI 资源	viewStillImageSize.uxc：视图/资源文件
+/usr	/usr/share/app/string_croatian.uxc	393152	data	data	UI 资源	string_croatian.uxc：视图/资源文件
+/usr	/usr/share/app/viewSlowquickFrameRate.uxc	1092	data	data	UI 资源	viewSlowquickFrameRate.uxc：视图/资源文件
+/usr	/usr/share/app/string_polish.uxc	435648	data	data	UI 资源	string_polish.uxc：视图/资源文件
+/usr	/usr/share/app/viewTcPreset.uxc	936	data	data	UI 资源	viewTcPreset.uxc：视图/资源文件
+/usr	/usr/share/app/viewPanoramaPb.uxc	3496	data	data	UI 资源	viewPanoramaPb.uxc：视图/资源文件
+/usr	/usr/share/app/viewViewOnTVForSlideShowSetting.uxc	2236	data	data	UI 资源	viewViewOnTVForSlideShowSetting.uxc：视图/资源文件
+/usr	/usr/share/app/viewDpofPhotoBookSelected4Single.uxc	4528	data	data	UI 资源	viewDpofPhotoBookSelected4Single.uxc：视图/资源文件
+/usr	/usr/share/app/viewAccessPoint.uxc	27228	data	data	UI 资源	viewAccessPoint.uxc：视图/资源文件
+/usr	/usr/share/app/viewObjectTracking.uxc	1120	data	data	UI 资源	viewObjectTracking.uxc：视图/资源文件
+/usr	/usr/share/app/viewEvfBrightness.uxc	1312	data	data	UI 资源	viewEvfBrightness.uxc：视图/资源文件
+/usr	/usr/share/app/viewMonitorBrightness.uxc	1352	data	data	UI 资源	viewMonitorBrightness.uxc：视图/资源文件
+/usr	/usr/share/app/string_portuguese.uxc	428776	data	data	UI 资源	string_portuguese.uxc：视图/资源文件
+/usr	/usr/share/app/viewCreativeStyle.uxc	1504	data	data	UI 资源	viewCreativeStyle.uxc：视图/资源文件
+/usr	/usr/share/app/viewEpo.uxc	2620	data	data	UI 资源	viewEpo.uxc：视图/资源文件
+/usr	/usr/share/app/viewWaterProof.uxc	1256	data	data	UI 资源	viewWaterProof.uxc：视图/资源文件
+/usr	/usr/share/app/viewImageRotate.uxc	1228	data	data	UI 资源	viewImageRotate.uxc：视图/资源文件
+/usr	/usr/share/app/viewMediaCopy.uxc	3068	data	data	UI 资源	viewMediaCopy.uxc：视图/资源文件
+/usr	/usr/share/app/viewMeteringmode.uxc	1072	data	data	UI 资源	viewMeteringmode.uxc：视图/资源文件
+/usr	/usr/share/app/lang.uxb	2896	data	data	UI 资源	lang.uxb：视图/资源文件
+/usr	/usr/share/app/viewManualRepairForPlay.uxc	2684	data	data	UI 资源	viewManualRepairForPlay.uxc：视图/资源文件
+/usr	/usr/share/app/viewUsbMassStorage.uxc	5296	data	data	UI 资源	viewUsbMassStorage.uxc：视图/资源文件
+/usr	/usr/share/app/viewAnimation360.uxc	588	data	data	UI 资源	viewAnimation360.uxc：视图/资源文件
+/usr	/usr/share/app/string_russian.uxc	685756	data	data	UI 资源	string_russian.uxc：视图/资源文件
+/usr	/usr/share/app/viewWlanTest.uxc	1968	data	data	UI 资源	viewWlanTest.uxc：视图/资源文件
+/usr	/usr/share/app/view3DPb.uxc	748	data	data	UI 资源	view3DPb.uxc：视图/资源文件
+/usr	/usr/share/app/IRShooting.uxc	7124	data	data	UI 资源	IRShooting.uxc：视图/资源文件
+/usr	/usr/share/app/master_network.uxc	35584	data	data	UI 资源	master_network.uxc：视图/资源文件
+/usr	/usr/share/app/viewProtectSelected4Single.uxc	3972	data	data	UI 资源	viewProtectSelected4Single.uxc：视图/资源文件
+/usr	/usr/share/app/viewManualRepair.uxc	2992	data	data	UI 资源	viewManualRepair.uxc：视图/资源文件
+/usr	/usr/share/app/viewCertificationLogo.uxc	428	data	data	UI 资源	viewCertificationLogo.uxc：视图/资源文件
+/usr	/usr/share/app/viewIREditOne.uxc	14360	data	data	UI 资源	viewIREditOne.uxc：视图/资源文件
+/usr	/usr/share/app/viewSnapShotBoot.uxc	132	data	data	UI 资源	viewSnapShotBoot.uxc：视图/资源文件
+/usr	/usr/share/app/viewLcdBrightness.uxc	1036	data	data	UI 资源	viewLcdBrightness.uxc：视图/资源文件
+/usr	/usr/share/app/viewPanoramaStl.uxc	44864	data	data	UI 资源	viewPanoramaStl.uxc：视图/资源文件
+/usr	/usr/share/app/viewSendSelected4Index.uxc	2796	data	data	UI 资源	viewSendSelected4Index.uxc：视图/资源文件
+/usr	/usr/share/app/viewSendToSmartphone.uxc	11304	data	data	UI 资源	viewSendToSmartphone.uxc：视图/资源文件
+/usr	/usr/share/app/viewAudioRecLevel_D.uxc	868	data	data	UI 资源	viewAudioRecLevel_D.uxc：视图/资源文件
+/usr	/usr/share/app/viewInitialSetting.uxc	8072	data	data	UI 资源	viewInitialSetting.uxc：视图/资源文件
+/usr	/usr/share/app/viewGroupSelectionFolder.uxc	3044	data	data	UI 资源	viewGroupSelectionFolder.uxc：视图/资源文件
+/usr	/usr/share/app/image_DSC_Entry_Only_43.uxc	538680	data	data	UI 资源	image_DSC_Entry_Only_43.uxc：视图/资源文件
+/usr	/usr/share/app/string_turkish.uxc	423720	data	data	UI 资源	string_turkish.uxc：视图/资源文件
+/usr	/usr/share/app/string_thai.uxc	850416	data	data	UI 资源	string_thai.uxc：视图/资源文件
+/usr	/usr/share/app/string_greek.uxc	718396	data	data	UI 资源	string_greek.uxc：视图/资源文件
+/usr	/usr/share/app/viewViewOnTVForSinglePb.uxc	1808	data	data	UI 资源	viewViewOnTVForSinglePb.uxc：视图/资源文件
+/usr	/usr/share/app/viewRatingLimitSetting.uxc	2152	data	data	UI 资源	viewRatingLimitSetting.uxc：视图/资源文件
+/usr	/usr/share/app/string_dutch.uxc	430864	data	data	UI 资源	string_dutch.uxc：视图/资源文件
+/usr	/usr/share/app/viewRecRecordingMedia.uxc	1820	data	data	UI 资源	viewRecRecordingMedia.uxc：视图/资源文件
+/usr	/usr/share/app/viewIsoAutoMinSS.uxc	684	data	data	UI 资源	viewIsoAutoMinSS.uxc：视图/资源文件
+/usr	/usr/share/app/image_cmn_43.uxc	26481288	data	data	UI 资源	image_cmn_43.uxc：视图/资源文件
+/usr	/usr/share/app/viewShootingInfoDisp.uxc	2452	data	data	UI 资源	viewShootingInfoDisp.uxc：视图/资源文件
+/usr	/usr/share/app/viewProtectAll.uxc	1164	data	data	UI 资源	viewProtectAll.uxc：视图/资源文件
+/usr	/usr/share/app/string_traditionalchinese.uxc	352312	data	data	UI 资源	string_traditionalchinese.uxc：视图/资源文件
+/usr	/usr/share/app/viewSelectTransferType.uxc	1208	data	data	UI 资源	viewSelectTransferType.uxc：视图/资源文件
+/usr	/usr/share/app/viewFlash.uxc	1320	data	data	UI 资源	viewFlash.uxc：视图/资源文件
+/usr	/usr/share/app/viewUsbRemotePc.uxc	772	data	data	UI 资源	viewUsbRemotePc.uxc：视图/资源文件
+/usr	/usr/share/app/viewGenKeyboard.uxc	11900	data	data	UI 资源	viewGenKeyboard.uxc：视图/资源文件
+/usr	/usr/share/app/viewRecDriveMode.uxc	1320	data	data	UI 资源	viewRecDriveMode.uxc：视图/资源文件
+/usr	/usr/share/app/string_malay.uxc	405264	data	data	UI 资源	string_malay.uxc：视图/资源文件
+/usr	/usr/share/app/viewSelectContentType.uxc	1512	data	data	UI 资源	viewSelectContentType.uxc：视图/资源文件
+/usr	/usr/share/app/viewCleaningMode.uxc	556	data	data	UI 资源	viewCleaningMode.uxc：视图/资源文件
+/usr	/usr/share/app/viewFnMenu.uxc	6712	data	data	UI 资源	viewFnMenu.uxc：视图/资源文件
+/usr	/usr/share/app/viewAfTrackingSpeed.uxc	1288	data	data	UI 资源	viewAfTrackingSpeed.uxc：视图/资源文件
+/usr	/usr/share/app/viewFocusRangeLimiter.uxc	708	data	data	UI 资源	viewFocusRangeLimiter.uxc：视图/资源文件
+/usr	/usr/share/app/HeiseiKakuGothW5-SJ_wIcon.ltt	851496	data	data	UI 资源	HeiseiKakuGothW5-SJ_wIcon.ltt：视图/资源文件
+/usr	/usr/share/app/viewCustomWB.uxc	2652	data	data	UI 资源	viewCustomWB.uxc：视图/资源文件
+/usr	/usr/share/app/viewDemoMoviePb.uxc	552	data	data	UI 资源	viewDemoMoviePb.uxc：视图/资源文件
+/usr	/usr/share/app/viewCustomZebra.uxc	1440	data	data	UI 资源	viewCustomZebra.uxc：视图/资源文件
+/usr	/usr/share/app/viewUsbMTP.uxc	5420	data	data	UI 资源	viewUsbMTP.uxc：视图/资源文件
+/usr	/usr/share/app/viewMotionAdjustment.uxc	1512	data	data	UI 资源	viewMotionAdjustment.uxc：视图/资源文件
+/usr	/usr/share/app/viewRecSteadyShot.uxc	2156	data	data	UI 资源	viewRecSteadyShot.uxc：视图/资源文件
+/usr	/usr/share/app/viewBatteryAuthentication.uxc	320	data	data	UI 资源	viewBatteryAuthentication.uxc：视图/资源文件
+/usr	/usr/share/app/viewEvfAdjustment_D.uxc	944	data	data	UI 资源	viewEvfAdjustment_D.uxc：视图/资源文件
+/usr	/usr/share/app/viewRemoteCameraControl.uxc	8264	data	data	UI 资源	viewRemoteCameraControl.uxc：视图/资源文件
+/usr	/usr/share/app/string_bulgarian.uxc	628772	data	data	UI 资源	string_bulgarian.uxc：视图/资源文件
+/usr	/usr/share/app/string_indonesia.uxc	385860	data	data	UI 资源	string_indonesia.uxc：视图/资源文件
+/usr	/usr/share/app/viewGlobalMenu.uxc	3316	data	data	UI 资源	viewGlobalMenu.uxc：视图/资源文件
+/usr	/usr/share/app/viewDummyBaseView.uxc	132	data	data	UI 资源	viewDummyBaseView.uxc：视图/资源文件
+/usr	/usr/share/app/viewPhotoCapture.uxc	440	data	data	UI 资源	viewPhotoCapture.uxc：视图/资源文件
+/usr	/usr/share/app/viewFocusControl.uxc	1364	data	data	UI 资源	viewFocusControl.uxc：视图/资源文件
+/usr	/usr/share/app/viewPrivacyNotice.uxc	760	data	data	UI 资源	viewPrivacyNotice.uxc：视图/资源文件
+/usr	/usr/share/app/viewDeleteAllIn4Single.uxc	1108	data	data	UI 资源	viewDeleteAllIn4Single.uxc：视图/资源文件
+/usr	/usr/share/app/viewAutoPlaySetting.uxc	1308	data	data	UI 资源	viewAutoPlaySetting.uxc：视图/资源文件
+/usr	/usr/share/app/string_norwegian.uxc	401332	data	data	UI 资源	string_norwegian.uxc：视图/资源文件
+/usr	/usr/share/app/string_spanish.uxc	442400	data	data	UI 资源	string_spanish.uxc：视图/资源文件
+/usr	/usr/share/app/viewArtFilter.uxc	1180	data	data	UI 资源	viewArtFilter.uxc：视图/资源文件
+/usr	/usr/share/app/viewCreateFolder.uxc	412	data	data	UI 资源	viewCreateFolder.uxc：视图/资源文件
+/usr	/usr/share/app/viewManualControlDial_D.uxc	10396	data	data	UI 资源	viewManualControlDial_D.uxc：视图/资源文件
+/usr	/usr/share/app/viewAfAdjustment.uxc	1476	data	data	UI 资源	viewAfAdjustment.uxc：视图/资源文件
+/usr	/usr/share/app/viewIndividualRecognition.uxc	2112	data	data	UI 资源	viewIndividualRecognition.uxc：视图/资源文件
+/usr	/usr/share/app/string_japanese.uxc	487628	data	data	UI 资源	string_japanese.uxc：视图/资源文件
+/usr	/usr/share/app/viewFtpSettingTransfer.uxc	440	data	data	UI 资源	viewFtpSettingTransfer.uxc：视图/资源文件
+/usr	/usr/share/app/viewZoomAssist.uxc	3052	data	data	UI 资源	viewZoomAssist.uxc：视图/资源文件
+/usr	/usr/share/app/string_persian.uxc	631244	data	data	UI 资源	string_persian.uxc：视图/资源文件
+/usr	/usr/share/app/LayoutMaster_Menu.uxc	3512	data	data	UI 资源	LayoutMaster_Menu.uxc：视图/资源文件
+/usr	/usr/share/app/viewAutoDualRec.uxc	944	data	data	UI 资源	viewAutoDualRec.uxc：视图/资源文件
+/usr	/usr/share/app/view24pMode.uxc	748	data	data	UI 资源	view24pMode.uxc：视图/资源文件
+/usr	/usr/share/app/viewPictureEffectPb_C.uxc	2380	data	data	UI 资源	viewPictureEffectPb_C.uxc：视图/资源文件
+/usr	/usr/share/app/string_vietnamese.uxc	468272	data	data	UI 资源	string_vietnamese.uxc：视图/资源文件
+/usr	/usr/share/app/viewSLogDispAssist.uxc	848	data	data	UI 资源	viewSLogDispAssist.uxc：视图/资源文件
+/usr	/usr/share/app/viewFocusSet.uxc	4668	data	data	UI 资源	viewFocusSet.uxc：视图/资源文件
+/usr	/usr/share/app/viewDummyBlack.uxc	148	data	data	UI 资源	viewDummyBlack.uxc：视图/资源文件
+/usr	/usr/share/app/viewNoImage.uxc	2440	data	data	UI 资源	viewNoImage.uxc：视图/资源文件
+/usr	/usr/share/app/viewSalvageRestore.uxc	1040	data	data	UI 资源	viewSalvageRestore.uxc：视图/资源文件
+/usr	/usr/share/app/string_hindi.uxc	892376	data	data	UI 资源	string_hindi.uxc：视图/资源文件
+/usr	/usr/share/app/viewStillImageQuality.uxc	1004	data	data	UI 资源	viewStillImageQuality.uxc：视图/资源文件
+/usr	/usr/share/app/viewLensRing.uxc	2416	data	data	UI 资源	viewLensRing.uxc：视图/资源文件
+/usr	/usr/share/app/viewFlashLevel.uxc	1344	data	data	UI 资源	viewFlashLevel.uxc：视图/资源文件
+/usr	/usr/share/app/string_ukrainian.uxc	642728	data	data	UI 资源	string_ukrainian.uxc：视图/资源文件
+/usr	/usr/share/app/viewPortraitFraming.uxc	1248	data	data	UI 资源	viewPortraitFraming.uxc：视图/资源文件
+/usr	/usr/share/app/viewRootPowerSw.uxc	2192	data	data	UI 资源	viewRootPowerSw.uxc：视图/资源文件
+/usr	/usr/share/app/viewMoviePreview.uxc	3088	data	data	UI 资源	viewMoviePreview.uxc：视图/资源文件
+/usr	/usr/share/app/viewSelfTimerOnBracket.uxc	940	data	data	UI 资源	viewSelfTimerOnBracket.uxc：视图/资源文件
+/usr	/usr/share/app/viewAspectRatio.uxc	1424	data	data	UI 资源	viewAspectRatio.uxc：视图/资源文件
+/usr	/usr/share/app/viewUserUpdate.uxc	720	data	data	UI 资源	viewUserUpdate.uxc：视图/资源文件
+/usr	/usr/share/app/viewFtpResult.uxc	5120	data	data	UI 资源	viewFtpResult.uxc：视图/资源文件
+/usr	/usr/share/app/viewWidgetTest.uxc	120	data	data	UI 资源	viewWidgetTest.uxc：视图/资源文件
+/usr	/usr/share/app/viewTcUbReset.uxc	196	data	data	UI 资源	viewTcUbReset.uxc：视图/资源文件
+/usr	/usr/share/app/viewFtpTransferring.uxc	2440	data	data	UI 资源	viewFtpTransferring.uxc：视图/资源文件
+/usr	/usr/share/app/image_EVF.uxc	2860588	data	data	UI 资源	image_EVF.uxc：视图/资源文件
+/usr	/usr/share/app/viewDeleteSelected4Single.uxc	4412	data	data	UI 资源	viewDeleteSelected4Single.uxc：视图/资源文件
+/usr	/usr/share/app/viewRecallShootSet.uxc	3084	data	data	UI 资源	viewRecallShootSet.uxc：视图/资源文件
+/usr	/usr/share/app/viewCaution.uxc	7640	data	data	UI 资源	viewCaution.uxc：视图/资源文件
+/usr	/usr/share/app/string_italian.uxc	455888	data	data	UI 资源	string_italian.uxc：视图/资源文件
+/usr	/usr/share/app/viewMediaFileMgmt.uxc	1652	data	data	UI 资源	viewMediaFileMgmt.uxc：视图/资源文件
+/usr	/usr/share/app/viewBluetoothPairing.uxc	6984	data	data	UI 资源	viewBluetoothPairing.uxc：视图/资源文件
+/usr	/usr/share/app/string_canadianfrench.uxc	267744	data	data	UI 资源	string_canadianfrench.uxc：视图/资源文件
+/usr	/usr/share/app/viewAutoRepair.uxc	2104	data	data	UI 资源	viewAutoRepair.uxc：视图/资源文件
+/usr	/usr/share/app/MYingHeiC-KSX1001-SJ_wIcon.ltt	924104	data	data	UI 资源	MYingHeiC-KSX1001-SJ_wIcon.ltt：视图/资源文件
+/usr	/usr/share/app/viewFocusMode.uxc	1128	data	data	UI 资源	viewFocusMode.uxc：视图/资源文件
+/usr	/usr/share/app/viewDeleteSelected4Index.uxc	2736	data	data	UI 资源	viewDeleteSelected4Index.uxc：视图/资源文件
+/usr	/usr/share/app/viewDro.uxc	1392	data	data	UI 资源	viewDro.uxc：视图/资源文件
+/usr	/usr/share/app/image_DSC_Only_43.uxc	10660796	data	data	UI 资源	image_DSC_Only_43.uxc：视图/资源文件
+/usr	/usr/share/pmbp/DeviceInfo.xml	517	data	XML 1.0 document, ASCII text, with CRLF line terminators	PMBP	PMBP 资源
+/usr	/usr/share/terminfo/l/linux	1730	data	Compiled terminfo entry "linux"	终端	terminfo 数据库
+/usr	/usr/share/data/kikilog_pub.pem	625	data	ASCII text	数据资源	通用数据
+/usr	/usr/tool/libjemalloc.so	115504	symlink	symlink -> libjemalloc_tsh.so.1	符号链接	指向 libjemalloc_tsh.so.1
+/usr	/usr/tool/LeakTracer.so	31128	elf	ELF DYN (Shared object file) ARM	调试工具	泄漏检查/jemalloc
+/usr	/usr/tool/LeakCheck	689	script	POSIX shell script, ASCII text executable	调试工具	泄漏检查/jemalloc
+/usr	/usr/tool/libjemalloc_tsh.so.1	115504	elf	ELF DYN (Shared object file) ARM	调试工具	泄漏检查/jemalloc
+/usr	/usr/tool/libjemalloc_tsh.so	115504	symlink	symlink -> libjemalloc_tsh.so.1	符号链接	指向 libjemalloc_tsh.so.1
+/usr	/usr/sabin/spica_musashi_dualrec_c_tap_step2.bin	40000	data	data	DSP 固件	spica_musashi_dualrec_c_tap_step2.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_bayes_tracker_edge.bin	98180	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_bayes_tracker_edge.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_tbox.bin	77828	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_tbox.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_jpeg_dec_1core.bin	10756	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_jpeg_dec_1core.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_ac3dec.bin	380804	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_ac3dec.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_aaclcdec.bin	286468	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_aaclcdec.bin：加速器/编码固件数据
+/usr	/usr/sabin/dcv_psf_table_movie.bin	10728	data	data	DSP 固件	dcv_psf_table_movie.bin：加速器/编码固件数据
+/usr	/usr/sabin/dcv_psf_table_still.bin	57848	data	data	DSP 固件	dcv_psf_table_still.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_mov_c_tap_step2.bin	40000	data	data	DSP 固件	spica_musashi_mov_c_tap_step2.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_replacer.bin	28676	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_replacer.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_drt.bin	113284	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_drt.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_mov_4k_c_tap_step2.bin	40000	data	data	DSP 固件	spica_musashi_mov_4k_c_tap_step2.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_jpeg_enc_1core.bin	13956	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_jpeg_enc_1core.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_mov_y_tap_step1.bin	48000	data	data	DSP 固件	spica_musashi_mov_y_tap_step1.bin：加速器/编码固件数据
+/usr	/usr/sabin/dcv_psf_table_movie_bayer.bin	18288	data	data	DSP 固件	dcv_psf_table_movie_bayer.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_mov_4k_y_tap_step2.bin	48000	data	data	DSP 固件	spica_musashi_mov_4k_y_tap_step2.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_bayes_tracker.bin	71044	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_bayes_tracker.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_avce_performance_plus_zma.bin	228228	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_avce_performance_plus_zma.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_avcd_compatible_zma.bin	86532	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_avcd_compatible_zma.bin：加速器/编码固件数据
+/usr	/usr/sabin/drt_dic.bin	53428	data	data	DSP 固件	drt_dic.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_zma_lpcmdec.bin	153860	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_zma_lpcmdec.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_still_c_tap_step2.bin	40000	data	data	DSP 固件	spica_musashi_still_c_tap_step2.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_lfnr_zma0.bin	22660	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_lfnr_zma0.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_bd_lpcmenc.bin	65284	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_bd_lpcmenc.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_sweep_panorama.bin	19076	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_sweep_panorama.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_dualrec_c_tap_step1.bin	40000	data	data	DSP 固件	spica_musashi_dualrec_c_tap_step1.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_rotate90.bin	3972	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_rotate90.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_mov_4k_c_tap_step1.bin	40000	data	data	DSP 固件	spica_musashi_mov_4k_c_tap_step1.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_mov_interlace_c_tap_step1.bin	40000	data	data	DSP 固件	spica_musashi_mov_interlace_c_tap_step1.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_dualrec_4k_y_tap_step2.bin	48000	data	data	DSP 固件	spica_musashi_dualrec_4k_y_tap_step2.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_star.bin	471940	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_star.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_frc2.bin	62084	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_frc2.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_integenc.bin	380804	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_integenc.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_dualrec_y_tap_step1.bin	48000	data	data	DSP 固件	spica_musashi_dualrec_y_tap_step1.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_zima_startup_minna.bin	3204	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_zima_startup_minna.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_avce_quality_zma.bin	231044	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_avce_quality_zma.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_zphdefdet.bin	18820	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_zphdefdet.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_ac3enc_ac3dec.bin	474884	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_ac3enc_ac3dec.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_jpeg_dec_1unit.bin	11012	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_jpeg_dec_1unit.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_dualrec_4k_c_tap_step2.bin	40000	data	data	DSP 固件	spica_musashi_dualrec_4k_c_tap_step2.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_aed.bin	1080708	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_aed.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_aes_sha2.bin	54020	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_aes_sha2.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_mov_c_tap_step1.bin	40000	data	data	DSP 固件	spica_musashi_mov_c_tap_step1.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_defect.bin	37124	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_defect.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_dualrec_y_tap_step2.bin	48000	data	data	DSP 固件	spica_musashi_dualrec_y_tap_step2.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_bdro2_bdex.bin	53508	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_bdro2_bdex.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_zima_startup_zma1.bin	3204	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_zima_startup_zma1.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_kknr.bin	66308	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_kknr.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_aaclcenc_aaclcdec.bin	500740	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_aaclcenc_aaclcdec.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_apollo.bin	241412	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_apollo.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_zima_startup_zma0.bin	3204	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_zima_startup_zma0.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_fec_enc32.bin	16772	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_fec_enc32.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_dualrec_4k_y_tap_step1.bin	48000	data	data	DSP 固件	spica_musashi_dualrec_4k_y_tap_step1.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_avcd_performance_zma.bin	68100	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_avcd_performance_zma.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_dd51enc.bin	302852	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_dd51enc.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_dfdet.bin	156292	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_dfdet.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_staple.bin	86788	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_staple.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_shapep.bin	3076	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_shapep.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_spica.bin	23428	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_spica.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_avce_performance_zma.bin	227332	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_avce_performance_zma.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_dtcf.bin	67204	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_dtcf.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_integdec.bin	350724	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_integdec.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_zoom_nr.bin	94212	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_zoom_nr.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_aaclcenc.bin	220932	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_aaclcenc.bin：加速器/编码固件数据
+/usr	/usr/sabin/dcv_psf_table_movie_4k.bin	10728	data	data	DSP 固件	dcv_psf_table_movie_4k.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_pcmcc.bin	17028	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_pcmcc.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_mov_y_tap_step2.bin	48000	data	data	DSP 固件	spica_musashi_mov_y_tap_step2.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_still_c_tap_step1.bin	40000	data	data	DSP 固件	spica_musashi_still_c_tap_step1.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_lfnr_minna0.bin	22660	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_lfnr_minna0.bin：加速器/编码固件数据
+/usr	/usr/sabin/star_kernel_param.bin	19338	data	data	DSP 固件	star_kernel_param.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_seg.bin	53252	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_seg.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_smod.bin	80516	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_smod.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_mov_interlace_y_tap_step1.bin	48000	data	data	DSP 固件	spica_musashi_mov_interlace_y_tap_step1.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_dcv.bin	18564	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_dcv.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_mov_4k_y_tap_step1.bin	48000	data	data	DSP 固件	spica_musashi_mov_4k_y_tap_step1.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_nlap.bin	22276	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_nlap.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_cecil.bin	36228	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_cecil.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_zima_startup_minna1.bin	3204	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_zima_startup_minna1.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_dualrec_4k_c_tap_step1.bin	40000	data	data	DSP 固件	spica_musashi_dualrec_4k_c_tap_step1.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_still_y_tap_step2.bin	48000	data	data	DSP 固件	spica_musashi_still_y_tap_step2.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_sftfcs.bin	43908	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_sftfcs.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_jpeg_enc_1unit.bin	22532	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_jpeg_enc_1unit.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_motionshot.bin	84868	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_motionshot.bin：加速器/编码固件数据
+/usr	/usr/sabin/spica_musashi_still_y_tap_step1.bin	48000	data	data	DSP 固件	spica_musashi_still_y_tap_step1.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_udrt.bin	114564	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_udrt.bin：加速器/编码固件数据
+/usr	/usr/sabin/sa_lfnr_minna1.bin	22660	data	Dyalog APL mapped file 64-bit version 19.-111	DSP 固件	sa_lfnr_minna1.bin：加速器/编码固件数据
+/usr	/usr/codec/bnl_ipl.bin	20024	data	data	编解码固件	BNI/BNL/VCD 编解码器固件
+/usr	/usr/codec/bni_firmware.bin	668640	data	data	编解码固件	BNI/BNL/VCD 编解码器固件
+/usr	/usr/codec/bni_ipl.bin	19192	data	data	编解码固件	BNI/BNL/VCD 编解码器固件
+/usr	/usr/codec/vcd_firmware_testing.bin	5407600	data	AmigaOS bitmap font "", fc_YSize 0, 16 elements, 2nd "", 3rd ""	编解码固件	BNI/BNL/VCD 编解码器固件
+/usr	/usr/codec/bnl_firmware.bin	1433236	data	data	编解码固件	BNI/BNL/VCD 编解码器固件
+/usr	/usr/codec/vcd_firmware.bin	5445340	data	AmigaOS bitmap font "", fc_YSize 0, 16 elements, 2nd "", 3rd ""	编解码固件	BNI/BNL/VCD 编解码器固件
+/usr	/usr/sbin/pump	66137	elf	ELF EXEC (Executable file) ARM	系统管理	网络/管理工具
+/usr	/usr/sbin/iptables	71301	symlink	symlink -> iptables-multi	符号链接	指向 iptables-multi
+/usr	/usr/sbin/dhcpd	1544303	elf	ELF EXEC (Executable file) ARM	系统管理	网络/管理工具
+/usr	/usr/sbin/iptables-restore	71301	symlink	symlink -> iptables-multi	符号链接	指向 iptables-multi
+/usr	/usr/sbin/iptables-save	71301	symlink	symlink -> iptables-multi	符号链接	指向 iptables-multi
+/usr	/usr/sbin/iptables-multi	71301	elf	ELF EXEC (Executable file) ARM	系统管理	网络/管理工具
+/usr	/usr/sbin/tcpdump	1853209	elf	ELF EXEC (Executable file) ARM	系统管理	网络/管理工具
+/usr	/usr/scenario/CAMERA_SCN_MOVIE_REC_START.so	7096	elf	ELF DYN (Shared object file) ARM	场景模块	CAMERA_SCN_MOVIE_REC_START.so：scenario 命令实现
+/usr	/usr/scenario/AVBB_SCN_L_R_SETTING.so	4824	elf	ELF DYN (Shared object file) ARM	场景模块	AVBB_SCN_L_R_SETTING.so：scenario 命令实现
+/usr	/usr/scenario/AVBB_SCN_START_AUDIO.so	10546	elf	ELF DYN (Shared object file) ARM	场景模块	AVBB_SCN_START_AUDIO.so：scenario 命令实现
+/usr	/usr/scenario/MPR_SCN_SET_FACTORY_MODE.so	5766	elf	ELF DYN (Shared object file) ARM	场景模块	MPR_SCN_SET_FACTORY_MODE.so：scenario 命令实现
+/usr	/usr/scenario/AVBB_SCN_START_HDMI.so	20568	elf	ELF DYN (Shared object file) ARM	场景模块	AVBB_SCN_START_HDMI.so：scenario 命令实现
+/usr	/usr/scenario/AVBB_SCN_START_PANELEVF.so	13077	elf	ELF DYN (Shared object file) ARM	场景模块	AVBB_SCN_START_PANELEVF.so：scenario 命令实现
+/usr	/usr/scenario/CAMERA_SCN_SET_ZOOM_DRV.so	6453	elf	ELF DYN (Shared object file) ARM	场景模块	CAMERA_SCN_SET_ZOOM_DRV.so：scenario 命令实现
+/usr	/usr/scenario/CAMERA_SCN_FACE_REC_DATA.so	7552	elf	ELF DYN (Shared object file) ARM	场景模块	CAMERA_SCN_FACE_REC_DATA.so：scenario 命令实现
+/usr	/usr/scenario/AVBB_SCN_START_VIDEO.so	10631	elf	ELF DYN (Shared object file) ARM	场景模块	AVBB_SCN_START_VIDEO.so：scenario 命令实现
+/usr	/usr/scenario/MPR_SCN_FLASH_BACKUP_INIT.so	6141	elf	ELF DYN (Shared object file) ARM	场景模块	MPR_SCN_FLASH_BACKUP_INIT.so：scenario 命令实现
+/usr	/usr/scenario/AVBB_SCN_STOP_VIDEO.so	10388	elf	ELF DYN (Shared object file) ARM	场景模块	AVBB_SCN_STOP_VIDEO.so：scenario 命令实现
+/usr	/usr/scenario/AVBB_SCN_STOP_MICSENSE.so	10480	elf	ELF DYN (Shared object file) ARM	场景模块	AVBB_SCN_STOP_MICSENSE.so：scenario 命令实现
+/usr	/usr/scenario/AVBB_SCN_START_MIC.so	12092	elf	ELF DYN (Shared object file) ARM	场景模块	AVBB_SCN_START_MIC.so：scenario 命令实现
+/usr	/usr/scenario/AVBB_SCN_START_HDMI_INPUT.so	17367	elf	ELF DYN (Shared object file) ARM	场景模块	AVBB_SCN_START_HDMI_INPUT.so：scenario 命令实现
+/usr	/usr/scenario/CAMERA_SCN_VIDEOLIGHT_SW.so	6604	elf	ELF DYN (Shared object file) ARM	场景模块	CAMERA_SCN_VIDEOLIGHT_SW.so：scenario 命令实现
+/usr	/usr/scenario/AVBB_SCN_STOP_PANELEVF.so	10802	elf	ELF DYN (Shared object file) ARM	场景模块	AVBB_SCN_STOP_PANELEVF.so：scenario 命令实现
+/usr	/usr/scenario/CAMERA_SCN_EXTERNAL_RAW_RECORD.so	7793	elf	ELF DYN (Shared object file) ARM	场景模块	CAMERA_SCN_EXTERNAL_RAW_RECORD.so：scenario 命令实现
+/usr	/usr/scenario/AVBB_SCN_STOP_HDMI_INPUT.so	18931	elf	ELF DYN (Shared object file) ARM	场景模块	AVBB_SCN_STOP_HDMI_INPUT.so：scenario 命令实现
+/usr	/usr/scenario/AVBB_SCN_START_HDMI_SUB.so	14318	elf	ELF DYN (Shared object file) ARM	场景模块	AVBB_SCN_START_HDMI_SUB.so：scenario 命令实现
+/usr	/usr/scenario/MPR_SCN_INSTALL_MAP_DEMOMOVIE.so	148636	elf	ELF DYN (Shared object file) ARM	场景模块	MPR_SCN_INSTALL_MAP_DEMOMOVIE.so：scenario 命令实现
+/usr	/usr/scenario/AVBB_SCN_L_R_SETTING_PANELEVF.so	4832	elf	ELF DYN (Shared object file) ARM	场景模块	AVBB_SCN_L_R_SETTING_PANELEVF.so：scenario 命令实现
+/usr	/usr/scenario/AVBB_SCN_STOP_MIC.so	11833	elf	ELF DYN (Shared object file) ARM	场景模块	AVBB_SCN_STOP_MIC.so：scenario 命令实现
+/usr	/usr/scenario/MPR_SCN_EXEC_FACTORY_MODE.so	6192	elf	ELF DYN (Shared object file) ARM	场景模块	MPR_SCN_EXEC_FACTORY_MODE.so：scenario 命令实现
+/usr	/usr/scenario/AVBB_SCN_START_HDMI_INPUT_SUB.so	17196	elf	ELF DYN (Shared object file) ARM	场景模块	AVBB_SCN_START_HDMI_INPUT_SUB.so：scenario 命令实现
+/usr	/usr/scenario/AVBB_SCN_STOP_HDMI.so	13892	elf	ELF DYN (Shared object file) ARM	场景模块	AVBB_SCN_STOP_HDMI.so：scenario 命令实现
+/usr	/usr/scenario/MPR_SCN_FORMAT.so	19855	elf	ELF DYN (Shared object file) ARM	场景模块	MPR_SCN_FORMAT.so：scenario 命令实现
+/usr	/usr/scenario/MPR_SCN_EXEC_WIFI_TEST.so	5634	elf	ELF DYN (Shared object file) ARM	场景模块	MPR_SCN_EXEC_WIFI_TEST.so：scenario 命令实现
+/usr	/usr/scenario/CAMERA_SCN_EE_SETUP_START_STOP.so	17055	elf	ELF DYN (Shared object file) ARM	场景模块	CAMERA_SCN_EE_SETUP_START_STOP.so：scenario 命令实现
+/usr	/usr/scenario/MPR_SCN_GET_TOTAL_LOG.so	34320	elf	ELF DYN (Shared object file) ARM	场景模块	MPR_SCN_GET_TOTAL_LOG.so：scenario 命令实现
+/usr	/usr/scenario/AVBB_SCN_OPTAXIS_PANELEVF.so	4828	elf	ELF DYN (Shared object file) ARM	场景模块	AVBB_SCN_OPTAXIS_PANELEVF.so：scenario 命令实现
+/usr	/usr/scenario/AVBB_SCN_START_MICSENSE.so	10485	elf	ELF DYN (Shared object file) ARM	场景模块	AVBB_SCN_START_MICSENSE.so：scenario 命令实现
+/usr	/usr/scenario/CAMERA_SCN_EE_START_STOP.so	18221	elf	ELF DYN (Shared object file) ARM	场景模块	CAMERA_SCN_EE_START_STOP.so：scenario 命令实现
+/usr	/usr/scenario/AVBB_SCN_STOP_AUDIO.so	11845	elf	ELF DYN (Shared object file) ARM	场景模块	AVBB_SCN_STOP_AUDIO.so：scenario 命令实现
+/usr	/usr/scenario/CAMERA_SCN_EE_SET_PRM.so	8964	elf	ELF DYN (Shared object file) ARM	场景模块	CAMERA_SCN_EE_SET_PRM.so：scenario 命令实现
+/usr	/usr/scenario/MPR_SCN_GET_CONTENT_COUNT.so	16458	elf	ELF DYN (Shared object file) ARM	场景模块	MPR_SCN_GET_CONTENT_COUNT.so：scenario 命令实现
+/etc	/etc/resolv.conf	24	data	ASCII text	DNS	DNS 配置
+/etc	/etc/config.spec	0	data	empty	系统配置	型号/区域/规格配置
+/etc	/etc/toprc	617	data	ASCII text	top	top 配置
+/etc	/etc/uipc_stat_kernel.txt	40097	data	data	UIPC	UIPC 内核统计/配置
+/etc	/etc/dhcpd.conf	3262	data	ASCII text	DHCP	DHCP 服务配置
+/etc	/etc/protocols	2859	data	ASCII text	协议表	IP 协议名表
+/etc	/etc/kikilog.dat	622592	data	data	日志	kikilog 日志数据
+/etc	/etc/mtab	14	data	ASCII text, with no line terminators	运行时配置	mtab：配置/数据
+/etc	/etc/services	19666	data	ASCII text	服务表	TCP/UDP 服务名表
+/etc	/etc/nsswitch.conf	261	data	ASCII text	NSS	名称解析顺序
+/etc	/etc/images/MYingHeiC-GB18030-SJ_wIcon.ltt	2054740	data	data	运行时配置	MYingHeiC-GB18030-SJ_wIcon.ltt：配置/数据
+/etc	/etc/images/Sony_DI_Icons.ttf	619664	data	SIMH tape data	运行时配置	Sony_DI_Icons.ttf：配置/数据
+/etc	/etc/images/MYingHeiC-Big5-SJ_wIcon.ltt	1150740	data	data	运行时配置	MYingHeiC-Big5-SJ_wIcon.ltt：配置/数据
+/system	/system/dfe_dat.bin	65536	data	data	DFE 数据	DFE 配置/数据
+/system	/system/av-cam.bin	18449784	data	PCX ver. 2.5 image data bounding box [21071, 19529] - [4, 0], 255 planes each of 234-bit 24644 x 25436 dpi, uncompressed	LIRO 固件	LIRO 相机固件，QEMU 可预加载到 0x035c6000
+/system	/system/initrd.img	2178048	data	Linux rev 1.0 ext2 filesystem data, UUID=60d814fb-c88c-468b-bd20-6dd70a2e4cb1 (large files)	initrd	启动 initrd（ext2），含模块加载/备份逻辑
+/system	/system/dfe_app.bin	1956	data	data	DFE 应用	DFE 图像处理应用固件
+/system	/system/bonobo.bin	172144	data	data	启动数据	Bonobo 启动/传感器数据
+/system	/system/lif_app.bin	6716	data	data	LIF 应用	LIF 应用固件
+/system	/system/ldr_drv.bin	6796	data	data	LIRO loader	LIRO 驱动加载器
+/system	/system/vmlinux.bin	4117760	data	data	内核镜像	Linux 3.0.27 zImage
+/system	/system/lensbin_lensproperty/LensAberrationData.bin	161766	data	data	镜头像差	镜头像差/校正数据
+/system	/system/sabin/ssboot_any.bin	9648	data	data	启动/传感器数据	ssboot_any.bin：启动镜像或传感器数据
+/system	/system/sabin/ssboot.bin	11280	data	data	启动/传感器数据	ssboot.bin：启动镜像或传感器数据
+/system	/system/sabin/idt_cam.bin	176528	data	data	启动/传感器数据	idt_cam.bin：启动镜像或传感器数据
+/system	/system/sabin/sa_dfdet.bin	156292	data	Dyalog APL mapped file 64-bit version 19.-111	启动/传感器数据	sa_dfdet.bin：启动镜像或传感器数据
+/setting	/setting/facerec0.bin	57888	data	PGP Secret Sub-key -	私有设置	facerec0.bin：设置/备份数据
+/setting	/setting/Backup.bin	1153364	data	data	备份	设置备份
+/setting	/setting/.etools	4096	data	data	工厂工具标记	工厂/调试工具标记
+/setting	/setting/DmmConfig.bin	76524	data	data	DMM 配置	显示内存管理配置
+/setting	/setting/facerec4.bin	57888	data	data	私有设置	facerec4.bin：设置/备份数据
+/setting	/setting/facerec5.bin	57888	data	data	私有设置	facerec5.bin：设置/备份数据
+/setting	/setting/kemco.txt	1901	data	ASCII text	内存地图	主内核 memrsv/内存保留区参数
+/setting	/setting/facerec3.bin	57888	data	data	私有设置	facerec3.bin：设置/备份数据
+/setting	/setting/facedmy.bin	51200	data	data	私有设置	facedmy.bin：设置/备份数据
+/setting	/setting/ulogio.bin	3664	data	data	日志缓冲	用户态日志缓冲
+/setting	/setting/.hasp	88	data	data	Senser 许可	Senser/HASP 认证数据
+/setting	/setting/facerec2.bin	57888	data	data	私有设置	facerec2.bin：设置/备份数据
+/setting	/setting/facerec6.bin	57888	data	data	私有设置	facerec6.bin：设置/备份数据
+/setting	/setting/Backup.bak	1153364	data	data	备份	设置备份（旧）
+/setting	/setting/facerec1.bin	57888	data	data	私有设置	facerec1.bin：设置/备份数据
+/setting	/setting/psd.bin	4427776	data	data	PSD 数据	画质/传感器校准数据
+/setting	/setting/facerec7.bin	57888	data	data	私有设置	facerec7.bin：设置/备份数据
+/setting	/setting/updater/dat4	2	data	data	私有设置	dat4：设置/备份数据
+/setting	/setting/updater/comp	0	data	empty	私有设置	comp：设置/备份数据
+/lens	/lens/VX8923_lensfile.bin	3960	data	data	镜头数据	VX8923_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8922_lensfile.bin	4680	data	data	镜头数据	VX8922_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8905_lensfile.bin	4936	data	data	镜头数据	VX8905_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9110_lensfile.bin	2160	data	data	镜头数据	VX9110_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8938_lensfile.bin	2624	data	data	镜头数据	VX8938_lensfile.bin：镜头/像差数据
+/lens	/lens/VX89168925_lensfile.bin	2160	data	data	镜头数据	VX89168925_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8903_lensfile.bin	5964	data	data	镜头数据	VX8903_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9200_lensfile.bin	9292	data	data	镜头数据	VX9200_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9108_lensfile.bin	2140	data	data	镜头数据	VX9108_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9104_lensfile.bin	2064	data	data	镜头数据	VX9104_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8942_lensfile.bin	6292	data	data	镜头数据	VX8942_lensfile.bin：镜头/像差数据
+/lens	/lens/VX89138925_lensfile.bin	3928	data	data	镜头数据	VX89138925_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8900_lensfile.bin	3200	data	data	镜头数据	VX8900_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9106_lensfile.bin	3020	data	data	镜头数据	VX9106_lensfile.bin：镜头/像差数据
+/lens	/lens/VX92028924_lensfile.bin	1848	data	data	镜头数据	VX92028924_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8904_lensfile.bin	4384	data	data	镜头数据	VX8904_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9129_lensfile.bin	11908	data	data	镜头数据	VX9129_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8949_lensfile.bin	3040	data	data	镜头数据	VX8949_lensfile.bin：镜头/像差数据
+/lens	/lens/VX92018925_lensfile.bin	4000	data	data	镜头数据	VX92018925_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9111_lensfile.bin	5956	data	data	镜头数据	VX9111_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9114_lensfile.bin	2164	data	data	镜头数据	VX9114_lensfile.bin：镜头/像差数据
+/lens	/lens/VX89438924_lensfile.bin	1532	data	data	镜头数据	VX89438924_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9115_lensfile.bin	2576	data	data	镜头数据	VX9115_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8945_lensfile.bin	2516	data	data	镜头数据	VX8945_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9102_lensfile.bin	4984	data	data	镜头数据	VX9102_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9124_lensfile.bin	2584	data	data	镜头数据	VX9124_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9103_lensfile.bin	13212	data	data	镜头数据	VX9103_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8936_lensfile.bin	7904	data	data	镜头数据	VX8936_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9113_lensfile.bin	9028	data	data	镜头数据	VX9113_lensfile.bin：镜头/像差数据
+/lens	/lens/VX89058924_lensfile.bin	3208	data	data	镜头数据	VX89058924_lensfile.bin：镜头/像差数据
+/lens	/lens/VX89438925_lensfile.bin	1224	data	data	镜头数据	VX89438925_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8913_lensfile.bin	6864	data	data	镜头数据	VX8913_lensfile.bin：镜头/像差数据
+/lens	/lens/VX89138924_lensfile.bin	4384	data	data	镜头数据	VX89138924_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8946_lensfile.bin	5936	data	data	镜头数据	VX8946_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9202_lensfile.bin	2156	data	data	镜头数据	VX9202_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8935_lensfile.bin	2528	data	data	镜头数据	VX8935_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9123_lensfile.bin	13212	data	data	镜头数据	VX9123_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8932_lensfile.bin	2476	data	data	镜头数据	VX8932_lensfile.bin：镜头/像差数据
+/lens	/lens/VX89168924_lensfile.bin	2160	data	data	镜头数据	VX89168924_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9101_lensfile.bin	6180	data	data	镜头数据	VX9101_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9116_lensfile.bin	12200	data	data	镜头数据	VX9116_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8906_lensfile.bin	6472	data	data	镜头数据	VX8906_lensfile.bin：镜头/像差数据
+/lens	/lens/VX92028925_lensfile.bin	1536	data	data	镜头数据	VX92028925_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8928_lensfile.bin	4844	data	data	镜头数据	VX8928_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8944_lensfile.bin	2880	data	data	镜头数据	VX8944_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8901_lensfile.bin	3140	data	data	镜头数据	VX8901_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8902_lensfile.bin	2660	data	data	镜头数据	VX8902_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8948_lensfile.bin	6320	data	data	镜头数据	VX8948_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8943_lensfile.bin	1848	data	data	镜头数据	VX8943_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9107_lensfile.bin	5504	data	data	镜头数据	VX9107_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9201_lensfile.bin	7148	data	data	镜头数据	VX9201_lensfile.bin：镜头/像差数据
+/lens	/lens/VX92018924_lensfile.bin	4624	data	data	镜头数据	VX92018924_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8916_lensfile.bin	2156	data	data	镜头数据	VX8916_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8937_lensfile.bin	3136	data	data	镜头数据	VX8937_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9109_lensfile.bin	6660	data	data	镜头数据	VX9109_lensfile.bin：镜头/像差数据
+/lens	/lens/VX8915_lensfile.bin	2832	data	data	镜头数据	VX8915_lensfile.bin：镜头/像差数据
+/lens	/lens/VX9105_lensfile.bin	2600	data	data	镜头数据	VX9105_lensfile.bin：镜头/像差数据

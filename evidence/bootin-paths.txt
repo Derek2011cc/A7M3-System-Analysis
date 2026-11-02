@@ -1,0 +1,41 @@
+              lt : Leaktracer mode
+            nolt : not Leaktracer mode.  default.
+         killall : kill existing bootin.elf
+     <im_target> : im.elf target=<tim_target>
+     <mode_file> : default is /setting/mode/dmode
+  bootin.elf { file=<mode_file> } { dmode=<debug_mode> }
+//lib/ld-linux.so.3
+/bin/chmod 777 /tmp/lt/leaktracer.in
+/bin/chmod 777 /tmp/lt/leaktracer.out
+/bin/ln -s /tmp/lt/leaktracer.in /tmp/leaktracer.in
+/bin/ln -s /tmp/lt/leaktracer.out /tmp/leaktracer.out
+/bin/mount -t tmpfs none /tmp/lt
+/bin/rm /tmp/leaktracer.in
+/bin/rm /tmp/leaktracer.lock
+/bin/rm /tmp/leaktracer.out
+/bin/rm /tmp/lt/leaktracer.in
+/bin/rm /tmp/lt/leaktracer.lock
+/bin/rm /tmp/lt/leaktracer.out
+/dev/pts
+/proc/mounts
+/proc/version
+/setting/mode/preload
+/tmp/qsi.elf.pid
+/usr/bin/im.elf
+/usr/bin/im.elf 
+/usr/bin/im.elf a &
+/usr/bin/im.elf g &
+/usr/bin/im.elf i &
+/usr/bin/im.elf l &
+/usr/bin/im.elf r &
+/usr/bin/im.elf s &
+/usr/bin/im.elf u &
+/usr/bin/mkfifo /tmp/lt/leaktracer.in
+/usr/bin/mkfifo /tmp/lt/leaktracer.out
+/usr/bin/qsi.elf &
+/usr/bin/qsi.elf noevent0 &
+/usr/tool/LeakTracer.so
+/usr/tool/libefence.so
+/usr/tool/libjemalloc_tsh.so
+/usr/tool/libmcheckb.so
+dmode=

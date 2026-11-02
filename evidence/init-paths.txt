@@ -1,0 +1,113 @@
+%s: mounting /setting failed(%d).
+%s: mounting /usr as cramfs failed(%d), trying vfat
+%s: mounting /usr as ext2 failed(%d), trying no-compress
+%s: mounting /usr as ext2(no-compress) failed(%d), trying cramfs
+%s: mounting compressed /system failed(%d), trying vfat
+.shstrtab
+//lib/ld-linux.so.3
+/bin/ash --login
+/bin/echo 1000000 > /proc/sys/vm/max_map_count
+/cert
+/dev/dnflasha15
+/dev/dnflasha3
+/dev/dnflasha7
+/dev/ms1
+/dev/nflasha10
+/dev/nflasha11
+/dev/nflasha12
+/dev/nflasha15
+/dev/nflasha18
+/dev/nflasha2
+/dev/nflasha23
+/dev/nflasha24
+/dev/nflasha25
+/dev/nflasha3
+/dev/nflasha7
+/dev/nflasha9
+/etc
+/home/rpmuser/rpmbuild/BUILD/gcc-4.5.1/objdir/arm-sony-linux-gnueabi/libgcc
+/home/rpmuser/rpmbuild/BUILD/glibc-2.11.2/csu
+/home/rpmuser/rpmbuild/BUILD/glibc-2.11.2/io
+/initrd/%s
+/kmod/devno.ko
+/kmod/dmac.ko
+/kmod/emmc.ko
+/kmod/ldec.ko
+/lens
+/log
+/proc
+/proc/cmdline
+/proc/mounts
+/proc/snsc_boot_time
+/proc/udm/drivers
+/proc/udm/upm_bootmode
+/proc/version
+/rootfs
+/sbin/dosfsck -Y %s
+/sbin/dosfsck -n -v %s
+/sbin/mkdosfs %s -s %d %s
+/setting
+/setting/env.txt
+/setting/mode/dmode
+/setting/sen/smode
+/sys
+/system
+/tmp
+/usr
+/usr/bin/bootin.elf
+/usr/bin/launch_shell.elf
+/usr/bin/net_cmdd.elf
+/usr/bin/sen.elf
+/usr/kmod/accel.ko
+/usr/kmod/backup.ko
+/usr/kmod/codec_drv.ko
+/usr/kmod/compass.ko
+/usr/kmod/dma330.ko
+/usr/kmod/dmm.ko
+/usr/kmod/grm_gles.ko
+/usr/kmod/grm_ma.ko
+/usr/kmod/i2c.ko
+/usr/kmod/indctr.ko
+/usr/kmod/input.ko
+/usr/kmod/kikilog.ko
+/usr/kmod/mag.ko
+/usr/kmod/mcmn_drv.ko
+/usr/kmod/mmc_drv.ko
+/usr/kmod/ms_drv.ko
+/usr/kmod/msen_drv.ko
+/usr/kmod/nfc.ko
+/usr/kmod/osal_uipc.ko
+/usr/kmod/osal_ulogio.ko
+/usr/kmod/osal_utm.ko
+/usr/kmod/sata_drv.ko
+/usr/kmod/sircs.ko
+/usr/kmod/stream.ko
+/usr/kmod/stream2.ko
+/usr/kmod/udate.ko
+/usr/kmod/upm.ko
+/usr/kmod/usb_extcmd.ko
+/usr/kmod/usb_portMonitor.ko
+/usr/kmod/usbg_sen.ko
+/usr/kmod/utimer.ko
+/usr/local/arm-sony-linux-gnueabi/cross/../target/thumb2/usr/lib/include
+/usr/upgrade
+<<insmod end>>
+<<insmod start>>
+DmmConfig=/setting/DmmConfig.bin 
+init %s:(%d): %s: error open /proc/udm/drivers
+init %s:(%d): %s: error reading /proc/mounts
+init %s:(%d): %s: error reading /proc/version
+init %s:(%d): %s: umount() error=%d
+init %s:(%d): /proc/cmdline failed(errno:%d)
+init %s:(%d): /proc/cmdline too short(sz:%d)
+init %s:(%d): /proc/udm/upm_bootmode open failed. errno(%d)
+init %s:(%d): error(%d): insmod %s %s
+init %s:(%d): mounting1 %s -> %s as %s failed.  errno(%d)
+init %s:(%d): mounting2 %s -> %s as %s failed.  errno(%d)
+insmod_drivers
+ko_insmod
+mount@@GLIBC_2.4
+mount_partition
+ulogio_initfile=/setting/ulogio.bin 
+umount
+umount@@GLIBC_2.4

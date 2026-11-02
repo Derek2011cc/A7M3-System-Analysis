@@ -1,0 +1,458 @@
+elf	type	machine	soname	needed_count
+/lib/libuuid.so.1.3.0	DYN (Shared object file)	ARM	libuuid.so.1	3
+/lib/libnsl-2.11.2.so	DYN (Shared object file)	ARM	libnsl.so.1	1
+/lib/libutil-2.11.2.so	DYN (Shared object file)	ARM	libutil.so.1	1
+/lib/libanl-2.11.2.so	DYN (Shared object file)	ARM	libanl.so.1	2
+/lib/libSTMcmdexecute.so	DYN (Shared object file)	ARM	libSTMcmdexecute.so	7
+/lib/libnss_files-2.11.2.so	DYN (Shared object file)	ARM	libnss_files.so.2	1
+/lib/libnss_dns-2.11.2.so	DYN (Shared object file)	ARM	libnss_dns.so.2	2
+/lib/libnss_nis-2.11.2.so	DYN (Shared object file)	ARM	libnss_nis.so.2	3
+/lib/libresolv-2.11.2.so	DYN (Shared object file)	ARM	libresolv.so.2	1
+/lib/librt-2.11.2.so	DYN (Shared object file)	ARM	librt.so.1	3
+/lib/libcrypt-2.11.2.so	DYN (Shared object file)	ARM	libcrypt.so.1	1
+/lib/libdl-2.11.2.so	DYN (Shared object file)	ARM	libdl.so.2	2
+/lib/libblkid.so.1.1.0	DYN (Shared object file)	ARM	libblkid.so.1	3
+/lib/libc-2.11.2.so	DYN (Shared object file)	ARM	libc.so.6	1
+/lib/libm-2.11.2.so	DYN (Shared object file)	ARM	libm.so.6	2
+/lib/libpthread-2.11.2.so	DYN (Shared object file)	ARM	libpthread.so.0	2
+/lib/ld-2.11.2.so	DYN (Shared object file)	ARM	ld-linux.so.3	0
+/lib/libgcc_s.so.1	DYN (Shared object file)	ARM	libgcc_s.so.1	1
+/lib/xtables/libipt_ttl.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_osf.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_CONNMARK.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_tcp.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libipt_NETMAP.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libipt_CLUSTERIP.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libipt_SAME.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_sctp.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libip6t_HL.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libip6t_hbh.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_MARK.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libipt_realm.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libip6t_dst.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_CLASSIFY.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libip6t_ah.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_udp.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_connmark.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_u32.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_owner.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libip6t_ipv6header.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libip6t_mh.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_mac.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_SET.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_iprange.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_dscp.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_pkttype.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_physdev.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_NFQUEUE.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_TOS.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_socket.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_SECMARK.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libip6t_rt.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libipt_MIRROR.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_time.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_length.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_mark.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_NFLOG.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_connlimit.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libip6t_eui64.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_LED.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libip6t_icmp6.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_CONNSECMARK.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_rateest.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_TRACE.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libipt_ecn.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_TCPOPTSTRIP.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_CHECKSUM.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libip6t_hl.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libipt_icmp.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_tos.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_standard.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_limit.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_conntrack.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_policy.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libipt_unclean.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_RATEEST.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_tcpmss.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libipt_REDIRECT.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_TCPMSS.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libipt_ah.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libipt_TTL.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libip6t_LOG.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_multiport.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_helper.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_TPROXY.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libipt_REJECT.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_connbytes.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_dccp.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libipt_ECN.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_TEE.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_CT.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_set.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_DSCP.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libip6t_frag.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_comment.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_esp.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libipt_DNAT.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_cluster.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libipt_addrtype.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libipt_SNAT.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_cpu.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_string.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_quota.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libipt_ULOG.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_recent.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_IDLETIMER.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_NOTRACK.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libip6t_REJECT.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_state.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_statistic.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_ipvs.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libipt_MASQUERADE.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libxt_hashlimit.so	DYN (Shared object file)	ARM		2
+/lib/xtables/libipt_LOG.so	DYN (Shared object file)	ARM		2
+/kmod/emmc.ko	REL (Relocatable file)	ARM		0
+/kmod/ldec.ko	REL (Relocatable file)	ARM		0
+/kmod/devno.ko	REL (Relocatable file)	ARM		0
+/kmod/lld.ko	REL (Relocatable file)	ARM		0
+/kmod/dmac.ko	REL (Relocatable file)	ARM		0
+/kmod/nand.ko	REL (Relocatable file)	ARM		0
+/bin/vmstat	EXEC (Executable file)	ARM		4
+/bin/top	EXEC (Executable file)	ARM		5
+/bin/ps	EXEC (Executable file)	ARM		4
+/bin/dnsdomainname	EXEC (Executable file)	ARM		3
+/bin/hostname	EXEC (Executable file)	ARM		3
+/bin/cat	EXEC (Executable file)	ARM		2
+/bin/lsattr	EXEC (Executable file)	ARM		4
+/bin/chattr	EXEC (Executable file)	ARM		4
+/bin/busybox	EXEC (Executable file)	ARM		3
+/sbin/init	EXEC (Executable file)	ARM		2
+/sbin/mkdosfs	EXEC (Executable file)	ARM		2
+/sbin/sysctl	EXEC (Executable file)	ARM		4
+/sbin/dosfsck	EXEC (Executable file)	ARM		2
+/usr/lib/libcompassutil.so	DYN (Shared object file)	ARM	libcompassutil.so	7
+/usr/lib/libGOConnectionManager.so	DYN (Shared object file)	ARM	libGOConnectionManager.so	10
+/usr/lib/libtestcmd_scn.so	DYN (Shared object file)	ARM	libtestcmd_scn.so	8
+/usr/lib/libnl-nf-3.so.200.17.0	DYN (Shared object file)	ARM	libnl-nf-3.so.200	6
+/usr/lib/libprocps.so.6.0.0	DYN (Shared object file)	ARM	libprocps.so.6	3
+/usr/lib/libxtables.so.5.0.0	DYN (Shared object file)	ARM	libxtables.so.5	3
+/usr/lib/libInfraBluetoothCore.so	DYN (Shared object file)	ARM	libInfraBluetoothCore.so	9
+/usr/lib/libptp.so	DYN (Shared object file)	ARM	libptp.so	7
+/usr/lib/libusbcmd.so	DYN (Shared object file)	ARM	libusbcmd.so	7
+/usr/lib/libosal_uipc.so	DYN (Shared object file)	ARM	libosal_uipc.so	7
+/usr/lib/libInfraHdmi.so	DYN (Shared object file)	ARM	libInfraHdmi.so	10
+/usr/lib/libInfraCameraProfile.so	DYN (Shared object file)	ARM	libInfraCameraProfile.so	7
+/usr/lib/libevent_openssl-2.1.so.6.0.2	DYN (Shared object file)	ARM	libevent_openssl-2.1.so.6	5
+/usr/lib/libInfraLensCommunicator.so	DYN (Shared object file)	ARM	libInfraLensCommunicator.so	7
+/usr/lib/libInfraPtpExtCmd.so	DYN (Shared object file)	ARM	libInfraPtpExtCmd.so	8
+/usr/lib/libupdaterufunc.so	DYN (Shared object file)	ARM	libupdaterufunc.so	10
+/usr/lib/libInfraMtpServer.so	DYN (Shared object file)	ARM	libInfraMtpServer.so	9
+/usr/lib/libjsoncpp.so	DYN (Shared object file)	ARM	libjsoncpp.so.23	4
+/usr/lib/libgps_rsrc.so	DYN (Shared object file)	ARM	libgps_rsrc.so	10
+/usr/lib/libInfraExtCmdSvc.so	DYN (Shared object file)	ARM	libInfraExtCmdSvc.so	8
+/usr/lib/libMWF.so	DYN (Shared object file)	ARM	libMWF.so	8
+/usr/lib/dataflowInfraFramework.so	DYN (Shared object file)	ARM	dataflowInfraFramework.so	7
+/usr/lib/libResourceBluetooth.so	DYN (Shared object file)	ARM	libResourceBluetooth.so	9
+/usr/lib/libdig_level.so	DYN (Shared object file)	ARM	libdig_level.so	7
+/usr/lib/libInfraMscServer.so	DYN (Shared object file)	ARM	libInfraMscServer.so	9
+/usr/lib/libjemalloc_ds.so.1	DYN (Shared object file)	ARM	libjemalloc_ds.so.1	3
+/usr/lib/libUsbBusPower.so	DYN (Shared object file)	ARM	libUsbBusPower.so	9
+/usr/lib/libjsoncpp.so.23	DYN (Shared object file)	ARM	libjsoncpp.so.23	4
+/usr/lib/libmintx.so	DYN (Shared object file)	ARM	libmintx.so	8
+/usr/lib/libevent-2.1.so.6.0.2	DYN (Shared object file)	ARM	libevent-2.1.so.6	4
+/usr/lib/libSKDWrapperManager.so	DYN (Shared object file)	ARM	libSKDWrapperManager.so	8
+/usr/lib/libqrencode.so	DYN (Shared object file)	ARM	libqrencode.so	7
+/usr/lib/libInfraBGMMeta.so	DYN (Shared object file)	ARM	libInfraBGMMeta.so	8
+/usr/lib/libInfraNetworkServiceInfo.so	DYN (Shared object file)	ARM	libInfraNetworkServiceInfo.so	7
+/usr/lib/libssp.so.0.0.0	DYN (Shared object file)	ARM	libssp.so.0	2
+/usr/lib/libInfraHttpClient.so	DYN (Shared object file)	ARM	libInfraHttpClient.so	9
+/usr/lib/viewUnified8.so	DYN (Shared object file)	ARM	viewUnified8.so	2
+/usr/lib/libInfraExtBackupCommunicator.so	DYN (Shared object file)	ARM	libInfraExtBackupCommunicator.so	7
+/usr/lib/libz.so.1.2.11	DYN (Shared object file)	ARM	libz.so.1	2
+/usr/lib/libUsbChargingApp.so	DYN (Shared object file)	ARM	libUsbChargingApp.so	9
+/usr/lib/libInfraCacheMgr.so	DYN (Shared object file)	ARM	libInfraCacheMgr.so	8
+/usr/lib/libInfraFtpClient.so	DYN (Shared object file)	ARM	libInfraFtpClient.so	12
+/usr/lib/libInfraMDnsControl.so	DYN (Shared object file)	ARM	libInfraMDnsControl.so	9
+/usr/lib/libInfraWebApi.so	DYN (Shared object file)	ARM	libInfraWebApi.so	8
+/usr/lib/libInfraSKD.so	DYN (Shared object file)	ARM	libInfraSKD.so	8
+/usr/lib/libRsrcHotshoe.so	DYN (Shared object file)	ARM	libRsrcHotshoe.so	7
+/usr/lib/libInfraUsbHostStorage.so	DYN (Shared object file)	ARM	libInfraUsbHostStorage.so	8
+/usr/lib/ModelCautionConfig.so	DYN (Shared object file)	ARM	ModelCautionConfig.so	7
+/usr/lib/libUsbControl.so	DYN (Shared object file)	ARM	libUsbControl.so	8
+/usr/lib/libBTUtils.so	DYN (Shared object file)	ARM	libBTUtils.so	9
+/usr/lib/libnl-cli-3.so.200.17.0	DYN (Shared object file)	ARM	libnl-cli-3.so.200	9
+/usr/lib/libInfraFsys.so	DYN (Shared object file)	ARM	libInfraFsys.so	8
+/usr/lib/libWlanAdjust.so	DYN (Shared object file)	ARM	libWlanAdjust.so	11
+/usr/lib/libnl-route-3.so.200.17.0	DYN (Shared object file)	ARM	libnl-route-3.so.200	5
+/usr/lib/libInfraKikiLogSender.so	DYN (Shared object file)	ARM	libInfraKikiLogSender.so	7
+/usr/lib/viewUnified6.so	DYN (Shared object file)	ARM	viewUnified6.so	2
+/usr/lib/libclema.so	DYN (Shared object file)	ARM	libclema.so	4
+/usr/lib/libpcre.so.1.2.12	DYN (Shared object file)	ARM	libpcre.so.1	2
+/usr/lib/libNetCommon.so	DYN (Shared object file)	ARM	libNetCommon.so	10
+/usr/lib/libe2p.so.2.3	DYN (Shared object file)	ARM	libe2p.so.2	2
+/usr/lib/libInfraMetaSupplier.so	DYN (Shared object file)	ARM	libInfraMetaSupplier.so	8
+/usr/lib/libInfraUsbCmn.so	DYN (Shared object file)	ARM	libInfraUsbCmn.so	8
+/usr/lib/libBizFw2.so	DYN (Shared object file)	ARM	libBizFw2.so	9
+/usr/lib/libjsoncpp.so.00.11.0	DYN (Shared object file)	ARM	libjsoncpp.so.23	4
+/usr/lib/CameraOnDemandSaver.so	DYN (Shared object file)	ARM	CameraOnDemandSaver.so	7
+/usr/lib/libInfraRemote.so	DYN (Shared object file)	ARM	libInfraRemote.so	9
+/usr/lib/libInfraNfc.so	DYN (Shared object file)	ARM	libInfraNfc.so	8
+/usr/lib/libInfraKikiLogGenerator.so	DYN (Shared object file)	ARM	libInfraKikiLogGenerator.so	8
+/usr/lib/libssh2.so.1.0.1	DYN (Shared object file)	ARM	libssh2.so.1	5
+/usr/lib/libInfraMakeScenario.so	DYN (Shared object file)	ARM	libInfraMakeScenario.so	8
+/usr/lib/libncurses.so.6.2	DYN (Shared object file)	ARM	libncurses.so.6	3
+/usr/lib/libnl-3.so.200.17.0	DYN (Shared object file)	ARM	libnl-3.so.200	4
+/usr/lib/libInfraAccessLogWrapper.so	DYN (Shared object file)	ARM	libInfraAccessLogWrapper.so	7
+/usr/lib/libcrypto.so.3	DYN (Shared object file)	ARM	libcrypto.so.3	4
+/usr/lib/libgenuinetime.so	DYN (Shared object file)	ARM	libgenuinetime.so	9
+/usr/lib/viewUnified2.so	DYN (Shared object file)	ARM	viewUnified2.so	3
+/usr/lib/CautionRsrcConfig.so	DYN (Shared object file)	ARM	CautionRsrcConfig.so	7
+/usr/lib/libexpat.so.1.6.11	DYN (Shared object file)	ARM	libexpat.so.1	2
+/usr/lib/libmpr.so	DYN (Shared object file)	ARM	libmpr.so	12
+/usr/lib/libInfraStreamingServer.so	DYN (Shared object file)	ARM	libInfraStreamingServer.so	10
+/usr/lib/libAK8975.so	DYN (Shared object file)	ARM	libAK8975.so	0
+/usr/lib/libWlanControlCommon.so	DYN (Shared object file)	ARM	libWlanControlCommon.so	8
+/usr/lib/libBTAdjust.so	DYN (Shared object file)	ARM	libBTAdjust.so	10
+/usr/lib/libpcap.so.1.0.0	DYN (Shared object file)	ARM	libpcap.so.1.0.0	2
+/usr/lib/libupdaterufp.so	DYN (Shared object file)	ARM	libupdaterufp.so	8
+/usr/lib/libExternalCommand.so	DYN (Shared object file)	ARM	libExternalCommand.so	8
+/usr/lib/libNetRemote.so	DYN (Shared object file)	ARM	libNetRemote.so	8
+/usr/lib/libInfraNetInitializer.so	DYN (Shared object file)	ARM	libInfraNetInitializer.so	7
+/usr/lib/libmprctrl.so	DYN (Shared object file)	ARM	libmprctrl.so	10
+/usr/lib/libInfraDevInfoSender.so	DYN (Shared object file)	ARM	libInfraDevInfoSender.so	7
+/usr/lib/viewUnified7.so	DYN (Shared object file)	ARM	viewUnified7.so	2
+/usr/lib/libul_GpioCtrl.so	DYN (Shared object file)	ARM	libul_GpioCtrl.so	7
+/usr/lib/libsencore.so	DYN (Shared object file)	ARM	libsencore.so	14
+/usr/lib/libInfraCertificate.so	DYN (Shared object file)	ARM	libInfraCertificate.so	7
+/usr/lib/libNetContUtil.so	DYN (Shared object file)	ARM	libNetContUtil.so	8
+/usr/lib/libBackupManager.so	DYN (Shared object file)	ARM	libBackupManager.so	8
+/usr/lib/libNetService.so	DYN (Shared object file)	ARM	libNetService.so	11
+/usr/lib/libInfraHttpClientUtil.so	DYN (Shared object file)	ARM	libInfraHttpClientUtil.so	10
+/usr/lib/libcurl.so.4.8.0	DYN (Shared object file)	ARM	libcurl.so.4	9
+/usr/lib/libevent_pthreads-2.1.so.6.0.2	DYN (Shared object file)	ARM	libevent_pthreads-2.1.so.6	4
+/usr/lib/libbsa.so	DYN (Shared object file)	ARM		4
+/usr/lib/libInfraBluetooth.so	DYN (Shared object file)	ARM	libInfraBluetooth.so	11
+/usr/lib/libupdatertalk.so	DYN (Shared object file)	ARM	libupdatertalk.so	8
+/usr/lib/libInfraMediaMount.so	DYN (Shared object file)	ARM	libInfraMediaMount.so	9
+/usr/lib/libInfraPtpControl.so	DYN (Shared object file)	ARM	libInfraPtpControl.so	7
+/usr/lib/libevent_core-2.1.so.6.0.2	DYN (Shared object file)	ARM	libevent_core-2.1.so.6	4
+/usr/lib/libOnDemandLoader.so	DYN (Shared object file)	ARM	libOnDemandLoader.so	7
+/usr/lib/libBizFw.so	DYN (Shared object file)	ARM	libBizFw.so	13
+/usr/lib/libJiritsu.so	DYN (Shared object file)	ARM	libJiritsu.so	9
+/usr/lib/libObj.so	DYN (Shared object file)	ARM	libObj.so	21
+/usr/lib/libpopt.so.0.0.0	DYN (Shared object file)	ARM	libpopt.so.0	2
+/usr/lib/libip4tc.so.0.0.0	DYN (Shared object file)	ARM	libip4tc.so.0	2
+/usr/lib/libIMDB.so	DYN (Shared object file)	ARM	libIMDB.so	7
+/usr/lib/libInfraAirplaneMode.so	DYN (Shared object file)	ARM	libInfraAirplaneMode.so	7
+/usr/lib/libSoundTouch.so.1.0.0	DYN (Shared object file)	ARM	libSoundTouch.so.1	4
+/usr/lib/libmprdummy.so	DYN (Shared object file)	ARM	libmprdummy.so	7
+/usr/lib/libWlanResource.so	DYN (Shared object file)	ARM	libWlanResource.so	8
+/usr/lib/viewUnified4.so	DYN (Shared object file)	ARM	viewUnified4.so	2
+/usr/lib/libInfraNetConnectionManager.so	DYN (Shared object file)	ARM	libInfraNetConnectionManager.so	9
+/usr/lib/libInfraBluetoothLowEnergy.so	DYN (Shared object file)	ARM	libInfraBluetoothLowEnergy.so	10
+/usr/lib/viewUnified5.so	DYN (Shared object file)	ARM	viewUnified5.so	2
+/usr/lib/libssl.so.3	DYN (Shared object file)	ARM	libssl.so.3	5
+/usr/lib/libSysDef.so	DYN (Shared object file)	ARM	libSysDef.so	7
+/usr/lib/libInfraMediaDetect.so	DYN (Shared object file)	ARM	libInfraMediaDetect.so	9
+/usr/lib/CautionConfig.so	DYN (Shared object file)	ARM	CautionConfig.so	7
+/usr/lib/libInfraNetDeviceInfo.so	DYN (Shared object file)	ARM	libInfraNetDeviceInfo.so	8
+/usr/lib/libstdc++.so.6.0.14	DYN (Shared object file)	ARM	libstdc++.so.6	4
+/usr/lib/libInfraAccessLog.so	DYN (Shared object file)	ARM	libInfraAccessLog.so	7
+/usr/lib/libcom_err.so.2.1	DYN (Shared object file)	ARM	libcom_err.so.2	4
+/usr/lib/libutil_date.so	DYN (Shared object file)	ARM	libutil_date.so	7
+/usr/lib/libupdatercommon.so	DYN (Shared object file)	ARM	libupdatercommon.so	7
+/usr/lib/libInfraNetFunctionManager.so	DYN (Shared object file)	ARM	libInfraNetFunctionManager.so	9
+/usr/lib/libpro00.so	DYN (Shared object file)	ARM	libpro00.so	7
+/usr/lib/libopus.so.0.8.0	DYN (Shared object file)	ARM	libopus.so.0	3
+/usr/lib/libInfraDlnaControl.so	DYN (Shared object file)	ARM	libInfraDlnaControl.so	10
+/usr/lib/libInfraHighlight.so	DYN (Shared object file)	ARM	libInfraHighlight.so	8
+/usr/lib/libBusPower.so	DYN (Shared object file)	ARM	libBusPower.so	8
+/usr/lib/libul_xml.so	DYN (Shared object file)	ARM	libul_xml.so	7
+/usr/lib/libnl-genl-3.so.200.17.0	DYN (Shared object file)	ARM	libnl-genl-3.so.200	5
+/usr/lib/libosal_utm.so	DYN (Shared object file)	ARM	libosal_utm.so	7
+/usr/lib/libtestcmd.so	DYN (Shared object file)	ARM	libtestcmd.so	8
+/usr/lib/libosal_ulogio.so	DYN (Shared object file)	ARM	libosal_ulogio.so	9
+/usr/lib/libInfraMediaCommon.so	DYN (Shared object file)	ARM	libInfraMediaCommon.so	9
+/usr/lib/libInfraRemoteControlNet.so	DYN (Shared object file)	ARM	libInfraRemoteControlNet.so	8
+/usr/lib/libbackup.so	DYN (Shared object file)	ARM	libbackup.so	7
+/usr/lib/viewUnified3.so	DYN (Shared object file)	ARM	viewUnified3.so	2
+/usr/lib/ossl-modules/legacy.so	DYN (Shared object file)	ARM		5
+/usr/kmod/nls_utf8.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/rndis_host.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/cdc_ether.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/snd-seq-dummy.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/snd-virmidi.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/grm_gles.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/usbg_sen.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/liro.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/sd_mod.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/snd-hwdep.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/usbhid.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/mcmn_drv.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/snd-seq-device.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/soundcore.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/mmc_core.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/configfs.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/cdc-acm.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/upm.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/usbnet.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/bcmdhd.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/stream.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/dmm.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/lib80211_crypt_wep.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/cec.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/grm_ma.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/cdrom.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/usb_f_mass_storage.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/snd-seq-midi-event.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/mag.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/lg-vl600.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/input.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/ppp_generic.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/snd-mixer-oss.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/usb_buspwr.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/asix.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/sr_mod.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/r8168.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/kikilog.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/ms_drv.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/backup.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/usbg_cmn.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/snd-dummy.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/usbg_buspower.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/utimer.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/usb_current.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/codec_drv.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/usbg_storage.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/nfc.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/snd.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/usb-storage.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/snd-seq-midi.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/osal_utm.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/crc-ccitt.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/htmd.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/libcomposite.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/lib80211_crypt_ccmp.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/snd-timer.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/usbserial.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/scsi_wait_scan.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/ppp_async.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/usbcore.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/cfg80211.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/i2c.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/indctr.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/usb_portMonitor.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/option.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/stream2.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/compass.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/snd-pcm.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/snd-rawmidi.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/mmcioWrapper.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/xhci-hcd.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/dma330.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/usb_extcmd.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/mac80211.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/snd-aloop.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/hdmi.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/usb_darwin.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/snd-usb-audio.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/snd-usbmidi-lib.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/slhc.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/cdc_ncm.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/udate.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/snd-pcm-oss.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/usb_wwan.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/wlanMemoryAllocator.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/osal_ulogio.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/snd-seq-oss.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/compat.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/mii.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/accel.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/wlanIrq.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/usbg_stillimage.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/sircs.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/snd-seq.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/g_mass_storage.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/lib80211_crypt_tkip.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/snd-page-alloc.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/snd-seq-virmidi.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/osal_uipc.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/mmc_drv.ko	REL (Relocatable file)	ARM		0
+/usr/kmod/scsi_mod.ko	REL (Relocatable file)	ARM		0
+/usr/bin/bk.elf	EXEC (Executable file)	ARM		10
+/usr/bin/ujlog.elf	EXEC (Executable file)	ARM		8
+/usr/bin/wpa_supplicant	EXEC (Executable file)	ARM		7
+/usr/bin/iperf	EXEC (Executable file)	ARM		5
+/usr/bin/btRFTest.elf	EXEC (Executable file)	ARM		11
+/usr/bin/Wltestcmd	EXEC (Executable file)	ARM		9
+/usr/bin/scenario.elf	EXEC (Executable file)	ARM		9
+/usr/bin/bootin.elf	EXEC (Executable file)	ARM		10
+/usr/bin/wl	EXEC (Executable file)	ARM		2
+/usr/bin/mwf_monio.elf	EXEC (Executable file)	ARM		10
+/usr/bin/sen.elf	EXEC (Executable file)	ARM		8
+/usr/bin/adjstctl.elf	EXEC (Executable file)	ARM		9
+/usr/bin/netblog.elf	EXEC (Executable file)	ARM		8
+/usr/bin/btblog.elf	EXEC (Executable file)	ARM		8
+/usr/bin/dhd	EXEC (Executable file)	ARM		2
+/usr/bin/testcmd.elf	EXEC (Executable file)	ARM		9
+/usr/bin/SetPort.elf	EXEC (Executable file)	ARM		9
+/usr/bin/ud_send_lsi.elf	EXEC (Executable file)	ARM		10
+/usr/bin/soundstretch	EXEC (Executable file)	ARM		5
+/usr/bin/sndcmd.elf	EXEC (Executable file)	ARM		9
+/usr/bin/ulogio.elf	EXEC (Executable file)	ARM		9
+/usr/bin/launch_shell.elf	EXEC (Executable file)	ARM		7
+/usr/bin/orb-server	EXEC (Executable file)	ARM		7
+/usr/bin/NsBkSet.elf	EXEC (Executable file)	ARM		10
+/usr/bin/gpioctrl.elf	EXEC (Executable file)	ARM		7
+/usr/bin/rcvcmd.elf	EXEC (Executable file)	ARM		9
+/usr/bin/crypter.elf	EXEC (Executable file)	ARM		16
+/usr/bin/bsa_server	EXEC (Executable file)	ARM		4
+/usr/bin/uuidgen	EXEC (Executable file)	ARM		3
+/usr/bin/GPIO2SDIO.elf	EXEC (Executable file)	ARM		9
+/usr/bin/mpr_viewLog.elf	EXEC (Executable file)	ARM		10
+/usr/bin/im.elf	EXEC (Executable file)	ARM		15
+/usr/bin/SDIO2GPIO.elf	EXEC (Executable file)	ARM		9
+/usr/bin/ud_datcnv.elf	EXEC (Executable file)	ARM		8
+/usr/bin/mpr_monio.elf	EXEC (Executable file)	ARM		10
+/usr/bin/openssl	EXEC (Executable file)	ARM		6
+/usr/tool/LeakTracer.so	DYN (Shared object file)	ARM		5
+/usr/tool/libjemalloc_tsh.so.1	DYN (Shared object file)	ARM	libjemalloc_tsh.so.1	5
+/usr/sbin/pump	EXEC (Executable file)	ARM		3
+/usr/sbin/dhcpd	EXEC (Executable file)	ARM		2
+/usr/sbin/iptables-multi	EXEC (Executable file)	ARM		5
+/usr/sbin/tcpdump	EXEC (Executable file)	ARM		3
+/usr/scenario/CAMERA_SCN_MOVIE_REC_START.so	DYN (Shared object file)	ARM	CAMERA_SCN_MOVIE_REC_START.so	8
+/usr/scenario/AVBB_SCN_L_R_SETTING.so	DYN (Shared object file)	ARM	AVBB_SCN_L_R_SETTING.so	9
+/usr/scenario/AVBB_SCN_START_AUDIO.so	DYN (Shared object file)	ARM	AVBB_SCN_START_AUDIO.so	9
+/usr/scenario/MPR_SCN_SET_FACTORY_MODE.so	DYN (Shared object file)	ARM	MPR_SCN_SET_FACTORY_MODE.so	10
+/usr/scenario/AVBB_SCN_START_HDMI.so	DYN (Shared object file)	ARM	AVBB_SCN_START_HDMI.so	9
+/usr/scenario/AVBB_SCN_START_PANELEVF.so	DYN (Shared object file)	ARM	AVBB_SCN_START_PANELEVF.so	9
+/usr/scenario/CAMERA_SCN_SET_ZOOM_DRV.so	DYN (Shared object file)	ARM	CAMERA_SCN_SET_ZOOM_DRV.so	8
+/usr/scenario/CAMERA_SCN_FACE_REC_DATA.so	DYN (Shared object file)	ARM	CAMERA_SCN_FACE_REC_DATA.so	8
+/usr/scenario/AVBB_SCN_START_VIDEO.so	DYN (Shared object file)	ARM	AVBB_SCN_START_VIDEO.so	9
+/usr/scenario/MPR_SCN_FLASH_BACKUP_INIT.so	DYN (Shared object file)	ARM	MPR_SCN_FLASH_BACKUP_INIT.so	10
+/usr/scenario/AVBB_SCN_STOP_VIDEO.so	DYN (Shared object file)	ARM	AVBB_SCN_STOP_VIDEO.so	9
+/usr/scenario/AVBB_SCN_STOP_MICSENSE.so	DYN (Shared object file)	ARM	AVBB_SCN_STOP_MICSENSE.so	9
+/usr/scenario/AVBB_SCN_START_MIC.so	DYN (Shared object file)	ARM	AVBB_SCN_START_MIC.so	9
+/usr/scenario/AVBB_SCN_START_HDMI_INPUT.so	DYN (Shared object file)	ARM	AVBB_SCN_START_HDMI_INPUT.so	9
+/usr/scenario/CAMERA_SCN_VIDEOLIGHT_SW.so	DYN (Shared object file)	ARM	CAMERA_SCN_VIDEOLIGHT_SW.so	8
+/usr/scenario/AVBB_SCN_STOP_PANELEVF.so	DYN (Shared object file)	ARM	AVBB_SCN_STOP_PANELEVF.so	9
+/usr/scenario/CAMERA_SCN_EXTERNAL_RAW_RECORD.so	DYN (Shared object file)	ARM	CAMERA_SCN_EXTERNAL_RAW_RECORD.so	8
+/usr/scenario/AVBB_SCN_STOP_HDMI_INPUT.so	DYN (Shared object file)	ARM	AVBB_SCN_STOP_HDMI_INPUT.so	9
+/usr/scenario/AVBB_SCN_START_HDMI_SUB.so	DYN (Shared object file)	ARM	AVBB_SCN_START_HDMI_SUB.so	9
+/usr/scenario/MPR_SCN_INSTALL_MAP_DEMOMOVIE.so	DYN (Shared object file)	ARM	MPR_SCN_INSTALL_MAP_DEMOMOVIE.so	8
+/usr/scenario/AVBB_SCN_L_R_SETTING_PANELEVF.so	DYN (Shared object file)	ARM	AVBB_SCN_L_R_SETTING_PANELEVF.so	9
+/usr/scenario/AVBB_SCN_STOP_MIC.so	DYN (Shared object file)	ARM	AVBB_SCN_STOP_MIC.so	9
+/usr/scenario/MPR_SCN_EXEC_FACTORY_MODE.so	DYN (Shared object file)	ARM	MPR_SCN_EXEC_FACTORY_MODE.so	8
+/usr/scenario/AVBB_SCN_START_HDMI_INPUT_SUB.so	DYN (Shared object file)	ARM	AVBB_SCN_START_HDMI_INPUT_SUB.so	9
+/usr/scenario/AVBB_SCN_STOP_HDMI.so	DYN (Shared object file)	ARM	AVBB_SCN_STOP_HDMI.so	9
+/usr/scenario/MPR_SCN_FORMAT.so	DYN (Shared object file)	ARM	MPR_SCN_FORMAT.so	10
+/usr/scenario/MPR_SCN_EXEC_WIFI_TEST.so	DYN (Shared object file)	ARM	MPR_SCN_EXEC_WIFI_TEST.so	8
+/usr/scenario/CAMERA_SCN_EE_SETUP_START_STOP.so	DYN (Shared object file)	ARM	CAMERA_SCN_EE_SETUP_START_STOP.so	9
+/usr/scenario/MPR_SCN_GET_TOTAL_LOG.so	DYN (Shared object file)	ARM	MPR_SCN_GET_TOTAL_LOG.so	10
+/usr/scenario/AVBB_SCN_OPTAXIS_PANELEVF.so	DYN (Shared object file)	ARM	AVBB_SCN_OPTAXIS_PANELEVF.so	9
+/usr/scenario/AVBB_SCN_START_MICSENSE.so	DYN (Shared object file)	ARM	AVBB_SCN_START_MICSENSE.so	9
+/usr/scenario/CAMERA_SCN_EE_START_STOP.so	DYN (Shared object file)	ARM	CAMERA_SCN_EE_START_STOP.so	9
+/usr/scenario/AVBB_SCN_STOP_AUDIO.so	DYN (Shared object file)	ARM	AVBB_SCN_STOP_AUDIO.so	9
+/usr/scenario/CAMERA_SCN_EE_SET_PRM.so	DYN (Shared object file)	ARM	CAMERA_SCN_EE_SET_PRM.so	8
+/usr/scenario/MPR_SCN_GET_CONTENT_COUNT.so	DYN (Shared object file)	ARM	MPR_SCN_GET_CONTENT_COUNT.so	10

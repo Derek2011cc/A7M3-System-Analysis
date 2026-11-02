@@ -1,0 +1,60 @@
+#!/bin/sh
+
+MODE_FILE=/setting/mode/dmode
+PRELOAD_FILE=/setting/mode/preload
+
+LIB_LT=/usr/tool/LeakTracer.so
+LIB_EFENCE=/usr/tool/libefence.so
+LIB_JEMALLOC=/usr/tool/libjemalloc_tsh.so
+LIB_MCHECKB=/usr/tool/libmcheckb.so
+
+usage()
+{
+	echo "Usage   : change_mode.sh <param>"
+	echo "param   : "
+	echo "    0   : kernel boot"
+	echo "    1   : kernel boot -> created global infra"
+	echo "    2   : kernel boot -> created global infra -> LIRO boot"
+	echo "    3   : kernel boot -> created global infra -> LIRO boot -> appFw boot (**default**)"
+	echo "    4   : kernel boot -> created global infra(nounified driver)"
+	echo "    5   : kernel boot -> created global infra(nounified driver) -> LIRO boot"
+	echo "    6   : kernel boot -> created global infra(nounified driver) -> LIRO boot -> appFw boot"
+	echo "  ----  : "
+	echo "    7   : kernel boot -> created global infra -> LIRO boot -> appFw boot (w/ LeakTracer)"
+	echo "    8   : kernel boot -> created global infra -> LIRO boot -> appFw boot (sslibc Wfree Check Mode)"
+	echo "    9   : kernel boot -> created global infra -> LIRO boot -> appFw boot (KMC ICE)"
+	echo "    a   : kernel boot -> created global infra -> LIRO boot -> appFw boot (target gdb)"
+	echo "    b   : kernel boot -> created global infra -> LIRO boot -> appFw boot (gdbserver)"
+	echo "    d   : kernel boot -> created global infra -> LIRO boot -> appFw boot (DUMA)"
+	echo "    e   : kernel boot -> created global infra -> LIRO boot -> appFw boot (Electric Fence)"
+	echo "    f   : kernel boot -> created global infra -> LIRO boot -> appFw boot (jemalloc)"
+	echo "   10   : kernel boot -> created global infra -> LIRO boot -> appFw boot (mcheckb)"
+	echo " --help : display Usage"
+}
+
+if [ ! -d /setting/mode ] ; then 
+	mkdir -p /setting/mode
+fi
+
+if [ ! -f $MODE_FILE ] ; then 
+	echo > $MODE_FILE
+fi
+
+chmod 777 $MODE_FILE
+
+if [ $# = 0 ]; then
+	echo "Invalid parameter."
+	usage
+	exit 1
+elif [ $1 = 0 ]; then
+	echo 0 > $MODE_FILE
+	echo  > $PRELOAD_FILE
+	echo "Changed your mode to mode0."
+elif [ $1 = 1 ]; then
+	echo 1 > $MODE_FILE
+	echo  > $PRELOAD_FILE
+	echo "Changed your mode to mode1."
+elif [ $1 = 2 ]; then
+	echo 2 > $MODE_FILE
+	echo  > $PRELOAD_FILE
+	echo "Changed your mode to mode2."

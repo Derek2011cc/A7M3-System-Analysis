@@ -1,0 +1,11 @@
+elf	needed
+== /usr/bin/im.elf ==
+libjemalloc_ds.so.1 libIMDB.so libosal_uipc.so libosal_utm.so libbackup.so libdl.so.2 libpthread.so.0 libSTMcmdexecute.so libssl.so.3 libstdc++.so.6 libm.so.6 libgcc_s.so.1 libc.so.6 librt.so.1 libcrypto.so.3 
+== /usr/bin/scenario.elf ==
+libosal_uipc.so libtestcmd.so libpthread.so.0 libstdc++.so.6 libm.so.6 libdl.so.2 libgcc_s.so.1 libc.so.6 librt.so.1 
+== /usr/lib/libObj.so ==
+libInfraFsys.so libmprctrl.so libMWF.so libmpr.so libutil_date.so libcompassutil.so libInfraUsbCmn.so libsencore.so libBizFw.so libBizFw2.so libNetContUtil.so libUsbControl.so libBackupManager.so libNetRemote.so libNetCommon.so libGOConnectionManager.so libjsoncpp.so.23 libInfraMediaCommon.so libbackup.so libgcc_s.so.1 libc.so.6 
+== /usr/lib/libmpr.so ==
+libexpat.so.1 libInfraFsys.so libInfraMediaDetect.so libInfraMediaMount.so libclema.so libpthread.so.0 libstdc++.so.6 libm.so.6 libdl.so.2 libgcc_s.so.1 libc.so.6 librt.so.1 
+== /usr/lib/libtestcmd.so ==
+libosal_uipc.so libpthread.so.0 libstdc++.so.6 libm.so.6 libdl.so.2 libgcc_s.so.1 libc.so.6 librt.so.1 

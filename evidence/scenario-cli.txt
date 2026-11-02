@@ -1,0 +1,24 @@
+			/usr/scenario/xxxx.so
+		show version number of testcmd module
+		specified scenario name like below
+	--ibfile ibfile
+	--ifile ifile
+	--obfile obfile
+	--ver
+	scenario_name
+<options> [scenario_name] [size]:[data] ...
+cmdline_get_ibfile
+cmdline_get_ifile
+cmdline_get_obfile
+cmdline_get_opts
+cmdline_get_size
+cmdline_init
+cmdline_read_data_from_args
+cmdline_read_data_from_file
+cmdline_read_data_from_ibfile
+cmdline_show_revision
+cmdline_show_usage
+cmdline_write_bindata_to_stdout
+cmdline_write_data_to_obfile
+libtestcmd.so
+testcmd_run_scenario
