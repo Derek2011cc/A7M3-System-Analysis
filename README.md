@@ -32,11 +32,17 @@ A7M3-System-Analysis/
 │   ├── BOOT-AND-INIT.md          分区挂载、init、启动阶段、bootin/im.elf
 │   ├── ARCHITECTURE.md           6 层架构、子系统、进程/服务、数据流
 │   ├── CALL-GRAPH.md             启动/依赖/插件调用关系（Mermaid）
-│   └── FILES.md                  全部 1177 个文件的逐项作用表
+│   ├── RUNTIME.md                QEMU 动态采集：进程/库/设备/模块/文件占用
+│   └── FILES.md                  全部 1177 个文件的逐项作用表（含动态使用列）
 ├── data/                         机器可读结果
 │   ├── files.tsv                 文件清单（分区/路径/大小/类型/角色/说明）
 │   ├── deps.tsv                  ELF → NEEDED（1928 条）
 │   ├── elf.tsv                   457 个 ELF 的类型/架构/SONAME/依赖数
+│   ├── runtime-processes.tsv     运行时进程（PID/PPid/cmdline/映射/fd）
+│   ├── file-usage.tsv            文件/设备 → 使用进程
+│   ├── modules.tsv               已加载内核模块
+│   ├── mounts.tsv                运行时挂载表
+│   ├── strings-hints.tsv         /usr/bin 的 CLI/usage 提示
 │   └── README.md                 字段说明 + 文件规模
 ├── evidence/                     关键 strings/nm 摘录（可复核）
 │   ├── init-paths.txt
@@ -50,6 +56,11 @@ A7M3-System-Analysis/
 └── scripts/                      复现脚本
     ├── analyze.py                生成 files/deps/elf TSV
     ├── render_files.py           生成 docs/FILES.md
+    ├── static_hints.py           生成 strings-hints.tsv
+    ├── collect_runtime.py        QEMU 串口采集（宽范围 /proc）
+    ├── collect_runtime2.py       QEMU 串口采集（关键进程/shims）
+    ├── parse_runtime.py          解析串口日志 → runtime TSV
+    ├── render_runtime.py         生成 docs/RUNTIME.md
     ├── collect_evidence.sh       生成 evidence/ 摘录
     ├── summary.py                打印统计与关键依赖
     └── README.md                 提取与生成步骤
@@ -62,10 +73,15 @@ A7M3-System-Analysis/
 | `docs/BOOT-AND-INIT.md` | 从 EXBL/内核到 `/sbin/init` 的启动链、分区表、挂载与 insmod、`dmode` 阶段、`bootin.elf` / `im.elf` / `launch_shell.elf` |
 | `docs/ARCHITECTURE.md` | 结论速览、6 层图、init/IPC/Appframework/媒体/Infra/网络/存储/传感器/测试等子系统、进程表、数据流 |
 | `docs/CALL-GRAPH.md` | 启动与进程图、关键 ELF 依赖图、被依赖最多的库、scenario/UI 调用链、脚本调用 |
-| `docs/FILES.md` | 按分区/目录列出每个文件的大小、类型、作用（1177 条） |
+| `docs/RUNTIME.md` | QEMU 动态采集：用户态进程、库/设备映射、打开文件、模块、挂载、CLI 提示与调试建议 |
+| `docs/FILES.md` | 按分区/目录列出每个文件的大小、类型、作用（1177 条，含动态使用列） |
 | `data/files.tsv` | 上述文件表的原始数据，便于脚本处理 |
 | `data/deps.tsv` | `readelf -d` 的 NEEDED 原始边，用于画依赖图 |
 | `data/elf.tsv` | ELF 元数据（DYN/EXEC、ARM、SONAME、依赖数） |
+| `data/runtime-processes.tsv` | 运行时进程表（PID/PPid/cmdline/映射/fd） |
+| `data/file-usage.tsv` | 文件/设备 → 使用它的进程 |
+| `data/modules.tsv`、`data/mounts.tsv` | 运行时模块与挂载 |
+| `data/strings-hints.tsv` | `/usr/bin` 等 ELF 的 usage/选项提示 |
 | `data/README.md` | 字段含义与各分区文件数 |
 | `evidence/` | `strings`/`nm` 摘录，支撑启动、场景、UI 的结论 |
 | `scripts/` | 从分区提取目录重新生成全部结果的脚本 |
@@ -77,6 +93,7 @@ A7M3-System-Analysis/
 | 相机怎么启动、分区怎么挂载 | [docs/BOOT-AND-INIT.md](docs/BOOT-AND-INIT.md) |
 | 系统分几层、各子系统怎么分工 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
 | 谁调用谁、依赖哪些库 | [docs/CALL-GRAPH.md](docs/CALL-GRAPH.md) |
+| 运行时有哪些进程、打开了哪些设备/文件 | [docs/RUNTIME.md](docs/RUNTIME.md) |
 | 某个文件是干什么的 | [docs/FILES.md](docs/FILES.md) |
 | 数据字段/文件规模 | [data/README.md](data/README.md) |
 | 怎么重新生成结果 | [scripts/README.md](scripts/README.md) |
@@ -85,17 +102,24 @@ A7M3-System-Analysis/
 
 - 文件条目 **1177**：ELF 457、脚本 24、符号链接 139、数据 557；
 - 依赖边 **1928**；
+- 动态采集：用户态进程 **5** 个、已加载模块 **31** 个、文件/设备使用关系 **93** 条；
 - 分区：`/`（nflasha7）、`/usr`（nflasha15）、`/etc`（nflasha10）、
   `/system`（nflasha3）、`/setting`（nflasha2）、`/lens`（nflasha18）。
 
 ## 复现
 
 ```bash
-# 1) 用 debugfs/7z 提取分区（命令见 scripts/README.md）
-# 2) 生成数据、文件表和证据
+# 2) 生成静态数据、文件表和证据
 python3 scripts/analyze.py
+python3 scripts/static_hints.py
 python3 scripts/render_files.py
 bash scripts/collect_evidence.sh
+
+# 3) 动态采集（需要 A7M3-QEMU-shell 的镜像与 QEMU）
+python3 scripts/collect_runtime.py
+python3 scripts/collect_runtime2.py
+python3 scripts/parse_runtime.py
+python3 scripts/render_runtime.py
 ```
 
 ## 边界

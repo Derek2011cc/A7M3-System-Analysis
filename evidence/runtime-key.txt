@@ -1,0 +1,46 @@
+动态采集摘录（QEMU 串口，2026-11-02）
+
+$ ls -l /etc/shim_io.so /etc/ld.so.preload
+-rwxr-xr-x    1 0        0               16 Jan  1  1980 /etc/ld.so.preload
+-rwxr-xr-x    1 0        0            39228 Jan  1  1980 /etc/shim_io.so
+
+$ cat /etc/ld.so.preload
+/etc/shim_io.so
+
+说明：静态 /etc（nflasha10）转储里没有这两个文件；它们在启动时被创建/写入，
+并被 launch_shell.elf、bootin.elf、sen.elf、im.elf、ash 全部映射。
+
+im.elf（PID 140）运行时打开/映射：
+  /dev/cec
+  /dev/console
+  /dev/dmpgles2
+  /dev/hdmi
+  /dev/mem
+  /dev/mmcb-char
+  /dev/stream
+  /dev/stream2
+  /dev/uipc
+  /dev/usb/buspwr
+  /log/AccessLog.bak
+  /log/AccessLog.dat
+  /etc/shim_io.so
+  libCautionConfig.so
+  dataflowInfraFramework.so
+  libAK8975.so
+  libBTAdjust.so
+  libBTUtils.so
+  libBackupManager.so
+  ...
+
+bootin.elf（PID 130）：
+  fd: /dev/console /dev/uipc /proc/snsc_boot_time
+  libs: libbackup libosal_uipc libosal_utm libstdc++
+
+sen.elf（PID 131）：
+  fd: /dev/console /dev/uipc /dev/usb/event /dev/usb/otgcore /proc/snsc_boot_time
+  libs: libSTMcmdexecute libInfraUsbCmn libbackup libcrypto libosal_uipc
+        libpro00 libsencore libssl ...
+
+launch_shell.elf（PID 1）：
+  fd: /dev/ttyAM0
+  再 exec /bin/ash --login

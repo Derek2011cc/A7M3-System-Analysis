@@ -38,6 +38,29 @@
 | nflasha18 | `/lens` | 57 | 镜头/像差数据 |
 | **合计** | | **1177** | ELF 457、脚本 24、符号链接 139、数据 557 |
 
+## runtime-processes.tsv
+
+| 字段 | 含义 |
+|---|---|
+| `pid` / `ppid` | 进程号 / 父进程号（部分 PPid 未采到） |
+| `comm` | 内核 comm（最长 15 字符） |
+| `exe` | `/proc/*/exe` 或从 maps 推断的可执行文件 |
+| `cmdline` | `/proc/*/cmdline` |
+| `libs` | maps 中的库/设备映射路径 |
+| `fds` | 打开的文件/设备（`/proc/*/fd`） |
+
+## file-usage.tsv
+
+`path` → `processes`（`PID:comm` 列表）：静态文件在运行时被哪些进程映射/打开。
+
+## modules.tsv / mounts.tsv
+
+`/proc/modules` 与 `/proc/mounts` 的解析结果。
+
+## strings-hints.tsv
+
+`path` → 从 ELF 字符串中提取的 `usage`/选项提示。
+
 ## 注意
 
 - `files.tsv` 中同一文件可能同时出现在 `files.tsv` 与 `deps.tsv`；

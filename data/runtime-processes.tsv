@@ -1,0 +1,81 @@
+pid	ppid	comm	exe	cmdline	libs	fds
+1		launch_shell.el	/usr/bin/launch_shell.elf	/usr/bin/launch_shell.elf 1 1	/etc/shim_io.so;/lib/ld-2.11.2.so;/lib/libc-2.11.2.so;/lib/libdl-2.11.2.so;/lib/libgcc_s.so.1;/lib/libm-2.11.2.so;/lib/libpthread-2.11.2.so;/lib/librt-2.11.2.so;/usr/bin/launch_shell.elf;/usr/lib/libstdc++.so.6.0.14	/dev/ttyAM0
+2						
+3		ksoftirqd				
+4		kworker				
+5						
+6		posixcputmr				
+7		migration				
+8		kipid_wq				
+9		khelper				
+11		sync_supers				
+12						
+13		kblockd				
+15		irq				
+16		errind				
+18						
+19						
+20		irq				
+21		irq				
+22		irq				
+23		rmond				
+24						
+25						
+26		crypto				
+44		irq				
+45		irq				
+46		kworker				
+47		binder				
+48		irq				
+49		irq				
+51		irq				
+52		irq				
+53		irq				
+54						
+55						
+56						
+57						
+58		irq				
+60		irq				
+62		irq				
+63		kalnflasha				
+64		kalnflashaB0				
+65		kalnflashaB1				
+66		kworker				
+75		uipc_dumper				
+77		UTIMER0				
+78		UTIMER1				
+79		UTIMER2				
+80		UTIMER3				
+83		ULOGIO_LOGREC				
+84		ULOGIO_LOGREC				
+89		i2c_uipc				
+90		i2c_uipc_ch1				
+92		evq				
+93		irq				
+94		irq				
+98		UsbPortMonitor				
+101		memmgr				
+103				[   21.038808] ----------------------------------------		
+104		UPM_TSK_HIGH				
+105		UPM_DFS				
+106		UPM_TMO				
+107		UPM_RESOURCE_OP				
+109		nfc_rsrc_event_				
+110		irq				
+111		irq				
+113		irq				
+118						
+120						
+122						
+124		irq				
+125						
+126		irq				
+127		irq				
+128		irq				
+129		EXTERNAL_CODEC_				
+130		bootin.elf	/usr/bin/bootin.elf	/usr/bin/bootin.elf	/dev/uipc;/etc/shim_io.so;/lib/ld-2.11.2.so;/lib/libc-2.11.2.so;/lib/libdl-2.11.2.so;/lib/libgcc_s.so.1;/lib/libm-2.11.2.so;/lib/libpthread-2.11.2.so;/lib/librt-2.11.2.so;/usr/bin/bootin.elf;/usr/lib/libbackup.so;/usr/lib/libosal_uipc.so;/usr/lib/libosal_utm.so;/usr/lib/libstdc++.so.6.0.14	/dev/console;/dev/uipc;/proc/snsc_boot_time
+131		sen.elf	/usr/bin/sen.elf	/usr/bin/sen.elf	/dev/uipc;/etc/shim_io.so;/lib/ld-2.11.2.so;/lib/libSTMcmdexecute.so;/lib/libc-2.11.2.so;/lib/libdl-2.11.2.so;/lib/libgcc_s.so.1;/lib/libm-2.11.2.so;/lib/libpthread-2.11.2.so;/lib/librt-2.11.2.so;/usr/bin/sen.elf;/usr/lib/libInfraUsbCmn.so;/usr/lib/libbackup.so;/usr/lib/libcrypto.so.3;/usr/lib/libosal_uipc.so;/usr/lib/libpro00.so;/usr/lib/libsencore.so;/usr/lib/libssl.so.3;/usr/lib/libstdc++.so.6.0.14;/usr/lib/libtestcmd.so	/dev/console;/dev/uipc;/dev/usb/event;/dev/usb/otgcore;/proc/snsc_boot_time
+133		flush-1				
+134		ash	/bin/busybox	/bin/ash --login	/bin/busybox;/etc/shim_io.so;/lib/ld-2.11.2.so;/lib/libc-2.11.2.so;/lib/libcrypt-2.11.2.so;/lib/libnss_files-2.11.2.so;/lib/libpthread-2.11.2.so;/lib/librt-2.11.2.so	/dev/tty;/dev/ttyAM0
+140		im.elf	/usr/bin/im.elf		/dev/dmpgles2;/dev/mem;/dev/stream;/dev/uipc;/etc/shim_io.so;/lib/ld-2.11.2.so;/lib/libSTMcmdexecute.so;/lib/libc-2.11.2.so;/lib/libdl-2.11.2.so;/lib/libgcc_s.so.1;/lib/libm-2.11.2.so;/lib/libpthread-2.11.2.so;/lib/librt-2.11.2.so;/usr/bin/im.elf;/usr/lib/CautionConfig.so;/usr/lib/dataflowInfraFramework.so;/usr/lib/libAK8975.so;/usr/lib/libBTAdjust.so;/usr/lib/libBTUtils.so;/usr/lib/libBackupManager.so;/usr/lib/libBizFw.so;/usr/lib/libBizFw2.so;/usr/lib/libBusPower.so;/usr/lib/libGOConnectionManager.so;/usr/lib/libIMDB.so;/usr/lib/libInfraAccessLog.so;/usr/lib/libInfraAirplaneMode.so;/usr/lib/libInfraBluetooth.so;/usr/lib/libInfraBluetoothCore.so;/usr/lib/libInfraFsys.so;/usr/lib/libInfraHdmi.so;/usr/lib/libInfraKikiLogGenerator.so;/usr/lib/libInfraMediaCommon.so;/usr/lib/libInfraMediaDetect.so;/usr/lib/libInfraMediaMount.so;/usr/lib/libInfraNetInitializer.so;/usr/lib/libInfraNfc.so;/usr/lib/libInfraSKD.so;/usr/lib/libInfraUsbCmn.so;/usr/lib/libJiritsu.so;/usr/lib/libMWF.so;/usr/lib/libNetCommon.so;/usr/lib/libNetContUtil.so;/usr/lib/libNetRemote.so;/usr/lib/libObj.so;/usr/lib/libOnDemandLoader.so;/usr/lib/libResourceBluetooth.so;/usr/lib/libRsrcHotshoe.so;/usr/lib/libSKDWrapperManager.so;/usr/lib/libSysDef.so;/usr/lib/libUsbBusPower.so;/usr/lib/libUsbControl.so;/usr/lib/libbackup.so;/usr/lib/libclema.so;/usr/lib/libcompassutil.so;/usr/lib/libcrypto.so.3;/usr/lib/libexpat.so.1.6.11;/usr/lib/libjemalloc_ds.so.1;/usr/lib/libjsoncpp.so.23;/usr/lib/libmintx.so;/usr/lib/libmpr.so;/usr/lib/libmprctrl.so;/usr/lib/libmprdummy.so;/usr/lib/libosal_uipc.so;/usr/lib/libosal_ulogio.so;/usr/lib/libosal_utm.so;/usr/lib/libpro00.so;/usr/lib/libsencore.so;/usr/lib/libssl.so.3;/usr/lib/libstdc++.so.6.0.14;/usr/lib/libtestcmd.so;/usr/lib/libutil_date.so;/usr/lib/libz.so.1.2.11;/usr/lib/viewUnified2.so	/dev/cec;/dev/console;/dev/dmpgles2;/dev/hdmi;/dev/mem;/dev/mmcb-char;/dev/stream;/dev/stream2;/dev/uipc;/dev/usb/buspwr;/log/AccessLog.bak;/log/AccessLog.dat

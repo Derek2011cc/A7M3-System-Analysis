@@ -8,6 +8,16 @@ OUT = os.path.join(ROOT, "docs", "FILES.md")
 
 rows = list(csv.DictReader(open(DATA, encoding="utf-8"), delimiter="\t"))
 
+usage = {}
+u_path = os.path.join(os.path.dirname(DATA), "file-usage.tsv")
+if os.path.exists(u_path):
+    for r in csv.DictReader(open(u_path, encoding="utf-8"), delimiter="\t"):
+        names = []
+        for item in r["processes"].split(";"):
+            if ":" in item:
+                names.append(item.split(":", 1)[1])
+        usage[r["path"]] = sorted(set(names))
+
 parts = defaultdict(list)
 for r in rows:
     parts[r["partition"]].append(r)
@@ -27,6 +37,8 @@ lines.append("# 文件清单与作用")
 lines.append("")
 lines.append("由 `scripts/analyze.py` 从服务模式分区转储中提取并生成；")
 lines.append("角色为按路径/文件类型/ELF 依赖做的**大致分类**，关键文件有单独说明。")
+lines.append("“动态使用”来自 QEMU 运行时 `/proc/*/maps`、`/proc/*/fd` 采集，"
+             "`-` 表示本次运行中未直接观察到（不代表不会使用）。")
 lines.append("")
 lines.append("总文件数 **%d**（其中 ELF %d、脚本 %d、符号链接 %d、数据 %d）。" % (
     len(rows),
@@ -49,8 +61,8 @@ for p in order:
     for d in sorted(groups):
         lines.append("### `%s`" % d)
         lines.append("")
-        lines.append("| 文件 | 大小 | 类型 | 作用 |")
-        lines.append("|---|---:|---|---|")
+        lines.append("| 文件 | 大小 | 类型 | 作用 | 动态使用 |")
+        lines.append("|---|---:|---|---|---|")
         for r in sorted(groups[d], key=lambda x: x["path"]):
             name = os.path.basename(r["path"])
             size = int(r["size"])
@@ -65,8 +77,21 @@ for p in order:
             desc = role if summary == role else "%s：%s" % (role, summary)
             desc = desc.replace("|", "\\|")
             name = name.replace("|", "\\|")
-            lines.append("| `%s` | %s | %s | %s |" % (name, sz, r["kind"], desc))
+            dyn = ", ".join(usage.get(r["path"], [])) or "-"
+            lines.append("| `%s` | %s | %s | %s | %s |" % (name, sz, r["kind"], desc, dyn))
         lines.append("")
+
+lines.append("## 运行时生成/修改的文件（静态转储中不存在）")
+lines.append("")
+lines.append("| 文件 | 大小 | 作用 | 动态使用 |")
+lines.append("|---|---:|---|---|")
+for path, desc, size in [
+    ("/etc/ld.so.preload", "启动时写入，内容为 `/etc/shim_io.so`", "16 B"),
+    ("/etc/shim_io.so", "Sony I/O shim/兼容层，被所有用户态进程预加载", "39 KB"),
+]:
+    dyn = ", ".join(usage.get(path, [])) or "-"
+    lines.append("| `%s` | %s | %s | %s |" % (path, size, desc, dyn))
+lines.append("")
 
 open(OUT, "w", encoding="utf-8").write("\n".join(lines) + "\n")
 print("wrote", OUT, "lines", len(lines))

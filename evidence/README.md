@@ -12,5 +12,6 @@
 | `change-mode-table.txt` | `/usr/bin/change_mode.sh` | 0–10 启动阶段表 |
 | `libObj-view-symbols.txt` | `libObj.so` | `ViewManager/EventManager/DefRootView` 符号 |
 | `key-deps.txt` | `data/deps.tsv` | 关键 ELF 的直接 NEEDED |
+| `runtime-key.txt` | QEMU 串口 | `/etc/shim_io.so` 预加载、im.elf/bootin/sen 的文件与设备 |
 
 重新生成：`bash scripts/collect_evidence.sh`。

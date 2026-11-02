@@ -17,17 +17,34 @@ debugfs -R "rdump / /home/derek/a7m3-usr"    "$D/nflasha15.bin"
 ## 生成数据
 
 ```bash
-python3 scripts/analyze.py      # -> data/files.tsv, data/deps.tsv, data/elf.tsv
-python3 scripts/render_files.py # -> docs/FILES.md
-python3 scripts/summary.py      # 打印统计/关键依赖
+python3 scripts/analyze.py       # -> data/files.tsv, deps.tsv, elf.tsv
+python3 scripts/static_hints.py  # -> data/strings-hints.tsv
+python3 scripts/render_files.py  # -> docs/FILES.md（含动态使用列）
+python3 scripts/summary.py       # 打印统计/关键依赖
 ```
+
+## 动态采集（QEMU）
+
+依赖 [A7M3-QEMU-shell](https://github.com/Derek2011cc/a7m3-QEMU-shell)
+的镜像与 QEMU（脚本里默认路径为 `F:\a7c2-re-main\a7m3\a7m3-QEMU-shell`）：
+
+```bash
+python3 scripts/collect_runtime.py   # 宽范围 /proc -> /home/derek/a7m3-dyn/serial.log
+python3 scripts/collect_runtime2.py  # 关键进程/shim -> serial2.log
+python3 scripts/parse_runtime.py     # -> runtime-processes.tsv 等
+python3 scripts/render_runtime.py    # -> docs/RUNTIME.md
+```
+
+QEMU 以 `snapshot=on` 启动，不修改镜像；采集会与相机自身的 `[U tNNN]`
+日志交错，部分进程的 maps/fd 可能缺失。
 
 ## 依赖
 
 - `python3`（标准库）
-- `file`、`readelf`（binutils）
+- `file`、`readelf`、`strings`（binutils）
 - `debugfs`（e2fsprogs）
 - `7z`（p7zip）
+- 动态部分：QEMU 镜像 + `qemu-system-arm`（见 A7M3-QEMU-shell）
 
 ## 路径
 

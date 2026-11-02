@@ -1,0 +1,89 @@
+path	hints
+/usr/bin/bk.elf	usage: bk command [command-option-and-arguments] | usage: bk r BackupID | usage: bk w BackupID Data | usage: bk y num BackupID | usage: bk z num BackupID Data
+/usr/bin/ujlog.elf	USAGE:type ujlog.elf usb or ujlog.elf jet
+/usr/bin/wpa_supplicant	SSL_CTX_set_options | SSL_set_options | TLS: using phase2 config options | TLS: using phase1 config options | usage: | options:
+/usr/bin/iperf	Usage: %s [-s|-c host] [options] | Try `%s --help' for more information. | Usage: iperf [-s|-c host] [options] | -f, --format    [kmKM]   format to report: Kbits, Mbits, KBytes, MBytes | -i, --interval  #        seconds between periodic bandwidth reports | -l, --len       #[KM]    length of buffer to read or write (default 8 KB)
+/usr/bin/btRFTest.elf	Usage: %s [OPTION]... <API> [param]... | Options : | -d      Enable debug print. | -h      Show this usage. | --help  Show how to use in detail. | Please execute `%s --help'
+/usr/bin/Wltestcmd	-help/-h                            :  usage | /usr/bin/sndcmd.elf --sync 0xA503FB d:0x1011 d:0x0000 d:0x00%.2x | print_usage | usage
+/usr/bin/scenario.elf	cmdline_show_usage | --ver | --ifile ifile | --ibfile ibfile | --obfile obfile | <options> [scenario_name] [size]:[data] ...
+/usr/bin/bootin.elf	MALLOC_OPTIONS=2W | gdb --args | MALLOC_OPTIONS
+/usr/bin/wl	Give suboption "list" to list various suboptions | Usage: ol_cons [<cmd>] | Usage: srclear <len> | --preview option allows you to review the update without committing it | -b <file> -- also write raw bytes to <file> | -1 (default) means automatically determine the best rate
+/usr/bin/mwf_monio.elf	-
+/usr/bin/sen.elf	[ built options ] | b	BUILT OPTIONS
+/usr/bin/adjstctl.elf	cmdline_show_usage | UNINSTALL_ALL_OPTIONS | --ver | --ifile ifile | --ibfile ibfile | --obfile obfile
+/usr/bin/netblog.elf	USAGE:netblog.elf [object|dlna|other|error]
+/usr/bin/btblog.elf	-
+/usr/bin/dhd	-h   <data> is a sequence of hex digits rather than a char string | -r   output binary to stdout rather hex | --noreset    do not reset SOCRAM core before download | --norun      do not start dongle CPU after download | --verify     do readback verify | -c means write regardless of crc
+/usr/bin/testcmd.elf	cmdline_show_usage | --ver | --sync | <options> [osal_id] [data] ...
+/usr/bin/SetPort.elf	-
+/usr/bin/ud_send_lsi.elf	-
+/usr/bin/soundstretch	Usage : | _ZL5usage
+/usr/bin/sndcmd.elf	cmdline_show_usage | --ver | --ifile ifile | --ibfile ibfile | --obfile obfile | --ulogio
+/usr/bin/ulogio.elf	-
+/usr/bin/launch_shell.elf	--login
+/usr/bin/orb-server	(%04d)[INF:OrbServerMain: %04d]input options ... | ["getSettingsTree",["{\"usage\":\"string\"}"], ["{\"settings\":\"SettingsTreeList[]\"}"],"1.1"] | usage | {"usage":"string"} | OPTIONS | OPTIONS
+/usr/bin/NsBkSet.elf	-
+/usr/bin/gpioctrl.elf	Usage: gpioctrl [--help] [--verbose] <command> [<args>] | write     | w  [PIN_NAME | port bit] <options> <0|1>   write data to specified gpio registers | intwrite  | iw [PIN_NAME | bit] <options>              write data to gpio-interrput registers | -f, --func                      set pin mode 'Function' | -g, --gpio                      set pin mode 'GPIO' | -d, --dir direction             set gpio direction
+/usr/bin/rcvcmd.elf	cmdline_show_usage | --ver | --ifile ifile | --ulogio | --sync | --tmo timeout
+/usr/bin/crypter.elf	-
+/usr/bin/bsa_server	uipc_thread_get_usage: task missed | l2c_fcr_adj_our_req_options - preferred_mode (%d), does not match mode (%d) | l2c_fcr_adj_our_req_options (mode %d): ERROR: No FCR options set using BASIC mode | bsa_sv_tm_get_mem_usage_hdlr | bsa_sv_tm_get_mem_usage_hdlr Get GKI Tasks info | bsa_sv_tm_get_mem_usage_hdlr task:%d missed
+/usr/bin/uuidgen	Usage: %s [-r] [-t]
+/usr/bin/GPIO2SDIO.elf	-
+/usr/bin/mpr_viewLog.elf	-
+/usr/bin/im.elf	-
+/usr/bin/SDIO2GPIO.elf	-
+/usr/bin/ud_datcnv.elf	-
+/usr/bin/mpr_monio.elf	-
+/usr/bin/openssl	SSL_CTX_set_options | SSL_set_options | SSL_get_options | BN_options | General options: | I/O options:
+/usr/sbin/pump	poptHelpOptions | Help options: | Usage: | usage | Display brief usage message | showShortOptions
+/usr/sbin/dhcpd	Usage: %s [-p <UDP port #>] [-f] [-d] [-q] [-t|-T] | --no-pid | --version | stash-agent-options | options.c | can't look up options in %s space.
+/usr/sbin/iptables-multi	xtables_merge_options | Usage: %s [-b] [-c] [-v] [-t] [-h] | [ --binary ] | [ --counters ] | [ --verbose ] | [ --test ]
+/usr/sbin/tcpdump	Options | , options ( | Options: [%s] | Options [%s] | Router LSA Options: [%s] | Options: 0x%08x [%s]
+/usr/scenario/CAMERA_SCN_MOVIE_REC_START.so	-
+/usr/scenario/AVBB_SCN_L_R_SETTING.so	-
+/usr/scenario/AVBB_SCN_START_AUDIO.so	-
+/usr/scenario/MPR_SCN_SET_FACTORY_MODE.so	-
+/usr/scenario/AVBB_SCN_START_HDMI.so	-
+/usr/scenario/AVBB_SCN_START_PANELEVF.so	-
+/usr/scenario/CAMERA_SCN_SET_ZOOM_DRV.so	-
+/usr/scenario/CAMERA_SCN_FACE_REC_DATA.so	-
+/usr/scenario/AVBB_SCN_START_VIDEO.so	-
+/usr/scenario/MPR_SCN_FLASH_BACKUP_INIT.so	-
+/usr/scenario/AVBB_SCN_STOP_VIDEO.so	-
+/usr/scenario/AVBB_SCN_STOP_MICSENSE.so	-
+/usr/scenario/AVBB_SCN_START_MIC.so	-
+/usr/scenario/AVBB_SCN_START_HDMI_INPUT.so	-
+/usr/scenario/CAMERA_SCN_VIDEOLIGHT_SW.so	-
+/usr/scenario/AVBB_SCN_STOP_PANELEVF.so	-
+/usr/scenario/CAMERA_SCN_EXTERNAL_RAW_RECORD.so	-
+/usr/scenario/AVBB_SCN_STOP_HDMI_INPUT.so	-
+/usr/scenario/AVBB_SCN_START_HDMI_SUB.so	-
+/usr/scenario/MPR_SCN_INSTALL_MAP_DEMOMOVIE.so	UNINSTALL_ALL_OPTIONS
+/usr/scenario/AVBB_SCN_L_R_SETTING_PANELEVF.so	-
+/usr/scenario/AVBB_SCN_STOP_MIC.so	-
+/usr/scenario/MPR_SCN_EXEC_FACTORY_MODE.so	-
+/usr/scenario/AVBB_SCN_START_HDMI_INPUT_SUB.so	-
+/usr/scenario/AVBB_SCN_STOP_HDMI.so	-
+/usr/scenario/MPR_SCN_FORMAT.so	-
+/usr/scenario/MPR_SCN_EXEC_WIFI_TEST.so	-
+/usr/scenario/CAMERA_SCN_EE_SETUP_START_STOP.so	-
+/usr/scenario/MPR_SCN_GET_TOTAL_LOG.so	-
+/usr/scenario/AVBB_SCN_OPTAXIS_PANELEVF.so	-
+/usr/scenario/AVBB_SCN_START_MICSENSE.so	-
+/usr/scenario/CAMERA_SCN_EE_START_STOP.so	-
+/usr/scenario/AVBB_SCN_STOP_AUDIO.so	-
+/usr/scenario/CAMERA_SCN_EE_SET_PRM.so	-
+/usr/scenario/MPR_SCN_GET_CONTENT_COUNT.so	-
+/sbin/init	MALLOC_OPTIONS=gfffffffff | /bin/ash --login
+/sbin/mkdosfs	Usage: mkdosfs [-A] [-c] [-C] [-v] [-I] [-l bad-block-file] [-b backup-boot-sector] | usage
+/sbin/sysctl	Usage: | %s [options] [variable[=value] ...] | Options: | -a, --all            display all variables | -A                   alias of -a | -X                   alias of -a
+/sbin/dosfsck	usage: %s [-aAflrtvVwy] [-d path -d ...] [-u path -u ...] | -a       automatically repair the file system | -A       toggle Atari file system format | -d path  drop that file | -f       salvage unused chains to files | -l       list path names
+/bin/vmstat	Usage: | %s [options] [delay [count]] | Options: | -a, --active           active/inactive memory | -f, --forks            number of forks since boot | -m, --slabs            slabinfo
+/bin/top	CPU Usage | Memory Usage (RES) | Usage: | Usage: | Usage: | -d disallowed in "secure" mode
+/bin/ps	q/-q/--quick-pid cannot be combined with other selection options. | q/-q,--quick-pid cannot be used together with sort options. | Usage: | %s [options] | Basic options: | -a                   all with tty, except session leaders
+/bin/dnsdomainname	Usage: hostname [-v] [-b] {hostname|-F file}         set host name (from file) | Program options: | -s, --short            short host name | -a, --alias            alias names | -i, --ip-address       addresses for the host name | -I, --all-ip-addresses all addresses for the host
+/bin/hostname	Usage: hostname [-v] [-b] {hostname|-F file}         set host name (from file) | Program options: | -s, --short            short host name | -a, --alias            alias names | -i, --ip-address       addresses for the host name | -I, --all-ip-addresses all addresses for the host
+/bin/cat	Try `%s --help' for more information. | Usage: %s [OPTION] [FILE]... | -A, --show-all           equivalent to -vET | -b, --number-nonblank    number nonblank output lines | -e                       equivalent to -vE | -E, --show-ends          display $ at end of each line
+/bin/lsattr	Usage: %s [-RVadlv] [files...] | pf_options
+/bin/chattr	Usage: %s [-RVf] [-+=AacDdeijsSu] [-v version] files... | usage
+/bin/busybox	-0 bS | -d	Log to stderr, not log file (implies -f) | -f	Run in foreground | -c DIR	Config directory [/etc/acpi] | -e FILE	/proc event file [/proc/acpi/event] | -l FILE	Log file [/var/log/acpid.log]
